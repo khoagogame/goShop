@@ -1,0 +1,1 @@
+     2021-10-12 21:41:51,646 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
