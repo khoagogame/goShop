@@ -2,14 +2,14 @@
 <suite name="goPlay" parallel="" >
 
     <listeners>
-<!--        <listener class-name="commons.MethodListener" />-->
-
+        <listener class-name="Commons.MethodListener" />
         <listener class-name="org.uncommons.reportng.HTMLReporter"/>
         <listener class-name="org.uncommons.reportng.JUnitXMLReporter"/>
 
 <!--        <listener class-name="retryTestFailed.RetryListener"/>-->
 <!--        <listener class-name="reportConfig.ReportNGListener"/>-->
     </listeners>
+
 
 
     <test name="Run on CHROME">

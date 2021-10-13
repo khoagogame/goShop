@@ -1,1 +1,490 @@
 2021-10-12 21:41:51,646 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 09:11:09,657 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 09:11:09,828 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text'
+2021-10-13 09:13:19,042 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 09:13:19,223 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text'
+2021-10-13 09:14:56,699 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 09:14:56,884 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text'
+2021-10-13 09:14:59,469 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@'
+2021-10-13 09:15:02,450 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text'
+2021-10-13 09:15:05,056 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.'
+2021-10-13 09:15:07,761 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.text@'
+2021-10-13 09:38:31,444 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 09:38:31,615 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text'
+2021-10-13 09:38:32,301 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@'
+2021-10-13 09:38:33,201 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text'
+2021-10-13 09:38:36,289 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.'
+2021-10-13 09:38:38,783 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.text@'
+2021-10-13 09:38:41,168 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify warning message not display after click on close button
+2021-10-13 09:38:41,301 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 09:38:41,574 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 09:38:43,376 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 09:38:45,959 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify warning message not display after click on close button
+2021-10-13 09:38:46,117 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 09:38:48,484 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 09:38:48,618 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 09:38:51,359 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 09:45:43,297 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 09:45:43,520 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text'
+2021-10-13 09:45:44,301 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@'
+2021-10-13 09:45:45,462 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text'
+2021-10-13 09:45:46,379 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.'
+2021-10-13 09:45:47,978 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.text@'
+2021-10-13 09:45:50,858 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify warning message not display after click on close button
+2021-10-13 09:45:51,041 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 09:45:51,300 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 09:45:54,458 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 09:45:56,368 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify warning message not display after click on close button
+2021-10-13 09:45:56,476 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 09:45:58,759 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 09:45:58,862 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 09:46:01,757 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 10:14:20,243 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 10:14:20,410 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text'
+2021-10-13 10:14:23,079 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@'
+2021-10-13 10:14:25,676 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text'
+2021-10-13 10:14:28,271 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.'
+2021-10-13 10:14:30,681 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.text@'
+2021-10-13 10:14:33,663 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify warning message not display after click on close button
+2021-10-13 10:14:33,798 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 10:14:34,027 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 10:14:36,451 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 10:14:39,072 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify warning message not display after click on close button
+2021-10-13 10:14:39,217 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 10:14:42,168 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 10:14:42,252 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 10:14:45,767 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 10:14:45,869 INFO  TestCase.Login - TC05_Login_Unpublish_Account: login un-publish account 
+2021-10-13 10:14:49,056 INFO  TestCase.Login - TC05_Login_Unpublish_Account: Verify warning message not display after click on close button
+2021-10-13 10:14:49,140 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Click on goShop logo
+2021-10-13 10:14:52,144 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Verify partner page login is opened
+2021-10-13 10:14:52,148 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 10:14:57,055 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 10:17:06,030 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 10:17:06,242 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text'
+2021-10-13 10:17:08,780 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@'
+2021-10-13 10:17:11,858 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text'
+2021-10-13 10:17:14,786 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.'
+2021-10-13 10:17:17,556 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.text@'
+2021-10-13 10:17:20,067 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify warning message not display after click on close button
+2021-10-13 10:17:20,244 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 10:17:20,474 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 10:17:23,371 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 10:17:26,283 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify warning message not display after click on close button
+2021-10-13 10:17:26,415 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 10:17:28,697 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 10:17:28,816 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 10:17:32,083 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 10:17:32,182 INFO  TestCase.Login - TC05_Login_Unpublish_Account: login un-publish account 
+2021-10-13 10:17:34,745 INFO  TestCase.Login - TC05_Login_Unpublish_Account: Verify warning message not display after click on close button
+2021-10-13 10:17:34,890 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Click on goShop logo
+2021-10-13 10:17:37,525 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Verify partner page login is opened
+2021-10-13 10:17:37,529 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 10:17:40,734 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 10:35:24,455 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 10:35:24,636 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text'
+2021-10-13 10:35:25,275 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@'
+2021-10-13 10:35:26,235 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text'
+2021-10-13 10:35:26,935 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.'
+2021-10-13 10:35:27,607 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.text@'
+2021-10-13 10:35:28,353 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify warning message not display after click on close button
+2021-10-13 10:35:28,531 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 10:35:28,794 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 10:35:29,786 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 10:35:31,470 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify warning message not display after click on close button
+2021-10-13 10:35:31,630 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 10:35:34,278 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 10:35:34,420 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 10:35:37,464 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 10:35:37,609 INFO  TestCase.Login - TC05_Login_Unpublish_Account: login un-publish account 
+2021-10-13 10:35:39,867 INFO  TestCase.Login - TC05_Login_Unpublish_Account: Verify warning message not display after click on close button
+2021-10-13 10:35:39,967 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Click on goShop logo
+2021-10-13 10:35:42,238 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Verify partner page login is opened
+2021-10-13 10:35:42,282 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 10:35:45,229 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 10:36:50,094 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 10:36:50,279 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text'
+2021-10-13 10:36:52,288 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@'
+2021-10-13 10:36:54,862 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text'
+2021-10-13 10:36:57,363 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.'
+2021-10-13 10:36:59,076 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.text@'
+2021-10-13 10:37:00,059 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify warning message not display after click on close button
+2021-10-13 10:37:00,188 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 10:37:00,482 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 10:37:02,172 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 10:37:04,756 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify warning message not display after click on close button
+2021-10-13 10:37:04,948 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 10:37:07,576 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 10:37:07,693 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 10:37:10,363 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 10:37:10,460 INFO  TestCase.Login - TC05_Login_Unpublish_Account: login un-publish account 
+2021-10-13 10:37:12,567 INFO  TestCase.Login - TC05_Login_Unpublish_Account: Verify warning message not display after click on close button
+2021-10-13 10:37:12,697 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Click on goShop logo
+2021-10-13 10:37:17,836 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Verify partner page login is opened
+2021-10-13 10:37:17,852 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 10:37:18,964 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 10:40:37,104 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Click on goShop logo
+2021-10-13 10:40:41,864 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Verify partner page login is opened
+2021-10-13 10:41:33,379 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Click on goShop logo
+2021-10-13 10:41:36,867 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Verify partner page login is opened
+2021-10-13 10:43:22,733 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Click on goShop logo
+2021-10-13 10:43:26,220 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Verify partner page login is opened
+2021-10-13 11:28:48,498 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Click on goShop logo
+2021-10-13 11:28:54,467 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Verify partner page login is opened
+2021-10-13 11:29:18,348 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Click on goShop logo
+2021-10-13 11:29:22,673 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Verify partner page login is opened
+2021-10-13 11:36:59,037 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Click on goShop logo
+2021-10-13 11:37:02,678 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Verify partner page login is opened
+2021-10-13 11:37:27,292 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:37:27,471 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:37:27,705 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 11:37:28,497 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 11:37:28,619 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 11:37:29,689 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 11:37:29,789 INFO  TestCase.Login - TC05_Login_Unpublish_Account: login un-publish account 
+2021-10-13 11:37:32,179 INFO  TestCase.Login - TC05_Login_Unpublish_Account: Verify warning message not display after click on close button
+2021-10-13 11:37:32,267 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Click on goShop logo
+2021-10-13 11:37:37,081 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Verify partner page login is opened
+2021-10-13 11:37:37,095 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 11:37:37,774 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 11:38:46,063 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:38:46,245 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:38:46,459 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 11:38:47,960 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 11:38:48,091 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 11:38:51,068 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 11:38:51,220 INFO  TestCase.Login - TC05_Login_Unpublish_Account: login un-publish account 
+2021-10-13 11:38:54,285 INFO  TestCase.Login - TC05_Login_Unpublish_Account: Verify warning message not display after click on close button
+2021-10-13 11:38:54,400 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Click on goShop logo
+2021-10-13 11:38:59,754 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Verify partner page login is opened
+2021-10-13 11:38:59,768 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 11:39:00,752 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 11:40:05,646 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:40:05,818 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:40:06,033 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 11:40:08,299 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 11:40:08,400 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 11:40:11,067 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 11:40:11,191 INFO  TestCase.Login - TC05_Login_Unpublish_Account: login un-publish account 
+2021-10-13 11:40:13,677 INFO  TestCase.Login - TC05_Login_Unpublish_Account: Verify warning message not display after click on close button
+2021-10-13 11:40:13,841 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Click on goShop logo
+2021-10-13 11:40:19,068 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Verify partner page login is opened
+2021-10-13 11:40:19,082 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 11:40:20,651 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 11:41:23,516 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:41:23,697 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:41:23,913 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 11:41:24,656 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 11:41:24,773 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 11:41:25,570 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 11:41:25,732 INFO  TestCase.Login - TC05_Login_Unpublish_Account: login un-publish account 
+2021-10-13 11:41:28,361 INFO  TestCase.Login - TC05_Login_Unpublish_Account: Verify warning message not display after click on close button
+2021-10-13 11:41:28,460 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Click on goShop logo
+2021-10-13 11:41:33,476 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Verify partner page login is opened
+2021-10-13 11:41:33,490 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 11:41:34,347 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 11:41:51,323 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:41:51,511 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text'
+2021-10-13 11:41:54,473 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@'
+2021-10-13 11:41:56,773 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text'
+2021-10-13 11:41:58,792 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:41:59,060 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 11:41:59,877 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 11:42:00,553 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify warning message not display after click on close button
+2021-10-13 11:42:00,670 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 11:42:03,377 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 11:42:03,492 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 11:42:05,768 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 11:42:05,865 INFO  TestCase.Login - TC05_Login_Unpublish_Account: login un-publish account 
+2021-10-13 11:42:08,158 INFO  TestCase.Login - TC05_Login_Unpublish_Account: Verify warning message not display after click on close button
+2021-10-13 11:42:08,322 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Click on goShop logo
+2021-10-13 11:42:13,456 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Verify partner page login is opened
+2021-10-13 11:42:13,471 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 11:42:16,034 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 11:46:29,651 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:46:29,830 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text'
+2021-10-13 11:46:30,535 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@'
+2021-10-13 11:46:31,307 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text'
+2021-10-13 11:46:32,074 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.'
+2021-10-13 11:46:32,875 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:46:33,141 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 11:46:33,963 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 11:46:34,707 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify warning message not display after click on close button
+2021-10-13 11:46:34,832 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 11:46:36,371 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 11:46:36,455 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 11:46:39,382 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 11:46:39,480 INFO  TestCase.Login - TC05_Login_Unpublish_Account: login un-publish account 
+2021-10-13 11:46:41,978 INFO  TestCase.Login - TC05_Login_Unpublish_Account: Verify warning message not display after click on close button
+2021-10-13 11:46:42,108 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Click on goShop logo
+2021-10-13 11:46:47,473 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Verify partner page login is opened
+2021-10-13 11:46:47,489 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 11:46:48,942 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 11:47:14,623 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:47:14,795 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text'
+2021-10-13 11:47:17,083 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@'
+2021-10-13 11:47:19,695 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text'
+2021-10-13 11:47:22,276 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.'
+2021-10-13 11:47:24,867 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.text@'
+2021-10-13 11:47:27,079 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:47:27,359 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 11:47:30,057 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 11:47:32,181 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify warning message not display after click on close button
+2021-10-13 11:47:32,327 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 11:47:34,873 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 11:47:34,975 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 11:47:37,553 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 11:47:37,679 INFO  TestCase.Login - TC05_Login_Unpublish_Account: login un-publish account 
+2021-10-13 11:47:40,255 INFO  TestCase.Login - TC05_Login_Unpublish_Account: Verify warning message not display after click on close button
+2021-10-13 11:47:40,387 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Click on goShop logo
+2021-10-13 11:47:45,586 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Verify partner page login is opened
+2021-10-13 11:47:45,601 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 11:47:46,753 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 11:48:06,747 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:48:06,911 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text'
+2021-10-13 11:48:08,013 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@'
+2021-10-13 11:48:10,461 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text'
+2021-10-13 11:48:12,798 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.'
+2021-10-13 11:48:15,086 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.text@'
+2021-10-13 11:48:16,489 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify warning message not display after click on close button
+2021-10-13 11:48:16,618 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:48:16,864 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 11:48:19,071 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 11:48:21,585 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify warning message not display after click on close button
+2021-10-13 11:48:21,691 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 11:48:24,060 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 11:48:24,193 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 11:48:26,648 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 11:48:26,736 INFO  TestCase.Login - TC05_Login_Unpublish_Account: login un-publish account 
+2021-10-13 11:48:29,067 INFO  TestCase.Login - TC05_Login_Unpublish_Account: Verify warning message not display after click on close button
+2021-10-13 11:48:29,179 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Click on goShop logo
+2021-10-13 11:48:39,942 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:48:40,124 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text'
+2021-10-13 11:48:41,098 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@'
+2021-10-13 11:48:42,851 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text'
+2021-10-13 11:48:44,955 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.'
+2021-10-13 11:48:47,169 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.text@'
+2021-10-13 11:48:49,151 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify warning message not display after click on close button
+2021-10-13 11:48:49,278 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:48:49,529 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 11:48:50,452 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 11:48:52,879 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify warning message not display after click on close button
+2021-10-13 11:48:52,988 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 11:48:55,444 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 11:48:55,542 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 11:48:58,352 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 11:48:58,442 INFO  TestCase.Login - TC05_Login_Unpublish_Account: login un-publish account 
+2021-10-13 11:48:59,879 INFO  TestCase.Login - TC05_Login_Unpublish_Account: Verify warning message not display after click on close button
+2021-10-13 11:48:59,977 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Click on goShop logo
+2021-10-13 11:49:03,408 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Verify partner page login is opened
+2021-10-13 11:49:03,425 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 11:49:06,234 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 11:56:00,551 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:56:00,759 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text'
+2021-10-13 11:56:02,676 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@'
+2021-10-13 11:56:04,973 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text'
+2021-10-13 11:56:07,263 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.'
+2021-10-13 11:56:09,781 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.text@'
+2021-10-13 11:56:10,892 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify warning message not display after click on close button
+2021-10-13 11:56:10,993 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:56:11,323 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 11:56:13,164 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 11:56:15,668 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify warning message not display after click on close button
+2021-10-13 11:56:15,828 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 11:56:18,271 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 11:56:18,369 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 11:56:20,668 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 11:56:20,752 INFO  TestCase.Login - TC05_Login_Unpublish_Account: login un-publish account 
+2021-10-13 11:56:23,173 INFO  TestCase.Login - TC05_Login_Unpublish_Account: Verify warning message not display after click on close button
+2021-10-13 11:56:23,285 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 11:56:27,198 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 11:56:52,323 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:56:52,498 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:56:52,726 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 11:56:54,583 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 11:56:56,971 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify warning message not display after click on close button
+2021-10-13 11:56:57,089 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 11:56:59,561 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 11:56:59,657 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 11:57:02,469 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 11:57:02,568 INFO  TestCase.Login - TC05_Login_Unpublish_Account: login un-publish account 
+2021-10-13 11:57:04,807 INFO  TestCase.Login - TC05_Login_Unpublish_Account: Verify warning message not display after click on close button
+2021-10-13 11:57:04,919 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 11:58:53,319 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:58:53,529 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 11:58:53,757 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 11:58:54,899 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 11:58:56,263 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify warning message not display after click on close button
+2021-10-13 11:58:56,365 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 11:58:58,568 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 11:58:58,713 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 11:59:01,471 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 11:59:01,572 INFO  TestCase.Login - TC05_Login_Unpublish_Account: login un-publish account 
+2021-10-13 11:59:03,962 INFO  TestCase.Login - TC05_Login_Unpublish_Account: Verify warning message not display after click on close button
+2021-10-13 11:59:04,046 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 11:59:07,760 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 12:01:34,673 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 12:04:21,615 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 13:54:10,855 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 13:55:23,256 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 13:55:23,466 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text'
+2021-10-13 13:55:24,216 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:55:24,216 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@'
+2021-10-13 13:55:26,444 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:55:26,444 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text'
+2021-10-13 13:55:29,269 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:55:29,269 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.'
+2021-10-13 13:55:31,865 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:55:31,865 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.text@'
+2021-10-13 13:55:34,287 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:55:34,287 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify warning message not display after click on close button
+2021-10-13 13:55:34,416 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:55:34,418 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 13:55:34,696 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:55:34,697 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 13:55:36,976 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:55:36,976 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 13:55:39,169 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:55:39,169 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify warning message not display after click on close button
+2021-10-13 13:55:39,284 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:55:39,284 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 13:55:41,451 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:55:41,451 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 13:55:41,551 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:55:41,551 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 13:55:44,657 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:55:44,657 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 13:55:44,820 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:55:44,820 INFO  TestCase.Login - TC05_Login_Unpublish_Account: login un-publish account 
+2021-10-13 13:55:47,362 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:55:47,362 INFO  TestCase.Login - TC05_Login_Unpublish_Account: Verify warning message not display after click on close button
+2021-10-13 13:55:47,458 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:55:47,459 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Click on goShop logo
+2021-10-13 13:55:52,465 INFO  TestCase.Login - TC06_Verify_Clicking_On_goShop_Logo_Will_Open_Partner_Sign_In_Page: Verify partner page login is opened
+2021-10-13 13:55:52,479 INFO  TestCase.Login -  -------------------------- FAILED -------------------------- 
+2021-10-13 13:55:52,482 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 13:55:55,243 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 13:55:55,264 INFO  TestCase.Login -  -------------------------- FAILED -------------------------- 
+2021-10-13 13:55:55,282 INFO  TestCase.Login -  -------------------------- FAILED -------------------------- 
+2021-10-13 13:56:42,861 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 13:56:43,024 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text'
+2021-10-13 13:56:43,698 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:56:43,698 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@'
+2021-10-13 13:56:44,503 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:56:44,503 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text'
+2021-10-13 13:56:45,220 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:56:45,221 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.'
+2021-10-13 13:56:47,769 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:56:47,769 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.text@'
+2021-10-13 13:56:49,880 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:56:49,880 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify warning message not display after click on close button
+2021-10-13 13:56:50,010 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:56:50,012 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 13:56:50,272 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:56:50,272 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 13:56:53,467 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:56:53,468 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 13:56:55,573 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:56:55,573 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify warning message not display after click on close button
+2021-10-13 13:56:55,719 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:56:55,719 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 13:56:57,964 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:56:57,964 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 13:56:58,047 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:56:58,047 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 13:57:01,153 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:57:01,153 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 13:57:01,265 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:57:01,267 INFO  TestCase.Login - TC05_Login_Unpublish_Account: login un-publish account 
+2021-10-13 13:57:03,359 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:57:03,360 INFO  TestCase.Login - TC05_Login_Unpublish_Account: Verify warning message not display after click on close button
+2021-10-13 13:57:03,459 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:57:03,459 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 13:57:07,900 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 13:57:07,916 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 13:57:07,934 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 16:01:40,620 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 16:01:45,028 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 16:01:45,077 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 16:01:45,126 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 16:13:42,811 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 16:13:47,535 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 16:13:47,547 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 16:13:47,556 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 16:21:36,925 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 16:21:41,747 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 16:22:22,879 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 16:22:27,050 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 16:22:27,069 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 16:22:27,087 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 16:22:30,260 INFO  TestCase.Login - TC08_Verify_Remember_Me_Button: login account with remember me function
+2021-10-13 16:28:22,506 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 16:28:26,632 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 16:28:26,644 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 16:28:26,672 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 16:28:29,466 INFO  TestCase.Login - TC08_Verify_Remember_Me_Button: login account with remember me function
+2021-10-13 16:28:33,569 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 16:28:33,569 INFO  TestCase.Login - TC08_Verify_Remember_Me_Button: Logout account
+2021-10-13 16:28:36,463 INFO  TestCase.Login -  -------------------------- FAILED -------------------------- 
+2021-10-13 16:28:48,334 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 16:28:49,523 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 16:28:49,538 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 16:28:49,546 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 16:28:53,238 INFO  TestCase.Login - TC08_Verify_Remember_Me_Button: login account with remember me function
+2021-10-13 16:28:57,176 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 16:28:57,176 INFO  TestCase.Login - TC08_Verify_Remember_Me_Button: Logout account
+2021-10-13 16:28:58,392 INFO  TestCase.Login -  -------------------------- FAILED -------------------------- 
+2021-10-13 16:50:56,613 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 16:51:00,442 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 16:51:00,467 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 16:51:00,483 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 16:51:29,500 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 16:51:31,195 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 16:51:31,216 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 16:51:31,232 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 16:51:34,056 INFO  TestCase.Login - TC08_Verify_Remember_Me_Button: login account with remember me function
+2021-10-13 16:53:09,611 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 16:53:12,052 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 16:53:12,065 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 16:53:12,083 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 16:53:13,197 INFO  TestCase.Login - TC08_Verify_Remember_Me_Button: login account with remember me function
+2021-10-13 16:53:52,011 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 16:53:52,011 INFO  TestCase.Login - TC08_Verify_Remember_Me_Button: Logout account
+2021-10-13 16:53:53,347 INFO  TestCase.Login -  -------------------------- FAILED -------------------------- 
+2021-10-13 17:12:31,011 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 17:12:31,189 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text'
+2021-10-13 17:12:33,785 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 17:12:33,785 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@'
+2021-10-13 17:12:36,678 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 17:12:36,678 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text'
+2021-10-13 17:12:39,462 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 17:12:39,462 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.'
+2021-10-13 17:12:42,761 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 17:12:42,762 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify incorrect email format 'text@text.text@'
+2021-10-13 17:12:45,189 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 17:12:45,189 INFO  TestCase.Login - TC01_Check_Email_Requirement: Verify warning message not display after click on close button
+2021-10-13 17:12:47,351 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 17:12:47,351 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify tooltip alert display when user let Email empty
+2021-10-13 17:12:47,603 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 17:12:47,603 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 17:12:49,190 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 17:12:49,190 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Password less than 8 characters
+2021-10-13 17:12:52,667 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 17:12:52,667 INFO  TestCase.Login - TC02_Check_PASSWORD_Requirement: Verify warning message not display after click on close button
+2021-10-13 17:12:54,752 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 17:12:54,752 INFO  TestCase.Login - TC03_Check_Incorrect_Email: input email = qatest@gmail.com, password = 12345678
+2021-10-13 17:12:57,576 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 17:12:57,576 INFO  TestCase.Login - TC03_Check_Incorrect_Email: Verify warning message not display after click on close button
+2021-10-13 17:12:59,726 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 17:12:59,726 INFO  TestCase.Login - TC04_Check_Incorrect_Password: input email = khoatran852005@live.com, password = 11111111
+2021-10-13 17:13:01,213 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 17:13:01,213 INFO  TestCase.Login - TC04_Check_Incorrect_Password: Verify warning message not display after click on close button
+2021-10-13 17:13:03,322 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 17:13:03,322 INFO  TestCase.Login - TC05_Login_Unpublish_Account: login un-publish account 
+2021-10-13 17:13:06,090 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 17:13:06,090 INFO  TestCase.Login - TC05_Login_Unpublish_Account: Verify warning message not display after click on close button
+2021-10-13 17:13:08,222 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 17:13:08,222 INFO  TestCase.Login - TC07_Verify_Login_Success: Login correct email & password
+2021-10-13 17:13:12,399 INFO  TestCase.Login - TC07_Verify_Login_Success: Click on goShop logo
+2021-10-13 17:13:12,423 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 
+2021-10-13 17:13:12,432 INFO  TestCase.Login -  -------------------------- PASSED -------------------------- 

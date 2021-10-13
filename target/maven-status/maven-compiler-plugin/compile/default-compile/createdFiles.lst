@@ -1,0 +1,12 @@
+PageUI\LoginPageUI.class
+Commons\AbstractTest.class
+Commons\VerificationFailures.class
+PageObject\LoginPageObject.class
+Commons\MethodListener.class
+Commons\AbstractPage.class
+PageObject\DashboardPageObject.class
+PageUI\DashboardPageUI.class
+Commons\GlobalConstant.class
+Commons\PageGenerator.class
+Commons\TestNGAppender.class
+Commons\AbstractPage$1.class
