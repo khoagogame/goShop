@@ -14,7 +14,7 @@
 
     <test name="Run on CHROME">
         <classes>
-            <class name="TestCase.Login" />
+            <class name="TestCase.ProfilePage" />
         </classes>
         <parameter name="browser" value="chrome" />
     </test>

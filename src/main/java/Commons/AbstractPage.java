@@ -1,6 +1,7 @@
 package Commons;
 
 import PageObject.LoginPageObject;
+import PageObject.ProfilePageObject;
 import PageUI.AbstractPageUI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
@@ -8,6 +9,7 @@ import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.internal.thread.IThreadFactory;
 import org.testng.internal.thread.graph.IThreadWorkerFactory;
@@ -20,7 +22,7 @@ public abstract class AbstractPage {
     WebElement element;
 
 
-    //===========================================Wait=================================================================
+//===========================================Wait=================================================================
     public void waitForElementVisible(WebDriver driver, String locator) {
         explicitWait = new WebDriverWait(driver, GlobalConstant.SHORT_TIMEOUT);
         explicitWait.until(ExpectedConditions.visibilityOfElementLocated(xpath(locator)));
@@ -34,7 +36,7 @@ public abstract class AbstractPage {
 
 //===========================================================================================================
 
-    //Commons method
+    //Commons methods
 
     public By xpath(String locator) {
         return By.xpath(locator);
@@ -101,23 +103,28 @@ public abstract class AbstractPage {
     }
 
     public Object getCurrentURL(WebDriver driver) {
-        waitForPageLoadComplete(driver);
         return driver.getCurrentUrl();
     }
 
-
-    public void waitForPageLoadComplete(WebDriver driver) {
-        ExpectedCondition<Boolean> pageLoadCondition = new
-                ExpectedCondition<Boolean>() {
-                    public Boolean apply(WebDriver driver) {
-                        return ((JavascriptExecutor) driver).executeScript("return document.readyState").equals("complete");
-                    }
-                };
-        WebDriverWait wait = new WebDriverWait(driver, 30);
-        wait.until(pageLoadCondition);
+    public void selectItemInDropdownList(WebDriver driver, String locator, String value) {
+        Select select = new Select(findElement(driver, locator));
+        select.selectByVisibleText(value);
     }
 
 
+
+
+
+
+
+
+
+
+
+
+
+
+    //sleep
     public void sleepInMiliSecond(long timeOut) {
         try {
             Thread.sleep(timeOut);
@@ -147,6 +154,7 @@ public abstract class AbstractPage {
         return (String) js.executeScript("return arguments[0].validationMessage;", element);
     }
 
+
 //====================================================================================================================
     //Use in project goShop
 
@@ -156,13 +164,19 @@ public abstract class AbstractPage {
     }
 
 
-    public void clickOnPartnerName(WebDriver driver){
+    public void clickOnPartnerName(WebDriver driver) {
         clickToElement(driver, AbstractPageUI.PARTNER_NAME);
     }
 
-    public LoginPageObject clickOnLogoutButton(WebDriver driver){
+    public LoginPageObject clickOnLogoutButton(WebDriver driver) {
         clickToElement(driver, AbstractPageUI.LOGOUT_BUTTON);
         return PageGenerator.getLoginPage(driver);
     }
+
+    public ProfilePageObject clickOnViewProfileIcon(WebDriver driver){
+        clickToElement(driver, AbstractPageUI.VIEW_PROFILE_ICON);
+        return PageGenerator.getProfilePage(driver);
+    }
+
 }
 
