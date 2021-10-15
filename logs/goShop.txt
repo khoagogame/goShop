@@ -1,6 +1,12 @@
-2021-10-14 18:01:05,365 INFO  TestCase.ProfilePage - Precondition : Login partner account
-2021-10-14 18:01:08,779 INFO  TestCase.ProfilePage - TC01_Verify_Profile_Page_Is_Opened: Click to profile icon
-2021-10-14 18:01:11,971 INFO  TestCase.ProfilePage - TC01_Verify_Profile_Page_Is_Opened: Verify profile page is opened
-2021-10-14 18:01:11,996 INFO  TestCase.ProfilePage -  -------------------------- PASSED -------------------------- 
-2021-10-14 18:01:12,023 INFO  TestCase.ProfilePage -  -------------------------- PASSED -------------------------- 
-2021-10-14 18:01:12,039 INFO  TestCase.ProfilePage -  -------------------------- PASSED -------------------------- 
+2021-10-15 17:36:35,825 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-15 17:36:39,187 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-15 17:36:44,680 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-15 17:36:44,704 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-15 17:36:44,705 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-15 17:36:44,821 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-15 17:36:44,821 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-15 17:36:44,903 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-15 17:36:44,903 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-15 17:36:44,921 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-15 17:36:44,921 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-15 17:36:44,934 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 

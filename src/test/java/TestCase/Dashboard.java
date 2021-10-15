@@ -4,6 +4,7 @@ import Commons.AbstractTest;
 import Commons.GlobalConstant;
 import PageObject.DashboardPageObject;
 import PageObject.LoginPageObject;
+import PageUI.AbstractPageUI;
 import PageUI.DashboardPageUI;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
@@ -53,51 +54,56 @@ public class Dashboard extends AbstractTest {
 
     @Test
     public void getTotalOrderByDate() {
-        Actions actions = new Actions(driver);
-        clickToElement(driver, "//span[text()='Manage Orders']");
-        sleepInSecond(2);
-        selectItemInDropdownList(driver,"//select[@name='partnerOrderTable_length']","25");
-        sleepInSecond(2);
-        Set<String> date = new HashSet<String>();
-        int column = findElements(driver, "//th[text()='Order Date']/preceding-sibling::th").size() + 1;
-        String valueByColumn = findElement(driver, "//td[" + column + "]/preceding-sibling::td[3]").getText();
-        List<WebElement> totalPage = findElements(driver, "//ul[@class='pagination']//li[not(contains(@class,'next')) and not(contains(@class,'previous'))]");
+
+        clickToElement(driver, AbstractPageUI.LEFT_MENU_BY_NAME, "Manage Orders");
+        ArrayList<String> orderDate = new ArrayList<String>();
+        int columnIndex = findElements(driver, DashboardPageUI.COLUMN_INDEX_BY_TITLE, "Order Date").size() + 1;
+        List<WebElement> totalPage = findElements(driver, DashboardPageUI.TOTAL_PAGES);
         System.out.println(totalPage.size());
-        List<WebElement> e = findElements(driver, "//td[6]");
-//        for (WebElement page : totalPage) {
-//            page.click();
-//            sleepInSecond(4);
-//            {
-                for (WebElement a : e) {
-                    date.add(a.getText());
-                    System.out.println(a.getText());
+        for (WebElement page : totalPage) {
+            page.click();
+            sleepInSecond(4);
+            {
+                List<WebElement> orderDateList = findElements(driver, DashboardPageUI.VALUE_BY_COLUMN_INDEX, String.valueOf(columnIndex));
+                for (WebElement a : orderDateList) {
+                    String[] item = a.getText().split(",");
+                    orderDate.add(item[0]);
                 }
-//            }
-            System.out.println(date);
-        ArrayList<String> cutDate = new ArrayList<String>();
-        for(String d: date){
-            String [] j = d.split(",");
-            cutDate.add(j[0]);
+            }
         }
-        System.out.println(cutDate);
+        System.out.println(orderDate);
 
-                for(String a: cutDate){
-                    int orderByDate = findElements(driver,"//td[contains(text(),'"+ a + "')]").size();
-                    System.out.println(a + ":" + orderByDate);
-
-                    clickToElement(driver, "//span[text()='Dashboard']");
-                    sleepInSecond(5);
-
-                    int graphpo = findElements(driver,"//*[name()='tspan' and text()='"+ a +"']/parent::*/preceding-sibling::*").size() + 1;
-                    WebElement element = findElement(driver,"//*[name()='g' and contains(@class,'highcharts-markers highcharts-series-1 highcharts-spline-series highcharts-color-1  highcharts-tracker')]/*[name()='path']["+ graphpo + "]");
-                    actions.moveToElement(element).perform();
-                    System.out.println(findElement(driver, "//div[contains(@class,'highcharts-label')]/span").getText());
-                }
+        //remove duplicate data and add to new array
+        ArrayList<String> orderDateRemoveDup = new ArrayList<String>();
+        for (int i = 0; i < orderDate.size(); i++) {
+            if (!orderDateRemoveDup.contains(orderDate.get(i))) {
+                orderDateRemoveDup.add(orderDate.get(i));
+            }
         }
+        System.out.println(orderDateRemoveDup);
 
+        for (String a : orderDateRemoveDup) {
+            //total order by date
+            int totalOrderByDate = Collections.frequency(orderDate, a);
+            String totalOrderInOrderManageByDate = String.valueOf(totalOrderByDate);
+            System.out.println(a + " total :" + totalOrderInOrderManageByDate + " orders");
 
+            clickToElement(driver, AbstractPageUI.LEFT_MENU_BY_NAME, "Dashboard");
+            //select total Ordered
+            clickOnFilterNameInHightChart(driver, "All");
+            clickOnFilterNameInHightChart(driver, "Processing");
+            clickOnFilterNameInHightChart(driver, "Done");
+            clickOnFilterNameInHightChart(driver, "Failed");
+            clickOnFilterNameInHightChart(driver, "Cancelled");
+            clickOnFilterNameInHightChart(driver, "Deleted");
+            clickToElement(driver, DashboardPageUI.HIGH_CHART);
 
+            String index = String.valueOf(findElements(driver, DashboardPageUI.DAY_IN_HIGHCHART, a).size() + 1);
+            moveToElement(driver, DashboardPageUI.POINT_IN_HIGHCHART_BY_INDEX, index);
+            String tooltipText = findElement(driver, DashboardPageUI.TOOLTIP_TEXT_CONTENT).getText();
+            System.out.println(tooltipText);
+            verifyTrue(tooltipText.contains(totalOrderInOrderManageByDate));
 
+        }
     }
-//*[name()='tspan' and text()='Oct 4']/parent::*/preceding-sibling::*
-
+}

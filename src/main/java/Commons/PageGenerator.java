@@ -2,6 +2,7 @@ package Commons;
 
 import PageObject.DashboardPageObject;
 import PageObject.LoginPageObject;
+import PageObject.ProductPageObject;
 import PageObject.ProfilePageObject;
 import org.openqa.selenium.WebDriver;
 
@@ -16,5 +17,8 @@ public class PageGenerator {
 
     public static ProfilePageObject getProfilePage(WebDriver driver){
         return new ProfilePageObject(driver);
+    }
+    public static ProductPageObject getProductPage(WebDriver driver){
+        return new ProductPageObject(driver);
     }
 }

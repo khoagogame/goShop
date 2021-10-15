@@ -14,7 +14,8 @@
 
     <test name="Run on CHROME">
         <classes>
-            <class name="TestCase.ProfilePage" />
+<!--            <class name="TestCase.ProfilePage" />-->
+            <class name="TestCase.ManageProduct" />
         </classes>
         <parameter name="browser" value="chrome" />
     </test>

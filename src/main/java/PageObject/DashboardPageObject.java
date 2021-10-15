@@ -2,6 +2,7 @@ package PageObject;
 
 import Commons.AbstractPage;
 import PageUI.DashboardPageUI;
+import PageUI.ProductPageUI;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
@@ -18,12 +19,8 @@ public class DashboardPageObject extends AbstractPage {
         return isElementDisplay(driver, DashboardPageUI.DASHBOARD_PAGE_TITLE);
     }
 
-    public void numberOrderByDate(){
-//
 
+    public boolean isProductPageTitleDisplay() {
+        return isElementDisplay(driver, ProductPageUI.PRODUCT_PAGE_TITLE);
     }
-
-
-
-
 }

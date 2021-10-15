@@ -1,12 +1,15 @@
 package Commons;
 
 import PageObject.LoginPageObject;
+import PageObject.ProductPageObject;
 import PageObject.ProfilePageObject;
 import PageUI.AbstractPageUI;
+import PageUI.DashboardPageUI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
+import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
@@ -33,6 +36,11 @@ public abstract class AbstractPage {
         explicitWait.until(ExpectedConditions.elementToBeClickable(xpath(locator)));
     }
 
+    public void waitForElementUndisplay(WebDriver driver, String locator){
+        explicitWait = new WebDriverWait(driver, GlobalConstant.SHORT_TIMEOUT);
+        explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(xpath(locator)));
+    }
+
 
 //===========================================================================================================
 
@@ -54,6 +62,9 @@ public abstract class AbstractPage {
     public List<WebElement> findElements(WebDriver driver, String locator) {
         return driver.findElements(xpath(locator));
     }
+    public List<WebElement> findElements(WebDriver driver, String locator, String...values) {
+        return driver.findElements(xpath(castToObject(locator,values)));
+    }
 
     public void inputText(WebDriver driver, String locator, String value) {
         waitForElementVisible(driver, locator);
@@ -73,6 +84,11 @@ public abstract class AbstractPage {
         findElement(driver, locator).click();
     }
 
+    public void clickToElement(WebDriver driver, String locator, String...values) {
+        waitForElementClickable(driver, castToObject(locator,values));
+        findElement(driver, castToObject(locator,values)).click();
+    }
+
     public void openURL(WebDriver driver, String url) {
         driver.get(url);
     }
@@ -81,8 +97,8 @@ public abstract class AbstractPage {
         return findElement(driver, locator).getText().trim();
     }
 
-    public void getElementText(WebDriver driver, String locator, String... values) {
-        findElement(driver, castToObject(locator, values)).getText().trim();
+    public String getElementText(WebDriver driver, String locator, String... values) {
+        return findElement(driver, castToObject(locator, values)).getText().trim();
     }
 
     public String getInnerTextinTextbox(WebDriver driver, String locator) {
@@ -111,9 +127,25 @@ public abstract class AbstractPage {
         select.selectByVisibleText(value);
     }
 
+    public void moveToElement(WebDriver driver, String locator){
+        waitForElementVisible(driver,locator);
+        Actions action = new Actions(driver);
+        action.moveToElement(findElement(driver,locator)).perform();
+    }
+    public void moveToElement(WebDriver driver, String locator, String...values){
+        waitForElementVisible(driver,castToObject(locator, values));
+        Actions action = new Actions(driver);
+        action.moveToElement(findElement(driver,castToObject(locator, values))).perform();
+    }
 
+    public void reloadPage(WebDriver driver){
+        driver.navigate().refresh();
+    }
 
-
+    public String getSelectedValueInDropdown(WebDriver driver, String locator){
+        Select select = new Select(findElement(driver,locator));
+       return select.getFirstSelectedOption().getText();
+    }
 
 
 
@@ -178,5 +210,22 @@ public abstract class AbstractPage {
         return PageGenerator.getProfilePage(driver);
     }
 
+
+
+    public void clickOnFilterNameInHightChart(WebDriver driver, String filterName) {
+        clickToElement(driver, DashboardPageUI.STATUS_BY_NAME_FILTER_IN_HIGHCHART, filterName);
+    }
+
+    public ProductPageObject clickOnManageProductMenu(WebDriver driver){
+        clickToElement(driver,AbstractPageUI.LEFT_MENU_BY_NAME,"Manage Products");
+        waitForProcessBarDisappear(driver);
+        return PageGenerator.getProductPage(driver);
+
+    }
+
+    public void waitForProcessBarDisappear(WebDriver driver){
+        waitForElementUndisplay(driver, AbstractPageUI.PROCESSING_LOADING);
+    }
 }
+
 
