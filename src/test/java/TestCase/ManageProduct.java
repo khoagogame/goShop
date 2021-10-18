@@ -1,12 +1,11 @@
 package TestCase;
 
-import Commons.AbstractPage;
 import Commons.AbstractTest;
 import Commons.GlobalConstant;
 import PageObject.DashboardPageObject;
 import PageObject.LoginPageObject;
 import PageObject.ProductPageObject;
-import org.apache.commons.math3.stat.descriptive.summary.Product;
+import PageUI.ProductPageUI;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -52,167 +51,175 @@ public class ManageProduct extends AbstractTest {
 
     }
 
-////    @Test
-//    public void TC02_Verify_Show_Entries_Dropdown_Work_Correctly() {
-//        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 25 items per page");
-//        productPage.selectValueInShowEntryDropdown("25");
-//
-//        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 25 items show in table");
-//        verifyEquals(productPage.countTotalProductInPage(), 25);
-//
-//        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 50 items per page");
-//        productPage.selectValueInShowEntryDropdown("50");
-//
-//        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 50 items show in table");
-//        verifyEquals(productPage.countTotalProductInPage(), 50);
-//
-//        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 100 items per page");
-//        productPage.selectValueInShowEntryDropdown("100");
-//
-//        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 100 items show in table");
-//        verifyEquals(productPage.countTotalProductInPage(), 100);
-//
-//        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 200 items per page");
-//        productPage.selectValueInShowEntryDropdown("200");
-//
-//        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 200 items show in table");
-//        verifyEquals(productPage.countTotalProductInPage(), 200);
-//
-//        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 300 items per page");
-//        productPage.selectValueInShowEntryDropdown("300");
-//
-//        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 300 items show in table");
-//        verifyEquals(productPage.countTotalProductInPage(), 300);
-//
-//        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 400 items per page");
-//        productPage.selectValueInShowEntryDropdown("400");
-//
-//        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 400 items show in table");
-//        verifyEquals(productPage.countTotalProductInPage(), 400);
-//
-//        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 500 items per page");
-//        productPage.selectValueInShowEntryDropdown("500");
-//
-//        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 500 items show in table");
-//        verifyEquals(productPage.countTotalProductInPage(), 500);
-//
-//        // reload page to change to default content
-//        productPage.reloadPage(driver);
-//
-//    }
-//
-////    @Test
-//    public void TC03_Verify_Country_Dropdown_Work_Correctly() {
-//        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam");
-//        productPage.selectValueInCountryDropdown("Viet Nam");
-//
-//        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'");
-//        verifyTrue(productPage.isPrizeHasCurrency("VND"));
-//
-//        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Singapore");
-//        productPage.selectValueInCountryDropdown("Singapore");
-//
-//        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'SGD'");
-//        verifyTrue(productPage.isPrizeHasCurrency("SGD"));
-//
-//        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Thailand");
-//        productPage.selectValueInCountryDropdown("Thailand");
-//
-//        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'THD'");
-//        verifyTrue(productPage.isPrizeHasCurrency("THD"));
-//
-//        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Indonesia");
-//        productPage.selectValueInCountryDropdown("Indonesia");
-//
-//        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'IDR'");
-//        verifyTrue(productPage.isPrizeHasCurrency("IDR"));
-//
-//        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Malaysia");
-//        productPage.selectValueInCountryDropdown("Malaysia");
-//
-//        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'MYR'");
-//        verifyTrue(productPage.isPrizeHasCurrency("MYR"));
-//
-//        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Philippines");
-//        productPage.selectValueInCountryDropdown("Philippines");
-//
-//        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'PHP'");
-//        verifyTrue(productPage.isPrizeHasCurrency("PHP"));
-//
-//        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in England");
-//        productPage.selectValueInCountryDropdown("England");
-//
-//        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'EUR'");
-//        verifyTrue(productPage.isPrizeHasCurrency("EUR"));
-//
-//    }
-//
-////    @Test
-//    public void TC04_Verify_Search_Function() {
-//        log.info("TC04_Verify_Search_Function: input text and enter");
-//        //get total entries per page in dropdown
-//        String totalItem = productPage.getSelectedValueInShowEntryDropdown();
-//
-//        productPage.inputAndSearchText("Yooka-Laylee and The Impossible Lair");
-//
-//        log.info("TC04_Verify_Search_Function: Verify 1 item display and name 'Yooka-Laylee and The Impossible Lair'");
-//        verifyTrue(productPage.getTotalItemInTable(), 1);
-//        verifyEquals(productPage.getProductName(), "Yooka-Laylee and The Impossible Lair");
-//
-//        log.info("TC04_Verify_Search_Function: Clear all text in search box");
-//        productPage.clearTextInSearch();
-//
-//        log.info("TC04_Verify_Search_Function: Verify table is show as before search");
-//        verifyEquals(String.valueOf(productPage.getTotalItemInTable()), totalItem);
-//
-//        log.info("TC04_Verify_Search_Function: Search not exist product");
-//        productPage.inputAndSearchText("abc123");
-//
-//        log.info("TC04_Verify_Search_Function: Verify no item display");
-//        verifyEquals(productPage.getTotalItemInTable(), 0);
-//        verifyEquals(productPage.getEmptyItemMessage(), "No matching records found");
-//
-//        //clear search text
-//        productPage.clearTextInSearch();
-//    }
-//
-////    @Test
-//    public void TC05_Verify_ExportCSV_Function() {
-//        log.info("TC05_Verify_ExportCSV_Function: Click on Export CSV button");
-//        productPage.clickOnExportCSVButton();
-//
-//        log.info("TC05_Verify_ExportCSV_Function: Verify file type downloaded is .csv");
-//        verifyEquals(productPage.getDownloadFileType(), "csv");
-//    }
-//
-////    @Test
-//    public void TC06_Verify_ExportExcel_Function() {
-//        log.info("TC06_Verify_ExportExcel_Function: Click on Export Excel button");
-//        productPage.clickOnExportExcelButton();
-//
-//        log.info("TC06_Verify_ExportExcel_Function: Verify file type downloaded is .xls");
-//        verifyEquals(productPage.getDownloadFileType(), "xls");
-//
-//    }
-//
-////    @Test
-//    public void TC07_Verify_Sort_Function() {
-//        //Change country = England
-//        productPage.selectValueInCountryDropdown("England");
-//
-//        //Sort by product name
-//        log.info("TC07_Verify_Sort_Function: Click on sort by name");
-//        productPage.clickOnSortButtonByColumnName("Name");
-//
-//        log.info("TC07_Verify_Sort_Function: Verify product names are sort ASC");
+//    @Test
+    public void TC02_Verify_Show_Entries_Dropdown_Work_Correctly() {
+        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 25 items per page");
+        productPage.selectValueInShowEntryDropdown("25");
+
+        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 25 items show in table");
+        verifyEquals(productPage.countTotalProductInPage(), 25);
+
+        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 50 items per page");
+        productPage.selectValueInShowEntryDropdown("50");
+
+        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 50 items show in table");
+        verifyEquals(productPage.countTotalProductInPage(), 50);
+
+        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 100 items per page");
+        productPage.selectValueInShowEntryDropdown("100");
+
+        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 100 items show in table");
+        verifyEquals(productPage.countTotalProductInPage(), 100);
+
+        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 200 items per page");
+        productPage.selectValueInShowEntryDropdown("200");
+
+        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 200 items show in table");
+        verifyEquals(productPage.countTotalProductInPage(), 200);
+
+        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 300 items per page");
+        productPage.selectValueInShowEntryDropdown("300");
+
+        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 300 items show in table");
+        verifyEquals(productPage.countTotalProductInPage(), 300);
+
+        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 400 items per page");
+        productPage.selectValueInShowEntryDropdown("400");
+
+        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 400 items show in table");
+        verifyEquals(productPage.countTotalProductInPage(), 400);
+
+        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 500 items per page");
+        productPage.selectValueInShowEntryDropdown("500");
+
+        log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 500 items show in table");
+        verifyEquals(productPage.countTotalProductInPage(), 500);
+
+        // reload page to change to default content
+        productPage.reloadPage(driver);
+
+    }
+
+//    @Test
+    public void TC03_Verify_Country_Dropdown_Work_Correctly() {
+        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam");
+        productPage.selectValueInCountryDropdown("Viet Nam");
+
+        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'");
+        verifyTrue(productPage.isPriceHasCurrency("VND"));
+
+        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Singapore");
+        productPage.selectValueInCountryDropdown("Singapore");
+
+        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'SGD'");
+        verifyTrue(productPage.isPriceHasCurrency("SGD"));
+
+        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Thailand");
+        productPage.selectValueInCountryDropdown("Thailand");
+
+        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'THB'");
+        verifyTrue(productPage.isPriceHasCurrency("THB"));
+
+        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Indonesia");
+        productPage.selectValueInCountryDropdown("Indonesia");
+
+        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'IDR'");
+        verifyTrue(productPage.isPriceHasCurrency("IDR"));
+
+        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Malaysia");
+        productPage.selectValueInCountryDropdown("Malaysia");
+
+        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'MYR'");
+        verifyTrue(productPage.isPriceHasCurrency("MYR"));
+
+        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Philippines");
+        productPage.selectValueInCountryDropdown("Philippines");
+
+        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'PHP'");
+        verifyTrue(productPage.isPriceHasCurrency("PHP"));
+
+        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in England");
+        productPage.selectValueInCountryDropdown("England");
+
+        log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'EUR'");
+        verifyTrue(productPage.isPriceHasCurrency("EUR"));
+
+    }
+
+//    @Test
+    public void TC04_Verify_Search_Function() {
+        String productName = "monster";
+        log.info("TC04_Verify_Search_Function: input text and enter");
+        //get total entries per page in dropdown
+        String totalItem = productPage.getSelectedValueInShowEntryDropdown();
+
+        productPage.inputAndSearchText(productName);
+
+        log.info("TC04_Verify_Search_Function: Verify 6 items display and name contain 'monster'");
+        verifyEquals(productPage.countTotalProductInPage(), 6);
+        verifyTrue(productPage.isProductNameDisplay(productName));
+
+        log.info("TC04_Verify_Search_Function: Clear all text in search box");
+        productPage.clearTextInSearch();
+
+        log.info("TC04_Verify_Search_Function: Verify table is show as before search");
+        verifyEquals(String.valueOf(productPage.countTotalProductInPage()), totalItem);
+
+        log.info("TC04_Verify_Search_Function: Search not exist product");
+        productPage.inputAndSearchText("abc123");
+
+        log.info("TC04_Verify_Search_Function: Verify no item display");
+        verifyTrue(productPage.isNoProductFoundMessageDisplay());
+        //clear search text
+        productPage.clearTextInSearch();
+    }
+
+//    @Test
+    public void TC05_Verify_ExportCSV_Function() throws Exception {
+        String fileName = "Partner Products   goShop.csv";
+        log.info("TC05_Verify_ExportCSV_Function: Click on Export CSV button");
+        productPage.clickOnExportCSVButton();
+
+        log.info("TC05_Verify_ExportCSV_Function: Verify file type downloaded is .csv");
+        verifyEquals(productPage.countFilesInDirectory("csv"), 1);
+        verifyTrue(productPage.isFileExtensionCorrect("csv"));
+
+        deleteAllFileInFolder();
+    }
+
+//    @Test
+    public void TC06_Verify_ExportExcel_Function() throws Exception {
+        log.info("TC06_Verify_ExportExcel_Function: Click on Export Excel button");
+        productPage.clickOnExportExcelButton();
+
+        log.info("TC06_Verify_ExportExcel_Function: Verify file type downloaded is .xlsx");
+        verifyEquals(productPage.countFilesInDirectory("xlsx"), 1);
+        verifyTrue(productPage.isFileExtensionCorrect("xlsx"));
+
+        deleteAllFileInFolder();
+    }
+
+    @Test
+    public void TC07_Verify_Sort_Function() {
+        //Change country = England
+        productPage.selectValueInCountryDropdown("England");
+
+        //Sort by product name
+        log.info("TC07_Verify_Sort_Function: Click on sort by name");
+        productPage.clickOnColumnNameToSort(driver,"Name");
+
+        log.info("TC07_Verify_Sort_Function: Verify product names are sort ASC");
+        verifyTrue(productPage.getClassValue( "Name").contains("asc"));
 //        verifyTrue(productPage.isItemSortASC("Name"));
-//
-//
-//        log.info("TC07_Verify_Sort_Function: Click on sort by name");
-//        productPage.clickOnSortButtonByColumnName("Name");
-//
-//        log.info("TC07_Verify_Sort_Function: Verify product names are sort DSC");
-//        verifyTrue(productPage.isItemSortDSC("Name"));
+
+
+        log.info("TC07_Verify_Sort_Function: Click on sort by name");
+        productPage.clickOnColumnNameToSort(driver,"Name");
+
+        log.info("TC07_Verify_Sort_Function: Verify product names are sort DSC");
+        verifyTrue(productPage.getClassValue("Name").contains("desc"));
+
+//        verifyTrue(productPage.isItemSortASC("Name"));
 //
 //        //Sort by product Price
 //        log.info("TC07_Verify_Sort_Function: Click on sort by price");
@@ -351,8 +358,8 @@ public class ManageProduct extends AbstractTest {
 //
 //        log.info("TC08_Verify_Total_Items_In_Country: Verify item counting = item in text");
 //        verifyEquals(totalItemCount, totalItemsByText);
-//
-//    }
+
+    }
 
 
 }

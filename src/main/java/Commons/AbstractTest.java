@@ -5,10 +5,14 @@ import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.testng.Assert;
 import org.testng.Reporter;
 
+import java.io.File;
+import java.util.HashMap;
+import java.util.Map;
 import java.util.concurrent.TimeUnit;
 
 public abstract class AbstractTest extends AbstractPage{
@@ -20,17 +24,25 @@ public abstract class AbstractTest extends AbstractPage{
     }
 
     public WebDriver getBrowserDriver(String browserName) {
+        deleteAllFileInFolder();
         if (browserName.equalsIgnoreCase("chrome")) {
             WebDriverManager.chromedriver().setup();
-            driver = new ChromeDriver();
+
+            ChromeOptions options = new ChromeOptions();
+            Map<String, Object> prefs = new HashMap<String, Object>();
+            prefs.put("download.default_directory", GlobalConstant.DOWNLOAD_FOLDER);
+            prefs.put("download.prompt_for_download", false);
+            options.setExperimentalOption("prefs", prefs);
+            driver = new ChromeDriver(options);
         } else if (browserName.equalsIgnoreCase("firefox")) {
             WebDriverManager.firefoxdriver().setup();
             driver = new FirefoxDriver();
         } else {
             System.out.println("Please select correct browser");
         }
-        driver.manage().timeouts().implicitlyWait(2, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(15, TimeUnit.SECONDS);
         driver.manage().window().maximize();
+
         return driver;
     }
 
@@ -101,6 +113,21 @@ public abstract class AbstractTest extends AbstractPage{
 
 // ==============================================================================================================
 
+    public void deleteAllFileInFolder() {
+        System.out.println("start delete ");
+        try {
+            String downloadFile = GlobalConstant.DOWNLOAD_FOLDER;
+            File file = new File(downloadFile);
+            File[] listOfFiles = file.listFiles();
+            for (int i = 0; i < listOfFiles.length; i++) {
+                if (listOfFiles[i].isFile()) {
+                    new File(listOfFiles[i].toString()).delete();
+                }
+            }
+        } catch (Exception e) {
+            System.out.print(e.getMessage());
+        }
+    }
 
 
 }

@@ -6,5 +6,6 @@ public class AbstractPageUI {
     public static final String VIEW_PROFILE_ICON= "//div[@id='nav-user-link']//i[@class='feather icon-user']";
     public static final String LEFT_MENU_BY_NAME= "//span[text()='%s']";
     public static final String PROCESSING_LOADING = "//div[@id='product-table_processing' and @style='display: block;']";
+    public static final String TOTAL_PAGES = "//ul[@class='pagination']/li[position() = (last() - 1)]";
 
 }

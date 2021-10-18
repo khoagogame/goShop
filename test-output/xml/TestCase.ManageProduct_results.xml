@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on CHROME"
+           tests="2"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="190.751">
+  <properties />
+  
+  
+            <testcase name="TC01_Verify_Product_Page_Display" time="48.617" classname="TestCase.ManageProduct" />
+                <testcase name="TC07_Verify_Sort_Function" time="142.134" classname="TestCase.ManageProduct" />
+      
+</testsuite>

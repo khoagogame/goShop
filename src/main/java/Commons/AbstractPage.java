@@ -5,19 +5,17 @@ import PageObject.ProductPageObject;
 import PageObject.ProfilePageObject;
 import PageUI.AbstractPageUI;
 import PageUI.DashboardPageUI;
+import PageUI.ProductPageUI;
 import org.openqa.selenium.By;
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
-import org.openqa.selenium.support.ui.ExpectedCondition;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
-import org.testng.internal.thread.IThreadFactory;
-import org.testng.internal.thread.graph.IThreadWorkerFactory;
 
-import java.util.List;
+import java.util.*;
 
 public abstract class AbstractPage {
     WebDriverWait explicitWait;
@@ -37,7 +35,7 @@ public abstract class AbstractPage {
     }
 
     public void waitForElementUndisplay(WebDriver driver, String locator){
-        explicitWait = new WebDriverWait(driver, GlobalConstant.SHORT_TIMEOUT);
+        explicitWait = new WebDriverWait(driver, GlobalConstant.LONG_TIMEOUT);
         explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(xpath(locator)));
     }
 
@@ -77,6 +75,10 @@ public abstract class AbstractPage {
         waitForElementVisible(driver, castToObject(locator, values));
         element.clear();
         element.sendKeys(value);
+    }
+
+    public void clearAllText(WebDriver driver, String locator){
+        findElement(driver,locator).clear();
     }
 
     public void clickToElement(WebDriver driver, String locator) {
@@ -147,10 +149,13 @@ public abstract class AbstractPage {
        return select.getFirstSelectedOption().getText();
     }
 
+    public int countElement(WebDriver driver, String locator){
+        return findElements(driver,locator).size();
+    }
 
-
-
-
+    public String getAttributeValue(WebDriver driver, String locator, String attributeName, String...values){
+       return findElement(driver,castToObject(locator, values)).getAttribute(attributeName);
+    }
 
 
 
@@ -225,6 +230,44 @@ public abstract class AbstractPage {
 
     public void waitForProcessBarDisappear(WebDriver driver){
         waitForElementUndisplay(driver, AbstractPageUI.PROCESSING_LOADING);
+    }
+
+    public void clickOnColumnNameToSort(WebDriver driver, String columnName) {
+        clickToElement(driver, ProductPageUI.COLUMN_NAME, columnName);
+        waitForProcessBarDisappear(driver);
+    }
+
+
+    public ArrayList<String> allValuesByColumnName(WebDriver driver, String locator, String columnName, String...values){
+        ArrayList<String> allValuesBeforeSortByColumnName = new ArrayList<>();
+        List<WebElement> elements = findElements(driver,locator, values);
+
+        for (WebElement e: elements){
+            allValuesBeforeSortByColumnName.add(e.getText());
+        }
+        return allValuesBeforeSortByColumnName;
+    }
+
+
+    public boolean areAllValuesSortASC (WebDriver driver, String locator, String columnName){
+        ArrayList<String> allOriginalValue = new ArrayList<>();
+        List<WebElement> nameList = findElements(driver,locator, columnName);
+        List<WebElement> totalPage = findElements(driver,AbstractPageUI.TOTAL_PAGES);
+
+        for (WebElement page : totalPage) {
+            page.click();
+            sleepInSecond(4);
+            {
+//                List<WebElement> orderDateList = findElements(driver, DashboardPageUI.VALUE_BY_COLUMN_INDEX, String.valueOf(columnIndex));
+                for (WebElement a : nameList) {
+                    String[] item = a.getText().split(",");
+                    allOriginalValue.add(item[0]);
+                }
+            }
+        }
+        System.out.println(allOriginalValue);
+
+        ArrayList<String> sortASCItems = Collections.sort(allOriginalValue);
     }
 }
 

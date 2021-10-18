@@ -58,7 +58,7 @@ public class Dashboard extends AbstractTest {
         clickToElement(driver, AbstractPageUI.LEFT_MENU_BY_NAME, "Manage Orders");
         ArrayList<String> orderDate = new ArrayList<String>();
         int columnIndex = findElements(driver, DashboardPageUI.COLUMN_INDEX_BY_TITLE, "Order Date").size() + 1;
-        List<WebElement> totalPage = findElements(driver, DashboardPageUI.TOTAL_PAGES);
+        List<WebElement> totalPage = findElements(driver, AbstractPageUI.TOTAL_PAGES);
         System.out.println(totalPage.size());
         for (WebElement page : totalPage) {
             page.click();

@@ -1218,3 +1218,1165 @@
 2021-10-15 17:36:44,921 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
 2021-10-15 17:36:44,921 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
 2021-10-15 17:36:44,934 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:11:26,209 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 13:11:33,680 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 13:12:33,966 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 13:12:41,816 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 13:15:30,956 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 13:15:39,414 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 13:16:38,043 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 13:16:46,655 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 13:17:47,998 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 13:17:56,067 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 13:18:32,387 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 13:18:32,437 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:18:32,440 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 13:18:32,655 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:18:32,655 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 13:18:32,805 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:18:32,805 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 13:18:32,833 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:18:32,833 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 13:18:32,862 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:19:10,242 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 13:19:19,278 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 13:19:54,005 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 13:19:54,047 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:19:54,050 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 13:19:54,214 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:19:54,214 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 13:19:54,348 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:19:54,348 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 13:19:54,371 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:19:54,371 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 13:19:54,401 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:19:54,405 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 25 items per page
+2021-10-16 13:20:32,911 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 25 items show in table
+2021-10-16 13:20:32,944 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:20:32,945 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 50 items per page
+2021-10-16 13:21:12,990 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 50 items show in table
+2021-10-16 13:21:13,028 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:21:13,029 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 100 items per page
+2021-10-16 13:21:55,288 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 100 items show in table
+2021-10-16 13:21:55,330 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:21:55,331 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 200 items per page
+2021-10-16 13:22:51,903 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 200 items show in table
+2021-10-16 13:22:51,968 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:22:51,968 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 300 items per page
+2021-10-16 13:23:54,345 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 300 items show in table
+2021-10-16 13:23:54,451 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:23:54,451 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 400 items per page
+2021-10-16 13:30:07,078 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 13:30:18,346 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 13:31:00,148 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 13:31:00,289 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:31:00,291 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 13:31:00,403 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:31:00,404 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 13:31:00,521 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:31:00,522 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 13:31:00,555 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:31:00,556 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 13:31:00,586 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:31:00,591 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 25 items per page
+2021-10-16 13:31:37,252 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 25 items show in table
+2021-10-16 13:31:37,280 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:31:37,281 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 50 items per page
+2021-10-16 13:32:05,268 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 50 items show in table
+2021-10-16 13:32:05,303 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:32:05,303 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 100 items per page
+2021-10-16 13:32:36,795 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 100 items show in table
+2021-10-16 13:32:36,841 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:32:36,841 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 200 items per page
+2021-10-16 13:33:15,736 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 200 items show in table
+2021-10-16 13:33:15,790 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:33:15,790 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 300 items per page
+2021-10-16 13:34:03,173 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 300 items show in table
+2021-10-16 13:34:03,273 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:34:03,273 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 400 items per page
+2021-10-16 13:34:51,056 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 400 items show in table
+2021-10-16 13:34:51,266 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:34:51,266 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 500 items per page
+2021-10-16 13:35:49,989 INFO  TestCase.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 500 items show in table
+2021-10-16 13:35:50,243 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:50:03,379 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 13:50:10,118 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 13:50:37,743 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 13:50:37,785 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:50:37,788 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 13:50:37,959 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:50:37,960 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 13:50:38,112 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:50:38,112 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 13:50:38,142 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:50:38,143 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 13:50:38,174 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:50:38,178 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 13:50:38,281 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 13:50:40,393 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 13:50:40,394 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Singapore
+2021-10-16 13:50:40,590 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'SGD'
+2021-10-16 13:50:42,659 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 13:50:42,660 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Thailand
+2021-10-16 13:50:42,870 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'THD'
+2021-10-16 13:50:44,894 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 13:50:44,895 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Indonesia
+2021-10-16 13:50:45,059 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'IDR'
+2021-10-16 13:50:47,091 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 13:50:47,092 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Malaysia
+2021-10-16 13:50:47,247 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'MYR'
+2021-10-16 13:50:49,275 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 13:50:49,275 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Philippines
+2021-10-16 13:50:49,440 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'PHP'
+2021-10-16 13:50:51,472 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 13:50:51,473 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in England
+2021-10-16 13:50:51,620 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'EUR'
+2021-10-16 13:50:53,692 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 13:52:53,246 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 13:52:59,051 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 13:53:26,609 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 13:53:26,657 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:53:26,660 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 13:53:26,827 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:53:26,827 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 13:53:26,976 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:53:26,976 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 13:53:27,011 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:53:27,011 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 13:53:27,043 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:53:27,049 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 13:53:27,156 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 13:53:29,201 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 13:55:01,285 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 13:55:07,044 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 13:55:34,754 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 13:55:34,803 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:55:34,807 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 13:55:34,971 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:55:34,971 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 13:55:35,123 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:55:35,123 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 13:55:35,156 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:55:35,156 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 13:55:35,187 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:55:35,196 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 13:55:35,300 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 13:55:37,423 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 13:56:25,555 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 13:56:29,697 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 13:56:55,958 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 13:56:55,994 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:56:55,997 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 13:56:56,147 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:56:56,147 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 13:56:56,302 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:56:56,303 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 13:56:56,332 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:56:56,332 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 13:56:56,363 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:56:56,367 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 13:56:56,461 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 13:56:58,513 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 13:58:09,470 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 13:58:26,721 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 13:59:00,911 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 13:59:00,947 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:59:00,951 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 13:59:01,115 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:59:01,116 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 13:59:01,345 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:59:01,345 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 13:59:01,378 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:59:01,378 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 13:59:01,407 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 13:59:01,411 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 13:59:01,509 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 13:59:01,595 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 14:03:37,328 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 14:03:54,365 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 14:04:34,450 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 14:04:34,578 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:04:34,581 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 14:04:34,749 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:04:34,749 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 14:04:34,894 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:04:34,895 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 14:04:34,928 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:04:34,928 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 14:04:34,960 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:04:34,965 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 14:04:35,059 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 14:04:35,378 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:05:08,239 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 14:05:28,971 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 14:06:17,665 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 14:06:17,714 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:06:17,836 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 14:06:17,961 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:06:17,961 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 14:06:18,079 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:06:18,079 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 14:06:18,120 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:06:18,120 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 14:06:18,161 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:06:18,166 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 14:06:18,268 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 14:06:18,583 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 14:07:05,530 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 14:07:21,849 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 14:07:56,624 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 14:07:56,664 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:07:56,666 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 14:07:56,889 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:07:56,889 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 14:07:57,024 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:07:57,024 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 14:07:57,058 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:07:57,058 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 14:07:57,117 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:07:57,124 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 14:07:57,281 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 14:07:57,600 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:07:57,600 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Singapore
+2021-10-16 14:07:57,794 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'SGD'
+2021-10-16 14:07:58,037 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 14:07:58,040 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Thailand
+2021-10-16 14:07:58,234 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'THD'
+2021-10-16 14:07:58,499 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 14:07:58,500 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Indonesia
+2021-10-16 14:07:58,736 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'IDR'
+2021-10-16 14:07:59,015 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 14:07:59,015 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Malaysia
+2021-10-16 14:07:59,237 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'MYR'
+2021-10-16 14:07:59,476 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 14:07:59,477 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Philippines
+2021-10-16 14:07:59,665 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'PHP'
+2021-10-16 14:07:59,914 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 14:07:59,914 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in England
+2021-10-16 14:08:00,093 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'EUR'
+2021-10-16 14:08:00,341 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 14:08:48,963 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 14:09:00,663 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 14:10:04,698 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 14:10:22,558 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 14:10:35,803 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 14:11:31,629 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 14:11:31,671 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:11:31,675 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 14:11:31,812 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:11:31,812 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 14:11:31,918 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:11:31,919 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 14:11:31,950 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:11:31,950 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 14:11:31,985 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:11:31,989 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 14:11:34,138 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 14:11:34,449 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:11:34,450 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Singapore
+2021-10-16 14:12:08,653 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'SGD'
+2021-10-16 14:12:08,966 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:12:08,967 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Thailand
+2021-10-16 14:12:39,306 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'THD'
+2021-10-16 14:12:39,759 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 14:12:39,761 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Indonesia
+2021-10-16 14:13:14,520 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'IDR'
+2021-10-16 14:13:14,854 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:13:14,854 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Malaysia
+2021-10-16 14:13:43,774 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'MYR'
+2021-10-16 14:13:44,089 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:13:44,089 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Philippines
+2021-10-16 14:14:17,549 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'PHP'
+2021-10-16 14:14:17,867 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:14:17,867 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in England
+2021-10-16 14:15:03,913 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'EUR'
+2021-10-16 14:15:04,184 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:16:02,618 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 14:16:12,766 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 14:16:48,886 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 14:16:48,919 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:16:48,923 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 14:16:49,088 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:16:49,088 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 14:16:49,242 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:16:49,242 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 14:16:49,273 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:16:49,274 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 14:16:49,306 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:16:49,310 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 14:16:51,465 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 14:16:51,774 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:16:51,774 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Singapore
+2021-10-16 14:18:34,628 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 14:18:46,471 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 14:19:24,956 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 14:19:24,993 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:19:24,997 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 14:19:25,260 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:19:25,261 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 14:19:25,428 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:19:25,428 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 14:19:25,453 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:19:25,453 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 14:19:25,484 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:19:25,489 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 14:19:27,622 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 14:19:27,970 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:20:03,822 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 14:20:15,097 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 14:20:52,646 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 14:20:52,700 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:20:52,706 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 14:20:52,965 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:20:52,965 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 14:20:53,112 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:20:53,112 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 14:20:53,144 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:20:53,144 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 14:20:53,176 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:20:53,182 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 14:20:55,318 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 14:20:55,554 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:21:49,219 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 14:22:01,674 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 14:22:39,911 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 14:22:39,949 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:22:39,953 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 14:22:40,183 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:22:40,183 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 14:22:40,331 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:22:40,331 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 14:22:40,367 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:22:40,367 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 14:22:40,398 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:22:40,404 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 14:22:42,580 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 14:22:42,857 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:23:21,529 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 14:23:32,091 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 14:24:11,121 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 14:24:11,170 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:24:11,175 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 14:24:11,431 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:24:11,431 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 14:24:11,564 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:24:11,565 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 14:24:11,600 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:24:11,600 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 14:24:11,631 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:24:11,636 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 14:24:13,797 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 14:24:14,059 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:24:44,053 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 14:24:52,763 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 14:25:32,258 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 14:25:32,404 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:25:32,408 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 14:25:32,577 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:25:32,578 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 14:25:32,684 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:25:32,685 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 14:25:32,722 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:25:32,722 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 14:25:32,754 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:25:32,758 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 14:25:34,883 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 14:25:35,203 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:27:16,557 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 14:27:25,459 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 14:28:04,439 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 14:28:04,479 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:28:04,484 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 14:28:04,742 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:28:04,743 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 14:28:04,873 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:28:04,874 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 14:28:04,906 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:28:04,906 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 14:28:04,940 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:28:04,946 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 14:28:07,098 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 14:28:07,398 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 14:29:51,412 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 14:30:00,286 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 14:30:42,999 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 14:30:43,195 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:30:43,200 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 14:30:43,398 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:30:43,398 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 14:30:43,742 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:30:43,742 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 14:30:43,784 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:30:43,785 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 14:30:43,831 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:30:43,835 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 14:30:46,021 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 14:30:46,190 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 14:31:19,402 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 14:31:27,410 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 14:32:09,556 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 14:32:09,703 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:32:09,706 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 14:32:09,873 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:32:09,874 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 14:32:10,014 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:32:10,014 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 14:32:10,039 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:32:10,039 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 14:32:10,072 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:32:10,075 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 14:32:12,202 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 14:32:12,279 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:40:27,264 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 14:40:31,459 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 14:40:57,179 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 14:40:57,215 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:40:57,218 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 14:40:57,339 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:40:57,339 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 14:40:57,517 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:40:57,517 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 14:40:57,564 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:40:57,564 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 14:40:57,610 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:40:57,616 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 14:40:59,849 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 14:41:00,235 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 14:41:37,960 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 14:43:16,081 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 14:43:20,142 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 14:43:41,785 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 14:43:41,823 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:43:41,826 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 14:43:41,974 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:43:41,974 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 14:43:42,128 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:43:42,129 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 14:43:42,158 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:43:42,158 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 14:43:42,189 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:43:42,193 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 14:43:44,320 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 14:43:44,629 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:44:53,923 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 14:44:58,497 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 14:45:22,193 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 14:45:22,238 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:45:22,241 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 14:45:22,414 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:45:22,415 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 14:45:22,573 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:45:22,573 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 14:45:22,601 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:45:22,601 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 14:45:22,634 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:45:22,638 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 14:45:24,801 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 14:45:25,238 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:45:25,238 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Singapore
+2021-10-16 14:45:49,125 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'SGD'
+2021-10-16 14:45:49,396 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:45:49,396 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Thailand
+2021-10-16 14:46:15,610 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'THD'
+2021-10-16 14:46:15,917 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 14:46:15,918 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Indonesia
+2021-10-16 14:46:40,993 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'IDR'
+2021-10-16 14:46:41,262 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:46:41,262 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Malaysia
+2021-10-16 14:47:03,933 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'MYR'
+2021-10-16 14:47:04,241 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:47:04,241 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Philippines
+2021-10-16 14:47:22,373 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'PHP'
+2021-10-16 14:47:22,693 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:47:22,693 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in England
+2021-10-16 14:47:46,853 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'EUR'
+2021-10-16 14:47:47,203 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:48:50,515 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 14:48:58,157 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 14:49:23,599 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 14:49:23,651 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:49:23,655 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 14:49:23,823 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:49:23,823 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 14:49:23,991 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:49:23,991 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 14:49:24,036 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:49:24,036 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 14:49:24,065 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:49:24,071 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-16 14:49:26,195 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-16 14:49:26,603 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:49:26,603 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Singapore
+2021-10-16 14:49:48,305 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'SGD'
+2021-10-16 14:49:48,697 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:49:48,698 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Thailand
+2021-10-16 14:50:03,549 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'THB'
+2021-10-16 14:50:03,822 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:50:03,822 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Indonesia
+2021-10-16 14:50:31,428 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'IDR'
+2021-10-16 14:50:31,681 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:50:31,681 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Malaysia
+2021-10-16 14:50:50,548 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'MYR'
+2021-10-16 14:50:50,900 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:50:50,900 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Philippines
+2021-10-16 14:51:09,343 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'PHP'
+2021-10-16 14:51:09,737 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 14:51:09,738 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in England
+2021-10-16 14:51:39,315 INFO  TestCase.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'EUR'
+2021-10-16 14:51:39,634 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:03:26,650 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 15:03:35,499 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 15:04:14,292 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 15:04:14,420 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:04:14,423 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 15:04:14,587 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:04:14,587 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 15:04:14,720 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:04:14,720 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 15:04:14,763 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:04:14,763 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 15:04:14,792 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:04:14,797 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: input text and enter
+2021-10-16 15:04:15,319 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify 1 item display and name 'Yooka-Laylee and The Impossible Lair'
+2021-10-16 15:04:15,360 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 15:04:15,725 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 15:05:08,097 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 15:05:15,489 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 15:05:53,185 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 15:05:53,232 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:05:53,322 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 15:05:53,467 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:05:53,467 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 15:05:53,617 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:05:53,618 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 15:05:53,650 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:05:53,650 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 15:05:53,681 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:05:53,687 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: input text and enter
+2021-10-16 15:05:56,587 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify 1 item display and name 'Yooka-Laylee and The Impossible Lair'
+2021-10-16 15:05:56,626 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:05:56,724 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 15:08:33,292 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 15:08:44,652 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 15:09:24,110 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 15:09:24,234 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:09:24,237 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 15:09:24,412 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:09:24,412 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 15:09:24,559 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:09:24,559 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 15:09:24,592 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:09:24,592 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 15:09:24,624 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:09:24,629 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: input text and enter
+2021-10-16 15:09:30,109 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify 1 item display and name 'Yooka-Laylee and The Impossible Lair'
+2021-10-16 15:09:30,150 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:09:30,245 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:10:25,379 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 15:10:33,476 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 15:11:09,176 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 15:11:09,217 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:11:09,219 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 15:11:09,423 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:11:09,423 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 15:11:09,553 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:11:09,553 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 15:11:09,584 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:11:09,584 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 15:11:09,614 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:11:09,618 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: input text and enter
+2021-10-16 15:11:14,929 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify 1 item display and name 'Yooka-Laylee and The Impossible Lair'
+2021-10-16 15:11:14,967 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:11:15,060 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:14:27,286 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 15:14:35,746 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 15:15:16,314 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 15:15:16,461 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:15:16,464 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 15:15:16,629 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:15:16,629 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 15:15:16,791 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:15:16,792 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 15:15:16,829 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:15:16,830 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 15:15:16,861 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:15:16,865 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: input text and enter
+2021-10-16 15:15:22,348 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify 1 item display and name 'Yooka-Laylee and The Impossible Lair'
+2021-10-16 15:15:22,372 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:15:22,465 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 15:16:46,717 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 15:16:58,634 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 15:17:38,173 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 15:17:38,219 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:17:38,223 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 15:17:38,385 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:17:38,385 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 15:17:38,552 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:17:38,552 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 15:17:38,585 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:17:38,586 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 15:17:38,617 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:17:38,621 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: input text and enter
+2021-10-16 15:17:44,072 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify 1 item display and name 'Yooka-Laylee and The Impossible Lair'
+2021-10-16 15:17:44,112 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:17:44,205 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 15:23:54,544 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 15:24:05,862 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 15:24:41,528 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 15:24:41,563 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:24:41,566 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 15:24:41,777 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:24:41,777 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 15:24:41,929 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:24:41,929 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 15:24:41,961 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:24:41,961 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 15:24:41,992 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:24:41,997 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: input text and enter
+2021-10-16 15:24:47,532 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify 1 item display and name 'Yooka-Laylee and The Impossible Lair'
+2021-10-16 15:24:47,574 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:24:47,699 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:27:31,524 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 15:27:44,175 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 15:28:27,280 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 15:28:27,428 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:28:27,431 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 15:28:27,598 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:28:27,598 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 15:28:27,735 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:28:27,735 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 15:28:27,774 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:28:27,774 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 15:28:27,812 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:28:27,817 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: input text and enter
+2021-10-16 15:28:34,262 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify 1 item display and name 'Yooka-Laylee and The Impossible Lair'
+2021-10-16 15:28:34,309 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:28:34,556 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 15:29:54,987 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 15:30:08,336 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 15:30:51,792 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 15:30:51,840 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:30:51,955 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 15:30:52,125 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:30:52,125 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 15:30:52,295 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:30:52,295 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 15:30:52,319 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:30:52,320 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 15:30:52,349 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:30:52,355 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: input text and enter
+2021-10-16 15:30:58,897 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify 1 item display and name 'Yooka-Laylee and The Impossible Lair'
+2021-10-16 15:30:58,939 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:30:59,176 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 15:35:41,214 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 15:35:47,446 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 15:36:14,826 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 15:36:14,874 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:36:14,878 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 15:36:15,039 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:36:15,039 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 15:36:15,189 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:36:15,190 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 15:36:15,226 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:36:15,227 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 15:36:15,254 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:36:15,259 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: input text and enter
+2021-10-16 15:36:20,741 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify 1 item display and name 'Yooka-Laylee and The Impossible Lair'
+2021-10-16 15:36:20,774 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:36:20,990 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:41:33,138 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 15:41:57,044 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 15:42:15,592 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 15:42:15,631 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:42:15,634 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 15:42:15,793 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:42:15,793 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 15:42:15,947 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:42:15,947 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 15:42:15,978 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:42:15,978 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 15:42:16,012 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:42:16,017 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: input text and enter
+2021-10-16 15:42:21,424 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify 1 item display and name 'Yooka-Laylee and The Impossible Lair'
+2021-10-16 15:42:21,466 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:42:21,694 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 15:43:31,088 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 15:43:48,093 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 15:44:14,905 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 15:44:14,943 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:44:14,947 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 15:44:15,110 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:44:15,111 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 15:44:15,263 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:44:15,263 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 15:44:15,296 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:44:15,296 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 15:44:15,325 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:44:15,331 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: input text and enter
+2021-10-16 15:44:20,776 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify 1 item display and name 'Yooka-Laylee and The Impossible Lair'
+2021-10-16 15:44:20,819 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:44:21,050 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:50:26,638 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 15:50:37,531 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 15:51:05,425 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 15:51:05,473 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:51:05,477 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 15:51:05,641 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:51:05,642 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 15:51:05,811 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:51:05,811 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 15:51:05,838 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:51:05,839 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 15:51:05,874 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:51:05,879 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: input text and enter
+2021-10-16 15:51:11,893 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify 6 items display and name contain 'monster'
+2021-10-16 15:51:11,936 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:51:12,171 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:51:12,172 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Clear all text in search box
+2021-10-16 15:51:12,232 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify table is show as before search
+2021-10-16 15:51:12,257 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 15:51:12,257 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Search not exist product
+2021-10-16 15:51:16,928 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify no item display
+2021-10-16 15:51:16,959 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 15:51:16,989 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 15:52:20,420 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 15:52:30,678 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 15:52:55,690 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 15:52:55,732 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:52:55,735 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 15:52:55,898 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:52:55,898 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 15:52:56,050 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:52:56,050 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 15:52:56,079 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:52:56,080 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 15:52:56,111 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:52:56,116 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: input text and enter
+2021-10-16 15:53:00,893 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify 6 items display and name contain 'monster'
+2021-10-16 15:53:00,931 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:53:01,215 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:53:01,215 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Clear all text in search box
+2021-10-16 15:53:03,310 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify table is show as before search
+2021-10-16 15:53:03,330 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 15:53:03,331 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Search not exist product
+2021-10-16 15:53:09,678 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify no item display
+2021-10-16 15:53:09,694 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 15:53:09,724 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 15:54:59,902 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 15:55:04,735 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 15:55:27,362 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 15:55:27,411 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:55:27,415 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 15:55:27,597 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:55:27,597 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 15:55:27,745 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:55:27,746 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 15:55:27,779 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:55:27,779 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 15:55:27,810 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:55:27,815 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: input text and enter
+2021-10-16 15:55:33,291 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify 6 items display and name contain 'monster'
+2021-10-16 15:55:33,334 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:55:33,582 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:55:33,582 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Clear all text in search box
+2021-10-16 15:55:35,676 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify table is show as before search
+2021-10-16 15:55:35,693 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 15:55:35,694 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Search not exist product
+2021-10-16 15:55:40,838 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify no item display
+2021-10-16 15:55:40,871 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 15:55:40,901 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 15:58:31,499 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 15:58:40,983 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 15:59:03,311 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 15:59:03,353 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:59:03,356 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 15:59:03,531 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:59:03,531 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 15:59:03,693 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:59:03,693 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 15:59:03,719 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:59:03,719 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 15:59:03,751 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:59:03,756 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: input text and enter
+2021-10-16 15:59:09,221 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify 6 items display and name contain 'monster'
+2021-10-16 15:59:09,262 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:59:09,512 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:59:09,512 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Clear all text in search box
+2021-10-16 15:59:34,925 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify table is show as before search
+2021-10-16 15:59:34,957 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 15:59:34,957 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Search not exist product
+2021-10-16 15:59:38,922 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify no item display
+2021-10-16 15:59:38,956 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 15:59:38,986 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 16:01:21,655 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 16:01:37,430 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 16:02:20,026 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 16:02:20,054 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:02:20,111 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 16:02:20,218 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:02:20,218 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 16:02:20,311 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:02:20,311 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 16:02:20,329 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:02:20,329 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 16:02:20,387 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:02:20,391 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: input text and enter
+2021-10-16 16:02:26,053 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify 6 items display and name contain 'monster'
+2021-10-16 16:02:26,075 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:02:26,228 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:02:26,228 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Clear all text in search box
+2021-10-16 16:03:11,782 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify table is show as before search
+2021-10-16 16:03:11,799 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:03:11,799 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Search not exist product
+2021-10-16 16:03:16,762 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify no item display
+2021-10-16 16:03:16,781 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 16:03:16,794 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 16:09:39,319 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 16:09:51,129 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 16:10:31,667 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 16:10:31,698 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:10:31,700 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 16:10:31,802 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:10:31,803 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 16:10:31,900 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:10:31,900 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 16:10:31,931 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:10:31,931 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 16:10:31,958 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:10:31,962 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: input text and enter
+2021-10-16 16:10:38,375 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify 6 items display and name contain 'monster'
+2021-10-16 16:10:38,401 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:10:38,540 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:10:38,541 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Clear all text in search box
+2021-10-16 16:11:21,322 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify table is show as before search
+2021-10-16 16:11:21,354 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:11:21,354 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Search not exist product
+2021-10-16 16:11:25,864 INFO  TestCase.ManageProduct - TC04_Verify_Search_Function: Verify no item display
+2021-10-16 16:11:25,905 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:50:25,935 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 16:50:34,643 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 16:51:45,554 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 16:51:49,655 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 16:52:59,506 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 16:53:06,261 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 16:53:30,643 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 16:53:30,668 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:53:30,670 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 16:53:30,774 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:53:30,775 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 16:53:30,881 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:53:30,882 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 16:53:30,899 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:53:30,900 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 16:53:30,917 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 16:54:30,959 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 16:54:33,301 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 16:55:28,257 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 16:55:31,890 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 16:56:44,820 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 16:57:34,965 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 16:57:36,700 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 16:58:33,519 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 16:58:37,033 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 17:08:32,960 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 17:09:07,581 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 17:09:15,900 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 17:10:15,047 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 17:10:24,499 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 17:11:20,297 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 17:11:28,325 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 17:11:52,911 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 17:13:11,102 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 17:13:19,654 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 17:14:41,519 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 17:14:50,008 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 17:19:12,782 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 17:19:18,794 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 17:20:05,845 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 17:20:05,877 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 17:20:05,932 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 17:20:06,030 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 17:20:06,030 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 17:20:06,137 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 17:20:06,137 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 17:20:06,154 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 17:20:06,154 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 17:20:06,184 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 17:20:06,187 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Click on Export CSV button
+2021-10-16 22:25:45,326 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 22:25:52,812 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 22:26:45,372 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 22:26:45,443 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:26:45,450 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 22:26:45,606 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:26:45,607 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 22:26:45,721 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:26:45,721 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 22:26:45,757 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:26:45,758 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 22:26:45,786 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:26:45,791 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Click on Export CSV button
+2021-10-16 22:26:46,079 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Verify file type downloaded is .csv
+2021-10-16 22:26:46,082 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 22:26:46,082 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 22:28:30,880 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 22:28:36,292 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 22:29:17,464 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 22:29:17,503 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:29:17,506 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 22:29:17,696 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:29:17,697 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 22:29:17,814 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:29:17,815 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 22:29:17,836 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:29:17,836 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 22:29:17,865 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:29:17,869 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Click on Export CSV button
+2021-10-16 22:29:18,675 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Verify file type downloaded is .csv
+2021-10-16 22:29:18,675 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:29:18,676 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 22:31:26,564 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 22:31:34,054 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 22:32:10,212 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 22:32:10,264 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:32:10,269 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 22:32:10,457 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:32:10,457 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 22:32:10,658 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:32:10,658 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 22:32:10,704 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:32:10,704 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 22:32:10,746 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:32:10,752 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Click on Export CSV button
+2021-10-16 22:32:11,602 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Verify file type downloaded is .csv
+2021-10-16 22:32:11,602 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:32:11,603 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 22:33:44,823 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 22:33:48,128 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 22:34:26,691 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 22:34:26,714 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:34:26,717 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 22:34:26,912 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:34:26,912 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 22:34:27,095 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:34:27,095 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 22:34:27,128 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:34:27,128 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 22:34:27,162 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:34:27,168 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Click on Export CSV button
+2021-10-16 22:34:27,987 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Verify file type downloaded is .csv
+2021-10-16 22:34:27,988 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:34:27,988 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 22:39:17,633 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 22:39:21,754 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 22:39:45,854 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 22:39:45,902 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:39:45,905 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 22:39:46,018 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:39:46,018 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 22:39:46,143 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:39:46,143 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 22:39:46,171 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:39:46,171 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 22:39:46,219 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:39:46,225 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Click on Export CSV button
+2021-10-16 22:39:47,018 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Verify file type downloaded is .csv
+2021-10-16 22:39:47,019 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:39:47,019 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 22:40:50,432 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 22:40:55,681 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 22:41:34,181 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 22:41:34,229 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:41:34,233 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 22:41:34,405 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:41:34,405 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 22:41:34,570 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:41:34,570 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 22:41:34,610 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:41:34,611 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 22:41:34,642 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:41:34,648 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Click on Export CSV button
+2021-10-16 22:41:35,535 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Verify file type downloaded is .csv
+2021-10-16 22:41:35,536 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:41:35,537 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 22:42:32,743 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 22:42:35,988 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 22:43:16,100 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 22:43:16,146 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:43:16,150 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 22:43:16,419 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:43:16,420 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 22:43:16,599 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:43:16,599 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 22:43:16,636 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:43:16,636 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 22:43:16,681 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:43:16,796 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Click on Export CSV button
+2021-10-16 22:43:17,628 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Verify file type downloaded is .csv
+2021-10-16 22:43:17,629 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:43:17,630 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:55:43,405 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 22:55:47,664 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 22:56:28,405 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 22:56:28,470 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:56:28,476 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 22:56:28,678 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:56:28,678 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 22:56:28,871 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:56:28,872 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 22:56:28,912 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:56:28,912 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 22:56:28,954 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:56:29,077 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Click on Export CSV button
+2021-10-16 22:56:29,880 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Verify file type downloaded is .csv
+2021-10-16 22:56:29,880 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:56:29,881 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:58:43,341 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 22:58:47,534 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 22:59:27,496 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 22:59:27,629 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:59:27,631 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 22:59:27,743 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:59:27,743 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 22:59:27,849 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:59:27,850 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 22:59:27,876 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:59:27,876 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 22:59:27,910 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:59:27,914 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Click on Export CSV button
+2021-10-16 22:59:28,746 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Verify file type downloaded is .csv
+2021-10-16 22:59:28,747 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:59:28,747 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:59:28,750 INFO  TestCase.ManageProduct - TC06_Verify_ExportExcel_Function: Click on Export Excel button
+2021-10-16 22:59:29,594 INFO  TestCase.ManageProduct - TC06_Verify_ExportExcel_Function: Verify file type downloaded is .xls
+2021-10-16 22:59:29,595 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 22:59:29,596 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:00:07,331 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 23:00:12,713 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 23:00:53,509 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 23:00:53,556 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:00:53,560 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 23:00:53,724 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:00:53,725 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 23:00:53,893 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:00:53,894 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 23:00:53,921 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:00:53,922 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 23:00:53,955 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:00:53,960 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Click on Export CSV button
+2021-10-16 23:00:54,711 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Verify file type downloaded is .csv
+2021-10-16 23:00:54,712 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:00:54,713 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:00:54,715 INFO  TestCase.ManageProduct - TC06_Verify_ExportExcel_Function: Click on Export Excel button
+2021-10-16 23:00:55,572 INFO  TestCase.ManageProduct - TC06_Verify_ExportExcel_Function: Verify file type downloaded is .xlsx
+2021-10-16 23:00:55,572 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:00:55,572 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:03:47,244 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 23:03:56,119 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 23:04:49,400 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 23:04:49,451 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:04:49,553 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 23:04:49,728 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:04:49,729 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 23:04:49,895 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:04:49,896 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 23:04:49,926 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:04:49,927 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 23:04:49,958 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:04:49,963 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Click on Export CSV button
+2021-10-16 23:04:50,689 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Verify file type downloaded is .csv
+2021-10-16 23:04:50,690 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:04:50,691 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:04:50,696 INFO  TestCase.ManageProduct - TC06_Verify_ExportExcel_Function: Click on Export Excel button
+2021-10-16 23:04:51,556 INFO  TestCase.ManageProduct - TC06_Verify_ExportExcel_Function: Verify file type downloaded is .xlsx
+2021-10-16 23:04:51,556 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:04:51,557 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:05:32,300 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 23:05:39,603 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 23:06:32,362 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 23:06:32,389 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:06:32,464 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 23:06:32,603 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:06:32,603 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 23:06:32,729 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:06:32,729 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 23:06:32,781 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:06:32,782 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 23:06:32,824 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:06:32,834 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Click on Export CSV button
+2021-10-16 23:06:33,688 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Verify file type downloaded is .csv
+2021-10-16 23:06:33,689 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:06:33,691 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:06:33,695 INFO  TestCase.ManageProduct - TC06_Verify_ExportExcel_Function: Click on Export Excel button
+2021-10-16 23:06:34,594 INFO  TestCase.ManageProduct - TC06_Verify_ExportExcel_Function: Verify file type downloaded is .xlsx
+2021-10-16 23:06:34,594 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:06:34,594 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-16 23:07:43,797 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-16 23:07:52,008 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-16 23:08:44,315 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-16 23:08:44,395 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:08:44,397 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-16 23:08:44,503 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:08:44,503 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-16 23:08:44,618 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:08:44,618 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-16 23:08:44,659 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:08:44,659 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-16 23:08:44,706 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:08:44,712 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Click on Export CSV button
+2021-10-16 23:08:45,541 INFO  TestCase.ManageProduct - TC05_Verify_ExportCSV_Function: Verify file type downloaded is .csv
+2021-10-16 23:08:45,542 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:08:45,543 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:08:45,546 INFO  TestCase.ManageProduct - TC06_Verify_ExportExcel_Function: Click on Export Excel button
+2021-10-16 23:08:46,470 INFO  TestCase.ManageProduct - TC06_Verify_ExportExcel_Function: Verify file type downloaded is .xlsx
+2021-10-16 23:08:46,470 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-16 23:08:46,470 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-17 12:57:23,684 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-17 12:57:26,370 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-17 12:57:57,461 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-17 12:57:57,497 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-17 12:57:57,551 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-17 12:57:57,649 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-17 12:57:57,649 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-17 12:57:57,758 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-17 12:57:57,758 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-17 12:57:57,788 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-17 12:57:57,789 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-17 12:57:57,820 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-17 12:58:34,341 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by name
+2021-10-17 12:59:47,901 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-17 12:59:50,709 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-17 13:00:29,516 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-17 13:00:29,537 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-17 13:00:29,539 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-17 13:00:29,658 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-17 13:00:29,659 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-17 13:00:29,774 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-17 13:00:29,774 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-17 13:00:29,798 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-17 13:00:29,798 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-17 13:00:29,829 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-17 13:01:28,874 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by name
+2021-10-17 13:02:17,708 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product names are sort ASC
+2021-10-17 13:02:17,722 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-17 13:02:17,723 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by name
+2021-10-17 13:03:05,695 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product names are sort DSC
+2021-10-17 13:03:05,726 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-17 13:07:38,029 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-17 13:07:44,840 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-17 13:08:33,132 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-17 13:08:33,163 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-17 13:08:33,219 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-17 13:08:33,317 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-17 13:08:33,317 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-17 13:08:33,408 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-17 13:08:33,408 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-17 13:08:33,426 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-17 13:08:33,426 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-17 13:08:33,457 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-17 13:09:33,500 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by name
+2021-10-17 13:10:03,914 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product names are sort ASC
+2021-10-17 13:10:03,942 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-17 13:10:03,942 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by name
+2021-10-17 13:10:55,573 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product names are sort DSC
+2021-10-17 13:10:55,596 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
