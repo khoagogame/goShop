@@ -2380,3 +2380,215 @@
 2021-10-17 13:10:03,942 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by name
 2021-10-17 13:10:55,573 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product names are sort DSC
 2021-10-17 13:10:55,596 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:15:49,219 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-18 16:15:56,226 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-18 16:16:45,184 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-18 16:16:45,229 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:16:45,232 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-18 16:16:45,393 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:16:45,393 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-18 16:16:45,553 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:16:45,553 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-18 16:16:45,579 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:16:45,579 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-18 16:16:45,610 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:17:44,628 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by name
+2021-10-18 16:18:31,620 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product names are sort ASC
+2021-10-18 16:18:31,683 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:18:36,190 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-18 16:18:36,192 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by name
+2021-10-18 16:19:32,128 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product names are sort DSC
+2021-10-18 16:30:48,250 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-18 16:30:51,582 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-18 16:31:32,048 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-18 16:31:32,181 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:31:32,184 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-18 16:31:32,345 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:31:32,345 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-18 16:31:32,492 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:31:32,492 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-18 16:31:32,525 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:31:32,526 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-18 16:31:32,557 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:32:10,865 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by name
+2021-10-18 16:32:43,431 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product names are sort ASC
+2021-10-18 16:32:43,492 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:32:44,749 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-18 16:33:40,700 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-18 16:33:48,325 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-18 16:34:26,847 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-18 16:34:26,883 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:34:26,886 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-18 16:34:27,051 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:34:27,052 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-18 16:34:27,284 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:34:27,284 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-18 16:34:27,310 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:34:27,310 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-18 16:34:27,342 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:34:54,763 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by name
+2021-10-18 16:35:16,986 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product names are sort ASC
+2021-10-18 16:35:17,043 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:35:18,203 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-18 16:35:50,188 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-18 16:36:00,111 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-18 16:36:49,809 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-18 16:36:49,833 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:36:49,835 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-18 16:36:49,958 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:36:49,958 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-18 16:36:50,135 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:36:50,135 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-18 16:36:50,152 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:36:50,152 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-18 16:36:50,185 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:37:33,556 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by name
+2021-10-18 16:38:08,675 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product names are sort ASC
+2021-10-18 16:38:08,737 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:40:46,822 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-18 16:40:52,018 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-18 16:41:42,805 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-18 16:41:50,108 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-18 16:42:27,970 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-18 16:42:28,017 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:42:28,021 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-18 16:42:28,182 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:42:28,182 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-18 16:42:28,332 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:42:28,332 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-18 16:42:28,368 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:42:28,368 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-18 16:42:28,403 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:43:10,162 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by name
+2021-10-18 16:43:45,027 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product names are sort ASC
+2021-10-18 16:43:45,089 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:45:21,710 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-18 16:48:54,075 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-18 16:49:00,918 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-18 16:49:39,409 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-18 16:49:39,457 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:49:39,460 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-18 16:49:39,619 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:49:39,619 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-18 16:49:39,771 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:49:39,771 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-18 16:49:39,804 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:49:39,804 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-18 16:49:39,834 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:50:22,234 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by name
+2021-10-18 16:50:58,797 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product names are sort ASC
+2021-10-18 16:50:58,845 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 16:52:37,218 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-18 17:08:03,363 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-18 17:08:11,817 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-18 17:08:58,204 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-18 17:08:58,339 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:08:58,343 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-18 17:08:58,517 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:08:58,517 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-18 17:08:58,685 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:08:58,685 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-18 17:08:58,719 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:08:58,720 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-18 17:08:58,763 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:10:01,277 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by name
+2021-10-18 17:10:52,668 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product names are sort ASC
+2021-10-18 17:10:52,717 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:13:02,660 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:28:39,119 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-18 17:28:50,295 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-18 17:29:39,099 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-18 17:29:39,127 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:29:39,130 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-18 17:29:39,269 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:29:39,269 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-18 17:29:39,491 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:29:39,491 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-18 17:29:39,538 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:29:39,539 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-18 17:29:39,585 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:30:16,988 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by name
+2021-10-18 17:30:54,076 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product names are sort ASC
+2021-10-18 17:30:54,140 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:32:26,524 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:32:26,525 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by name
+2021-10-18 17:33:00,840 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product names are sort DSC
+2021-10-18 17:33:00,903 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:34:36,568 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:36:24,534 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-18 17:36:27,460 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-18 17:37:01,408 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-18 17:37:01,441 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:37:01,444 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-18 17:37:01,609 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:37:01,610 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-18 17:37:01,762 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:37:01,763 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-18 17:37:01,795 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:37:01,795 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-18 17:37:01,827 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:37:45,468 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by name
+2021-10-18 17:38:04,206 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product names are sort ASC
+2021-10-18 17:38:04,257 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:39:25,450 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:39:25,451 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by name
+2021-10-18 17:40:02,049 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product names are sort DSC
+2021-10-18 17:40:02,111 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 17:41:39,218 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 18:25:13,818 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-18 18:25:22,041 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-18 18:26:10,517 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-18 18:26:10,560 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 18:26:10,565 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-18 18:26:10,727 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 18:26:10,727 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-18 18:26:10,886 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 18:26:10,886 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-18 18:26:10,929 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 18:26:10,930 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-18 18:26:10,957 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 18:27:08,422 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by price
+2021-10-18 18:31:59,330 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-18 18:32:16,140 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-18 18:32:54,982 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-18 18:32:55,136 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 18:32:55,139 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-18 18:32:55,263 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 18:32:55,263 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-18 18:32:55,411 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 18:32:55,411 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-18 18:32:55,440 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 18:32:55,441 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-18 18:32:55,477 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 18:33:38,142 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by price
+2021-10-18 18:34:18,471 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product price are sort ASC
+2021-10-18 18:35:53,531 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-18 18:35:53,533 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by Price
+2021-10-18 18:36:35,279 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product Price are sort DSC
+2021-10-18 18:38:12,328 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-18 18:38:12,329 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by Status
+2021-10-18 18:38:49,358 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product Status are sort ASC
+2021-10-18 18:40:09,549 INFO  TestCase.ManageProduct - Precondition: Login account
+2021-10-18 18:40:25,213 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Click on Manage Product menu
+2021-10-18 18:41:09,499 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-18 18:41:09,563 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 18:41:09,653 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-18 18:41:09,775 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 18:41:09,776 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-18 18:41:09,910 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 18:41:09,911 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-18 18:41:09,939 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 18:41:09,939 INFO  TestCase.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-18 18:41:09,967 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 18:42:01,609 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by price
+2021-10-18 18:42:58,497 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product price are sort ASC
+2021-10-18 18:44:38,708 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-18 18:44:38,709 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by Price
+2021-10-18 18:45:21,198 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product Price are sort DSC
+2021-10-18 18:46:58,219 INFO  TestCase.ManageProduct -  -------------------------- FAILED -------------------------- 
+2021-10-18 18:46:58,219 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by Status
+2021-10-18 18:47:38,061 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product Status are sort ASC
+2021-10-18 18:49:18,124 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-18 18:49:18,124 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Click on sort by Status
+2021-10-18 18:49:59,338 INFO  TestCase.ManageProduct - TC07_Verify_Sort_Function: Verify product Status are sort DSC
+2021-10-18 18:51:42,161 INFO  TestCase.ManageProduct -  -------------------------- PASSED -------------------------- 

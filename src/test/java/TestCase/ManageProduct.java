@@ -5,7 +5,6 @@ import Commons.GlobalConstant;
 import PageObject.DashboardPageObject;
 import PageObject.LoginPageObject;
 import PageObject.ProductPageObject;
-import PageUI.ProductPageUI;
 import org.openqa.selenium.WebDriver;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
@@ -51,7 +50,7 @@ public class ManageProduct extends AbstractTest {
 
     }
 
-//    @Test
+    //    @Test
     public void TC02_Verify_Show_Entries_Dropdown_Work_Correctly() {
         log.info("TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 25 items per page");
         productPage.selectValueInShowEntryDropdown("25");
@@ -100,7 +99,7 @@ public class ManageProduct extends AbstractTest {
 
     }
 
-//    @Test
+    //    @Test
     public void TC03_Verify_Country_Dropdown_Work_Correctly() {
         log.info("TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam");
         productPage.selectValueInCountryDropdown("Viet Nam");
@@ -146,7 +145,7 @@ public class ManageProduct extends AbstractTest {
 
     }
 
-//    @Test
+    //    @Test
     public void TC04_Verify_Search_Function() {
         String productName = "monster";
         log.info("TC04_Verify_Search_Function: input text and enter");
@@ -174,7 +173,7 @@ public class ManageProduct extends AbstractTest {
         productPage.clearTextInSearch();
     }
 
-//    @Test
+    //    @Test
     public void TC05_Verify_ExportCSV_Function() throws Exception {
         String fileName = "Partner Products   goShop.csv";
         log.info("TC05_Verify_ExportCSV_Function: Click on Export CSV button");
@@ -187,7 +186,7 @@ public class ManageProduct extends AbstractTest {
         deleteAllFileInFolder();
     }
 
-//    @Test
+    //    @Test
     public void TC06_Verify_ExportExcel_Function() throws Exception {
         log.info("TC06_Verify_ExportExcel_Function: Click on Export Excel button");
         productPage.clickOnExportExcelButton();
@@ -204,51 +203,51 @@ public class ManageProduct extends AbstractTest {
         //Change country = England
         productPage.selectValueInCountryDropdown("England");
 
-        //Sort by product name
-        log.info("TC07_Verify_Sort_Function: Click on sort by name");
-        productPage.clickOnColumnNameToSort(driver,"Name");
+//        //Sort by product name
+//        log.info("TC07_Verify_Sort_Function: Click on sort by name");
+//        productPage.clickOnColumnNameToSort(driver,"Name");
+//
+//        log.info("TC07_Verify_Sort_Function: Verify product names are sort ASC");
+//        verifyTrue(productPage.getClassValue( "Name").contains("asc"));
+//        verifyTrue(productPage.AreValueByColumnNameSortASC("Name"));
+//
+//
+//        log.info("TC07_Verify_Sort_Function: Click on sort by name");
+//        productPage.clickOnColumnNameToSort(driver,"Name");
+//
+//        log.info("TC07_Verify_Sort_Function: Verify product names are sort DSC");
+//        verifyTrue(productPage.getClassValue("Name").contains("desc"));
+//
+//        verifyTrue(productPage.AreValueByColumnNameSortDESC("Name"));
 
-        log.info("TC07_Verify_Sort_Function: Verify product names are sort ASC");
-        verifyTrue(productPage.getClassValue( "Name").contains("asc"));
-//        verifyTrue(productPage.isItemSortASC("Name"));
+        //Sort by product Price
+        log.info("TC07_Verify_Sort_Function: Click on sort by price");
+        productPage.clickOnColumnNameToSort(driver, "Price");
+
+        log.info("TC07_Verify_Sort_Function: Verify product price are sort ASC");
+        verifyTrue(productPage.AreValueByColumnNameSortASC("Price"));
 
 
-        log.info("TC07_Verify_Sort_Function: Click on sort by name");
-        productPage.clickOnColumnNameToSort(driver,"Name");
+        log.info("TC07_Verify_Sort_Function: Click on sort by Price");
+        productPage.clickOnColumnNameToSort(driver, "Price");
 
-        log.info("TC07_Verify_Sort_Function: Verify product names are sort DSC");
-        verifyTrue(productPage.getClassValue("Name").contains("desc"));
+        log.info("TC07_Verify_Sort_Function: Verify product Price are sort DSC");
+        verifyTrue(productPage.AreValueByColumnNameSortDESC("Price"));
 
-//        verifyTrue(productPage.isItemSortASC("Name"));
-//
-//        //Sort by product Price
-//        log.info("TC07_Verify_Sort_Function: Click on sort by price");
-//        productPage.clickOnSortButtonByColumnName("price");
-//
-//        log.info("TC07_Verify_Sort_Function: Verify product price are sort ASC");
-//        verifyTrue(productPage.isItemSortASC("Price"));
-//
-//
-//        log.info("TC07_Verify_Sort_Function: Click on sort by Price");
-//        productPage.clickOnSortButtonByColumnName("Price");
-//
-//        log.info("TC07_Verify_Sort_Function: Verify product Price are sort DSC");
-//        verifyTrue(productPage.isItemSortDSC("Price"));
-//
-////Sort by product Status
-//        log.info("TC07_Verify_Sort_Function: Click on sort by Status");
-//        productPage.clickOnSortButtonByColumnName("Status");
-//
-//        log.info("TC07_Verify_Sort_Function: Verify product Status are sort ASC");
-//        verifyTrue(productPage.isItemSortASC("Status"));
-//
-//
-//        log.info("TC07_Verify_Sort_Function: Click on sort by Status");
-//        productPage.clickOnSortButtonByColumnName("Status");
-//
-//        log.info("TC07_Verify_Sort_Function: Verify product Status are sort DSC");
-//        verifyTrue(productPage.isItemSortDSC("Status"));
-//
+//Sort by product Status
+        log.info("TC07_Verify_Sort_Function: Click on sort by Status");
+        productPage.clickOnColumnNameToSort(driver, "Status");
+
+        log.info("TC07_Verify_Sort_Function: Verify product Status are sort ASC");
+        verifyTrue(productPage.AreValueByColumnNameSortASC("Status"));
+
+
+        log.info("TC07_Verify_Sort_Function: Click on sort by Status");
+        productPage.clickOnColumnNameToSort(driver,"Status");
+
+        log.info("TC07_Verify_Sort_Function: Verify product Status are sort DSC");
+        verifyTrue(productPage.AreValueByColumnNameSortDESC("Status"));
+
 //        //Sort by Updated at
 //        log.info("TC07_Verify_Sort_Function: Click on sort by Updated at");
 //        productPage.clickOnSortButtonByColumnName("Updated at");

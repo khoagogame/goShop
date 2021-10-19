@@ -122,6 +122,15 @@ public class ProductPageObject extends AbstractPage {
         return getAttributeValue(driver,ProductPageUI.COLUMN_NAME,"class",columnName);
     }
 
+    public boolean AreValueByColumnNameSortASC(String columnName) {
+        return areAllValuesSortASC(driver,columnName);
+    }
+
+    public boolean AreValueByColumnNameSortDESC(String columnName) {
+        return areAllValuesSortDESC(driver,columnName);
+    }
+
+
 
     //==============================DOWNLOAD FILE==========================================
 
@@ -171,6 +180,7 @@ public class ProductPageObject extends AbstractPage {
         }
         return status;
     }
+
 
 
 

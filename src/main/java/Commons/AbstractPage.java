@@ -55,6 +55,9 @@ public abstract class AbstractPage {
     public WebElement findElement(WebDriver driver, String locator) {
         return driver.findElement(xpath(locator));
     }
+    public WebElement findElement(WebDriver driver, String locator, String...values) {
+        return driver.findElement(xpath(castToObject(locator,values)));
+    }
 
 
     public List<WebElement> findElements(WebDriver driver, String locator) {
@@ -249,25 +252,50 @@ public abstract class AbstractPage {
     }
 
 
-    public boolean areAllValuesSortASC (WebDriver driver, String locator, String columnName){
-        ArrayList<String> allOriginalValue = new ArrayList<>();
-        List<WebElement> nameList = findElements(driver,locator, columnName);
-        List<WebElement> totalPage = findElements(driver,AbstractPageUI.TOTAL_PAGES);
-
-        for (WebElement page : totalPage) {
-            page.click();
-            sleepInSecond(4);
+    public boolean areAllValuesSortASC (WebDriver driver, String columnName){
+        ArrayList<String> allValue = new ArrayList<>();
+        int index = findElements(driver,ProductPageUI.COLUMN_INDEX_BY_NAME,columnName).size()+1;
+//        List<WebElement> totalPage = findElements(driver,AbstractPageUI.TOTAL_PAGES);
+        int totalPage = Integer.valueOf(findElement(driver,AbstractPageUI.TOTAL_PAGES).getText());
+        for (int i =1; i< totalPage+1; i++){
+            findElement(driver,AbstractPageUI.PAGE_NUMBER, String.valueOf(i)).click();
+            waitForProcessBarDisappear(driver);
             {
-//                List<WebElement> orderDateList = findElements(driver, DashboardPageUI.VALUE_BY_COLUMN_INDEX, String.valueOf(columnIndex));
-                for (WebElement a : nameList) {
-                    String[] item = a.getText().split(",");
-                    allOriginalValue.add(item[0]);
+                List<WebElement> valueByColumnName = findElements(driver,ProductPageUI.COLUMN_VALUE_BY_INDEX, String.valueOf(index));
+                for (WebElement a : valueByColumnName) {
+                    allValue.add(a.getText());
                 }
             }
         }
-        System.out.println(allOriginalValue);
 
-        ArrayList<String> sortASCItems = Collections.sort(allOriginalValue);
+        ArrayList<String> sortASCItems = (ArrayList<String>) allValue.clone();
+        Collections.sort(sortASCItems, String.CASE_INSENSITIVE_ORDER);
+        return sortASCItems.equals(allValue);
+    }
+
+    public boolean areAllValuesSortDESC (WebDriver driver, String columnName){
+        ArrayList<String> allValue = new ArrayList<>();
+        int index = findElements(driver,ProductPageUI.COLUMN_INDEX_BY_NAME,columnName).size()+1;
+//        List<WebElement> totalPage = findElements(driver,AbstractPageUI.TOTAL_PAGES);
+        int totalPage = Integer.valueOf(findElement(driver,AbstractPageUI.TOTAL_PAGES).getText());
+        for (int i =1; i< totalPage+1; i++){
+            findElement(driver,AbstractPageUI.PAGE_NUMBER, String.valueOf(i)).click();
+            waitForProcessBarDisappear(driver);
+            {
+                List<WebElement> valueByColumnName = findElements(driver,ProductPageUI.COLUMN_VALUE_BY_INDEX, String.valueOf(index));
+                for (WebElement a : valueByColumnName) {
+//                    String[] item = a.getText().split("SKU");
+                    allValue.add(a.getText());
+                }
+            }
+        }
+        System.out.println(allValue);
+
+        ArrayList<String> sortDESCItems = (ArrayList<String>) allValue.clone();
+        Collections.sort(sortDESCItems, String.CASE_INSENSITIVE_ORDER);
+        Collections.reverse(sortDESCItems);
+        System.out.println(sortDESCItems);
+        return sortDESCItems.equals(allValue);
     }
 }
 
