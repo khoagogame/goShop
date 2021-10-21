@@ -14,8 +14,9 @@
 
     <test name="Run on CHROME">
         <classes>
-<!--            <class name="TestCase.ProfilePage" />-->
-            <class name="TestCase.ManageProduct" />
+<!--            <class name="PartnerPage.ProfilePage" />-->
+<!--            <class name="PartnerPage.ManageProduct" />-->
+            <class name="PartnerPage.ManageOrder" />
         </classes>
         <parameter name="browser" value="chrome" />
     </test>

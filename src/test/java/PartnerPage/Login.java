@@ -1,12 +1,9 @@
-package TestCase;
+package PartnerPage;
 
 import Commons.AbstractTest;
 import Commons.GlobalConstant;
-import Commons.PageGenerator;
 import PageObject.DashboardPageObject;
 import PageObject.LoginPageObject;
-import PageUI.LoginPageUI;
-import org.apache.commons.logging.Log;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
 import org.testng.annotations.BeforeClass;

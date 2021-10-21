@@ -114,7 +114,7 @@ public abstract class AbstractTest extends AbstractPage{
 // ==============================================================================================================
 
     public void deleteAllFileInFolder() {
-        System.out.println("start delete ");
+        System.out.println("Start Delete All Files In Download Folder");
         try {
             String downloadFile = GlobalConstant.DOWNLOAD_FOLDER;
             File file = new File(downloadFile);

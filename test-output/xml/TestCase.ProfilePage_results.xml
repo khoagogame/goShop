@@ -8,11 +8,11 @@
   <properties />
   
   
-            <testcase name="TC03_Verify_Password_Can_Be_Change_Successfully" time="14.462" classname="TestCase.ProfilePage" />
-                <testcase name="TC04_Verify_Partner_Profile_HyperLink_Is_Clickable" time="3.736" classname="TestCase.ProfilePage" />
-                <testcase name="TC01_Verify_Profile_Page_Is_Opened" time="3.295" classname="TestCase.ProfilePage" />
-                <testcase name="TC02_Verify_Password_Format_Requirements" time="46.368" classname="TestCase.ProfilePage" />
-                <testcase name="TC05_Verify_Edit_Partner_Fields_Requirement" time="15.598" classname="TestCase.ProfilePage" />
-                <testcase name="TC06_Verify_Edit_Partner_Successfully" time="7.266" classname="TestCase.ProfilePage" />
+            <testcase name="TC03_Verify_Password_Can_Be_Change_Successfully" time="14.462" classname="PartnerPage.ProfilePage" />
+                <testcase name="TC04_Verify_Partner_Profile_HyperLink_Is_Clickable" time="3.736" classname="PartnerPage.ProfilePage" />
+                <testcase name="TC01_Verify_Profile_Page_Is_Opened" time="3.295" classname="PartnerPage.ProfilePage" />
+                <testcase name="TC02_Verify_Password_Format_Requirements" time="46.368" classname="PartnerPage.ProfilePage" />
+                <testcase name="TC05_Verify_Edit_Partner_Fields_Requirement" time="15.598" classname="PartnerPage.ProfilePage" />
+                <testcase name="TC06_Verify_Edit_Partner_Successfully" time="7.266" classname="PartnerPage.ProfilePage" />
       
 </testsuite>

@@ -1,9 +1,6 @@
 package Commons;
 
-import PageObject.DashboardPageObject;
-import PageObject.LoginPageObject;
-import PageObject.ProductPageObject;
-import PageObject.ProfilePageObject;
+import PageObject.*;
 import org.openqa.selenium.WebDriver;
 
 public class PageGenerator {
@@ -20,5 +17,8 @@ public class PageGenerator {
     }
     public static ProductPageObject getProductPage(WebDriver driver){
         return new ProductPageObject(driver);
+    }
+    public static OrderPageObject getOrderPage(WebDriver driver){
+        return new OrderPageObject(driver);
     }
 }

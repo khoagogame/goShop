@@ -1,4 +1,4 @@
-package TestCase;
+package PartnerPage;
 
 import Commons.AbstractTest;
 import Commons.GlobalConstant;

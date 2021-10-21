@@ -1,21 +1,24 @@
 package Commons;
 
 import PageObject.LoginPageObject;
+import PageObject.OrderPageObject;
 import PageObject.ProductPageObject;
 import PageObject.ProfilePageObject;
 import PageUI.AbstractPageUI;
 import PageUI.DashboardPageUI;
 import PageUI.ProductPageUI;
-import org.openqa.selenium.By;
-import org.openqa.selenium.JavascriptExecutor;
-import org.openqa.selenium.WebDriver;
-import org.openqa.selenium.WebElement;
+import org.openqa.selenium.*;
 import org.openqa.selenium.interactions.Actions;
 import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
+import javax.swing.*;
+import java.awt.*;
+import java.text.ParseException;
+import java.text.SimpleDateFormat;
 import java.util.*;
+import java.util.List;
 
 public abstract class AbstractPage {
     WebDriverWait explicitWait;
@@ -160,6 +163,48 @@ public abstract class AbstractPage {
        return findElement(driver,castToObject(locator, values)).getAttribute(attributeName);
     }
 
+    public void switchToBrowserTab(WebDriver driver){
+        String mainTab = driver.getWindowHandle();
+        Set<String> allTabs = driver.getWindowHandles();
+        for (String tab: allTabs){
+            if(!tab.equals(mainTab)){
+                driver.switchTo().window(tab);
+                break;
+            }
+        }
+    }
+
+    public void closeCurrentTabAndSwitchBackToMainTab(WebDriver driver){
+        Set<String> allTabs = driver.getWindowHandles();
+        List<String> list = new ArrayList<>(allTabs);
+        driver.switchTo().window(list.get(1)).close();
+        driver.switchTo().window(list.get(0));
+    }
+
+    public void openLinkInNewTab(WebElement element){
+        element.sendKeys(Keys.chord(Keys.CONTROL,Keys.RETURN));
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -230,6 +275,12 @@ public abstract class AbstractPage {
         return PageGenerator.getProductPage(driver);
 
     }
+    public OrderPageObject clickOnManageOrderMenu(WebDriver driver){
+        clickToElement(driver,AbstractPageUI.LEFT_MENU_BY_NAME,"Manage Orders");
+        waitForProcessBarDisappear(driver);
+        return PageGenerator.getOrderPage(driver);
+
+    }
 
     public void waitForProcessBarDisappear(WebDriver driver){
         waitForElementUndisplay(driver, AbstractPageUI.PROCESSING_LOADING);
@@ -252,16 +303,16 @@ public abstract class AbstractPage {
     }
 
 
-    public boolean areAllValuesSortASC (WebDriver driver, String columnName){
+    public boolean sortStringASC(WebDriver driver, String columnName){
         ArrayList<String> allValue = new ArrayList<>();
-        int index = findElements(driver,ProductPageUI.COLUMN_INDEX_BY_NAME,columnName).size()+1;
+        int index = findElements(driver,AbstractPageUI.COLUMN_INDEX_BY_NAME,columnName).size()+1;
 //        List<WebElement> totalPage = findElements(driver,AbstractPageUI.TOTAL_PAGES);
         int totalPage = Integer.valueOf(findElement(driver,AbstractPageUI.TOTAL_PAGES).getText());
         for (int i =1; i< totalPage+1; i++){
             findElement(driver,AbstractPageUI.PAGE_NUMBER, String.valueOf(i)).click();
             waitForProcessBarDisappear(driver);
             {
-                List<WebElement> valueByColumnName = findElements(driver,ProductPageUI.COLUMN_VALUE_BY_INDEX, String.valueOf(index));
+                List<WebElement> valueByColumnName = findElements(driver,AbstractPageUI.COLUMN_VALUE_BY_INDEX, String.valueOf(index));
                 for (WebElement a : valueByColumnName) {
                     allValue.add(a.getText());
                 }
@@ -273,16 +324,16 @@ public abstract class AbstractPage {
         return sortASCItems.equals(allValue);
     }
 
-    public boolean areAllValuesSortDESC (WebDriver driver, String columnName){
+    public boolean sortStringDESC(WebDriver driver, String columnName){
         ArrayList<String> allValue = new ArrayList<>();
-        int index = findElements(driver,ProductPageUI.COLUMN_INDEX_BY_NAME,columnName).size()+1;
+        int index = findElements(driver,AbstractPageUI.COLUMN_INDEX_BY_NAME,columnName).size()+1;
 //        List<WebElement> totalPage = findElements(driver,AbstractPageUI.TOTAL_PAGES);
         int totalPage = Integer.valueOf(findElement(driver,AbstractPageUI.TOTAL_PAGES).getText());
         for (int i =1; i< totalPage+1; i++){
             findElement(driver,AbstractPageUI.PAGE_NUMBER, String.valueOf(i)).click();
             waitForProcessBarDisappear(driver);
             {
-                List<WebElement> valueByColumnName = findElements(driver,ProductPageUI.COLUMN_VALUE_BY_INDEX, String.valueOf(index));
+                List<WebElement> valueByColumnName = findElements(driver,AbstractPageUI.COLUMN_VALUE_BY_INDEX, String.valueOf(index));
                 for (WebElement a : valueByColumnName) {
 //                    String[] item = a.getText().split("SKU");
                     allValue.add(a.getText());
@@ -290,12 +341,109 @@ public abstract class AbstractPage {
             }
         }
         System.out.println(allValue);
-
         ArrayList<String> sortDESCItems = (ArrayList<String>) allValue.clone();
         Collections.sort(sortDESCItems, String.CASE_INSENSITIVE_ORDER);
         Collections.reverse(sortDESCItems);
         System.out.println(sortDESCItems);
         return sortDESCItems.equals(allValue);
+    }
+
+    public boolean sortIntASC(WebDriver driver, String columnName){
+        List<Integer> allValue = new ArrayList<>();
+        int index = findElements(driver,AbstractPageUI.COLUMN_INDEX_BY_NAME,columnName).size()+1;
+        int totalPage = Integer.valueOf(findElement(driver,AbstractPageUI.TOTAL_PAGES).getText());
+        for (int i =1; i< totalPage+1; i++){
+            findElement(driver,AbstractPageUI.PAGE_NUMBER, String.valueOf(i)).click();
+            waitForProcessBarDisappear(driver);
+            {
+                List<WebElement> valueByColumnName = findElements(driver,AbstractPageUI.COLUMN_VALUE_BY_INDEX, String.valueOf(index));
+                for (WebElement a : valueByColumnName) {
+                    allValue.add(Integer.valueOf(a.getText().replaceAll("[^\\d.]", "").replaceAll(",","").replaceAll("[.]","")));
+                }
+            }
+        }
+        System.out.println(allValue);
+        List<Integer> sortASCItems = new ArrayList<Integer>(allValue);
+        Collections.sort(sortASCItems);
+        System.out.println(sortASCItems);
+        return sortASCItems.equals(allValue);
+    }
+
+    public boolean sortIntDESC(WebDriver driver, String columnName){
+        List<Integer> allValue = new ArrayList<>();
+        int index = findElements(driver,AbstractPageUI.COLUMN_INDEX_BY_NAME,columnName).size()+1;
+        int totalPage = Integer.valueOf(findElement(driver,AbstractPageUI.TOTAL_PAGES).getText());
+        for (int i =1; i< totalPage+1; i++){
+            findElement(driver,AbstractPageUI.PAGE_NUMBER, String.valueOf(i)).click();
+            waitForProcessBarDisappear(driver);
+            {
+                List<WebElement> valueByColumnName = findElements(driver,AbstractPageUI.COLUMN_VALUE_BY_INDEX, String.valueOf(index));
+                for (WebElement a : valueByColumnName) {
+                    allValue.add(Integer.valueOf(a.getText().replaceAll("[^\\d.]", "").replaceAll(",","").replaceAll("[.]","")));
+                }
+            }
+        }
+        System.out.println(allValue);
+        List<Integer> sortDESCItems = new ArrayList<Integer>(allValue);
+        Collections.sort(sortDESCItems);
+        Collections.reverse(sortDESCItems);
+        System.out.println(sortDESCItems);
+        return sortDESCItems.equals(allValue);
+    }
+
+    public static Date convertStringToDate(String dateInString) {
+        dateInString = dateInString.replaceAll(",", "");
+        SimpleDateFormat formatter = new SimpleDateFormat("MMM dd yyyy");
+        Date date = null;
+        try {
+            date = formatter.parse(dateInString);
+        } catch (ParseException e) {
+            e.printStackTrace();
+        }
+        return date;
+    }
+
+    public boolean AreDateSortASC(WebDriver driver, String columnName){
+        ArrayList<Date> listOfDates = new ArrayList<>();
+        int index = findElements(driver,AbstractPageUI.COLUMN_INDEX_BY_NAME,columnName).size()+1;
+        int totalPage = Integer.valueOf(findElement(driver,AbstractPageUI.TOTAL_PAGES).getText());
+        for (int i =1; i< totalPage+1; i++){
+            findElement(driver,AbstractPageUI.PAGE_NUMBER, String.valueOf(i)).click();
+            waitForProcessBarDisappear(driver);
+            {
+                List<WebElement> valueByColumnName = findElements(driver,AbstractPageUI.COLUMN_VALUE_BY_INDEX, String.valueOf(index));
+                for (WebElement a : valueByColumnName) {
+                    listOfDates.add(convertStringToDate(a.getText().replaceAll(",","")));
+                }
+            }
+        }
+        System.out.println(listOfDates);
+        ArrayList<Date> listSortedDates = new ArrayList<Date>(listOfDates);
+        Collections.sort(listSortedDates);
+        System.out.println(listSortedDates);
+        return listSortedDates.equals(listOfDates);
+    }
+
+    public boolean AreDateSortDESC(WebDriver driver, String columnName){
+        ArrayList<Date> listOfDates = new ArrayList<>();
+        int index = findElements(driver,AbstractPageUI.COLUMN_INDEX_BY_NAME,columnName).size()+1;
+        int totalPage = Integer.valueOf(findElement(driver,AbstractPageUI.TOTAL_PAGES).getText());
+        for (int i =1; i< totalPage+1; i++){
+            findElement(driver,AbstractPageUI.PAGE_NUMBER, String.valueOf(i)).click();
+            waitForProcessBarDisappear(driver);
+            {
+                List<WebElement> valueByColumnName = findElements(driver,AbstractPageUI.COLUMN_VALUE_BY_INDEX, String.valueOf(index));
+                for (WebElement a : valueByColumnName) {
+                    listOfDates.add(convertStringToDate(a.getText().replaceAll(",","")));
+                }
+            }
+        }
+        System.out.println(listOfDates);
+        ArrayList<Date> listSortedDates = new ArrayList<Date>(listOfDates);
+        Collections.sort(listSortedDates);
+        Collections.reverse(listSortedDates);
+        System.out.println(listSortedDates);
+        return listSortedDates.equals(listOfDates);
     }
 }
 

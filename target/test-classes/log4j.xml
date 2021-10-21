@@ -37,7 +37,7 @@
         </layout>
     </appender>
 
-    <category name="TestCase">
+    <category name="PartnerPage">
         <priority value="all"/>
         <appender-ref ref="console"/>
         <appender-ref ref="logfile"/>

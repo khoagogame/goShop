@@ -8,5 +8,8 @@ public class AbstractPageUI {
     public static final String PROCESSING_LOADING = "//div[@id='product-table_processing' and @style='display: block;']";
     public static final String TOTAL_PAGES = "//ul[@class='pagination']/li[position() = (last() - 1)]";
     public static final String PAGE_NUMBER= "//li/a[text()='%s']";
+    public static final String COLUMN_INDEX_BY_NAME = "//th[text()='%s']/preceding-sibling::th";
+    public static final String COLUMN_VALUE_BY_INDEX = "//td[%s]";
+    public static final String TOTAL_PRODUCT_IN_PAGE = "//tbody/tr";
 
 }

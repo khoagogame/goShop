@@ -2,14 +2,13 @@ package PageObject;
 
 import Commons.AbstractPage;
 import Commons.GlobalConstant;
+import PageUI.AbstractPageUI;
 import PageUI.ProductPageUI;
-import jdk.nashorn.internal.objects.Global;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
 import java.io.File;
-import java.lang.reflect.Array;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -42,7 +41,7 @@ public class ProductPageObject extends AbstractPage {
     }
 
     public int countTotalProductInPage() {
-        return countElement(driver, ProductPageUI.TOTAL_PRODUCT_IN_PAGE);
+        return countElement(driver, AbstractPageUI.TOTAL_PRODUCT_IN_PAGE);
     }
 
     public void selectValueInCountryDropdown(String countryName) {
@@ -53,8 +52,8 @@ public class ProductPageObject extends AbstractPage {
     public boolean isPriceHasCurrency(String currency) {
         boolean status = true;
         ArrayList<String> priceList = new ArrayList<>();
-        int index = findElements(driver, ProductPageUI.COLUMN_INDEX_BY_NAME, "Price").size() + 1;
-        List<WebElement> productPriceTotalItems = findElements(driver, ProductPageUI.COLUMN_VALUE_BY_INDEX, String.valueOf(index));
+        int index = findElements(driver, AbstractPageUI.COLUMN_INDEX_BY_NAME, "Price").size() + 1;
+        List<WebElement> productPriceTotalItems = findElements(driver, AbstractPageUI.COLUMN_VALUE_BY_INDEX, String.valueOf(index));
         for (WebElement e : productPriceTotalItems) {
             priceList.add(e.getText());
         }
@@ -89,8 +88,8 @@ public class ProductPageObject extends AbstractPage {
 
     public ArrayList<String> getAllValueByColumnName(String columnName) {
         ArrayList<String> allItemValue = new ArrayList<>();
-        int index = findElements(driver, ProductPageUI.COLUMN_INDEX_BY_NAME, columnName).size() + 1;
-        List<WebElement> allItemsByColumnName = findElements(driver, ProductPageUI.COLUMN_VALUE_BY_INDEX, String.valueOf(index));
+        int index = findElements(driver, AbstractPageUI.COLUMN_INDEX_BY_NAME, columnName).size() + 1;
+        List<WebElement> allItemsByColumnName = findElements(driver, AbstractPageUI.COLUMN_VALUE_BY_INDEX, String.valueOf(index));
         for (WebElement e : allItemsByColumnName) {
             allItemValue.add(e.getText());
         }
@@ -123,14 +122,19 @@ public class ProductPageObject extends AbstractPage {
     }
 
     public boolean AreValueByColumnNameSortASC(String columnName) {
-        return areAllValuesSortASC(driver,columnName);
+        return sortStringASC(driver,columnName);
     }
 
     public boolean AreValueByColumnNameSortDESC(String columnName) {
-        return areAllValuesSortDESC(driver,columnName);
+        return sortStringDESC(driver,columnName);
     }
 
-
+    public boolean AreIntegerByColumnNameSortASC(String columnName) {
+        return sortIntASC(driver,columnName);
+    }
+    public boolean AreIntegerByColumnNameSortDESC(String columnName) {
+        return sortIntDESC(driver,columnName);
+    }
 
     //==============================DOWNLOAD FILE==========================================
 
@@ -181,7 +185,27 @@ public class ProductPageObject extends AbstractPage {
         return status;
     }
 
+    public boolean isDateSortASC(String columnName) {
+        return AreDateSortASC(driver, columnName);
+    }
+    public boolean isDateSortDESC(String columnName) {
+        return AreDateSortDESC(driver, columnName);
+    }
 
+    public int getTotalItemInBottomText() {
+        String [] cutText = getElementText(driver,ProductPageUI.TOTAL_PRODUCT_IN_BOTTOM_TEXT).split("of | entries");
+        System.out.println(Integer.valueOf(cutText[1].replaceAll(",","")));
+        return Integer.valueOf(cutText[1].replaceAll(",",""));
+    }
+
+    public int countTotalItems() {
+        int totalPage = Integer.valueOf(findElement(driver, AbstractPageUI.TOTAL_PAGES).getText());
+        clickToElement(driver,AbstractPageUI.TOTAL_PAGES);
+        waitForProcessBarDisappear(driver);
+        int totalProductInlastPage = countElement(driver,AbstractPageUI.TOTAL_PRODUCT_IN_PAGE);
+        System.out.println((totalPage - 1)*10 + totalProductInlastPage);
+        return (totalPage - 1)*10 + totalProductInlastPage;
+    }
 
 
 //==============================================================================================

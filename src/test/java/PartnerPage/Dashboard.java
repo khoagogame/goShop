@@ -1,4 +1,4 @@
-package TestCase;
+package PartnerPage;
 
 import Commons.AbstractTest;
 import Commons.GlobalConstant;
@@ -13,8 +13,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import javax.swing.*;
-import java.sql.Array;
 import java.util.*;
 
 public class Dashboard extends AbstractTest {
