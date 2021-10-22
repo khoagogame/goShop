@@ -41,7 +41,7 @@ public class ProductPageObject extends AbstractPage {
     }
 
     public int countTotalProductInPage() {
-        return countElement(driver, AbstractPageUI.TOTAL_PRODUCT_IN_PAGE);
+        return countElement(driver, AbstractPageUI.TOTAL_ITEMS_IN_PAGE);
     }
 
     public void selectValueInCountryDropdown(String countryName) {
@@ -107,14 +107,22 @@ public class ProductPageObject extends AbstractPage {
         return isElementDisplay(driver, ProductPageUI.PRODUCT_NOT_FOUND_MESSAGE);
     }
 
-    public void clickOnExportCSVButton() throws Exception {
+    public void clickOnExportCSVButton(){
         clickToElement(driver, ProductPageUI.EXPORT_CSV_BUTTON);
-        waitForDownloadFileFullnameCompleted();
+        try {
+            waitForDownloadFileFullnameCompleted();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
-    public void clickOnExportExcelButton() throws Exception {
+    public void clickOnExportExcelButton(){
         clickToElement(driver, ProductPageUI.EXPORT_EXCEL_BUTTON);
-        waitForDownloadFileFullnameCompleted();
+        try {
+            waitForDownloadFileFullnameCompleted();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
     }
 
     public String getClassValue(String columnName){
@@ -202,7 +210,7 @@ public class ProductPageObject extends AbstractPage {
         int totalPage = Integer.valueOf(findElement(driver, AbstractPageUI.TOTAL_PAGES).getText());
         clickToElement(driver,AbstractPageUI.TOTAL_PAGES);
         waitForProcessBarDisappear(driver);
-        int totalProductInlastPage = countElement(driver,AbstractPageUI.TOTAL_PRODUCT_IN_PAGE);
+        int totalProductInlastPage = countElement(driver,AbstractPageUI.TOTAL_ITEMS_IN_PAGE);
         System.out.println((totalPage - 1)*10 + totalProductInlastPage);
         return (totalPage - 1)*10 + totalProductInlastPage;
     }

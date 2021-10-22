@@ -9,6 +9,7 @@ import PageUI.DashboardPageUI;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 import org.openqa.selenium.interactions.Actions;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -103,5 +104,10 @@ public class Dashboard extends AbstractTest {
             verifyTrue(tooltipText.contains(totalOrderInOrderManageByDate));
 
         }
+    }
+
+    @AfterClass
+    public void AfterClass(){
+        closeBrowserAndDriver(driver);
     }
 }

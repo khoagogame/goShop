@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite name="Run on CHROME"
+           tests="1"
+           failures="0"
+           errors="0"
+           skipped="0"
+           time="5.557">
+  <properties />
+  
+  
+            <testcase name="TC11_Verify_Search_Function" time="5.557" classname="PartnerPage.Manage_API_Key" />
+      
+</testsuite>

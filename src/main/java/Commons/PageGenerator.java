@@ -21,4 +21,7 @@ public class PageGenerator {
     public static OrderPageObject getOrderPage(WebDriver driver){
         return new OrderPageObject(driver);
     }
+    public static APIKeyPageObject getApiKeyPage(WebDriver driver){
+        return new APIKeyPageObject(driver);
+    }
 }

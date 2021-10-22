@@ -6,6 +6,7 @@ import PageObject.DashboardPageObject;
 import PageObject.LoginPageObject;
 import PageObject.ProductPageObject;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -174,7 +175,7 @@ public class ManageProduct extends AbstractTest {
     }
 
     @Test
-    public void TC05_Verify_ExportCSV_Function() throws Exception {
+    public void TC05_Verify_ExportCSV_Function(){
         productPage.reloadPage(driver);
         String fileName = "Partner Products   goShop.csv";
         log.info("TC05_Verify_ExportCSV_Function: Click on Export CSV button");
@@ -188,7 +189,7 @@ public class ManageProduct extends AbstractTest {
     }
 
     @Test
-    public void TC06_Verify_ExportExcel_Function() throws Exception {
+    public void TC06_Verify_ExportExcel_Function() {
         productPage.reloadPage(driver);
         log.info("TC06_Verify_ExportExcel_Function: Click on Export Excel button");
         productPage.clickOnExportExcelButton();
@@ -363,5 +364,8 @@ public class ManageProduct extends AbstractTest {
 
     }
 
-
+    @AfterClass
+    public void AfterClass(){
+        closeBrowserAndDriver(driver);
+    }
 }

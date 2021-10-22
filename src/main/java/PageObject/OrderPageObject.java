@@ -1,6 +1,7 @@
 package PageObject;
 
 import Commons.AbstractPage;
+import Commons.GlobalConstant;
 import PageUI.AbstractPageUI;
 import PageUI.OrderPageUI;
 import PageUI.ProductPageUI;
@@ -8,6 +9,7 @@ import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.io.File;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -78,7 +80,7 @@ public class OrderPageObject extends AbstractPage {
                 for (WebElement e : totalValue) {
                     System.out.println("text = " + e.getText());
 
-                    if (columnName.equals("Order By")| columnName.equals("Product")) {
+                    if (columnName.equals("Order By") | columnName.equals("Product")) {
                         if (!(e.getText().contains(searchKey))) {
                             return false;
                         }
@@ -94,7 +96,7 @@ public class OrderPageObject extends AbstractPage {
             for (WebElement e : elements) {
                 System.out.println(e.getText());
                 System.out.println(columnName.equals("Order By"));
-                if (columnName.equals("Order By")|columnName.equals("Product")) {
+                if (columnName.equals("Order By") | columnName.equals("Product")) {
                     if (!(e.getText().contains(searchKey))) {
                         return false;
                     }
@@ -112,7 +114,7 @@ public class OrderPageObject extends AbstractPage {
         int totalPage = Integer.valueOf(findElement(driver, AbstractPageUI.TOTAL_PAGES).getText());
         clickToElement(driver, AbstractPageUI.TOTAL_PAGES);
         waitForProcessBarDisappear(driver);
-        int totalOrderInlastPage = countElement(driver, AbstractPageUI.TOTAL_PRODUCT_IN_PAGE);
+        int totalOrderInlastPage = countElement(driver, AbstractPageUI.TOTAL_ITEMS_IN_PAGE);
         System.out.println((totalPage - 1) * 10 + totalOrderInlastPage);
         return (totalPage - 1) * 10 + totalOrderInlastPage;
     }
@@ -168,11 +170,11 @@ public class OrderPageObject extends AbstractPage {
 
     public boolean isOrderEMailContains(String email) {
         boolean status = true;
-        List<WebElement> elements = findElements(driver,OrderPageUI.VIEW_DETAILS_BUTTON);
-        for(WebElement e: elements){
+        List<WebElement> elements = findElements(driver, OrderPageUI.VIEW_DETAILS_BUTTON);
+        for (WebElement e : elements) {
             openLinkInNewTab(e);
             switchToBrowserTab(driver);
-            if(!getElementText(driver,OrderPageUI.ORDER_DETAILS_CUSTOMER_INFO_EMAIL).contains(email)){
+            if (!getElementText(driver, OrderPageUI.ORDER_DETAILS_CUSTOMER_INFO_EMAIL).contains(email)) {
                 return false;
             }
             closeCurrentTabAndSwitchBackToMainTab(driver);
@@ -182,15 +184,109 @@ public class OrderPageObject extends AbstractPage {
 
     public boolean isOrderOutletContains(String outletName) {
         boolean status = true;
-        List<WebElement> elements = findElements(driver,OrderPageUI.VIEW_DETAILS_BUTTON);
-        for(WebElement e: elements){
-            openLinkInNewTab(e);
-            switchToBrowserTab(driver);
-            if(!getElementText(driver,OrderPageUI.ORDER_DETAILS_CUSTOMER_INFO_OUTLET).contains(outletName)){
-                return false;
+        int totalPage = Integer.valueOf(getElementText(driver, AbstractPageUI.TOTAL_PAGES));
+        if (totalPage != 1) {
+            for (int i = 1; i < totalPage + 1; i++) {
+                clickToElement(driver, AbstractPageUI.PAGE_NUMBER, String.valueOf(i));
+                waitForProcessBarDisappear(driver);
+                List<WebElement> elements = findElements(driver, OrderPageUI.VIEW_DETAILS_BUTTON);
+                for (WebElement e : elements) {
+                    openLinkInNewTab(e);
+                    switchToBrowserTab(driver);
+                    if (!getElementText(driver, OrderPageUI.ORDER_DETAILS_CUSTOMER_INFO_OUTLET).contains(outletName)) {
+                        return false;
+                    }
+                    closeCurrentTabAndSwitchBackToMainTab(driver);
+                }
             }
-            closeCurrentTabAndSwitchBackToMainTab(driver);
+        }else {
+            List<WebElement> elements = findElements(driver, OrderPageUI.VIEW_DETAILS_BUTTON);
+            for (WebElement e : elements) {
+                openLinkInNewTab(e);
+                switchToBrowserTab(driver);
+                if (!getElementText(driver, OrderPageUI.ORDER_DETAILS_CUSTOMER_INFO_OUTLET).contains(outletName)) {
+                    return false;
+                }
+                closeCurrentTabAndSwitchBackToMainTab(driver);
+            }
         }
         return status;
     }
+
+    public int countFilesInDirectory(String fileExtension) {
+        File file = new File(GlobalConstant.DOWNLOAD_FOLDER);
+        int i = 0;
+        for (File listOfFiles : file.listFiles()) {
+            if (listOfFiles.getName().contains(fileExtension)) {
+                i++;
+            }
+        }
+        return i;
+    }
+
+
+    public boolean isFileExtensionCorrect(String fileExtension){
+        boolean status = true;
+        File file = new File(GlobalConstant.DOWNLOAD_FOLDER);
+        for(File item: file.listFiles()){
+            System.out.println("file name = " +item.getName());
+            if(!item.getName().contains(fileExtension)){
+                return false;
+            }
+        }
+        return status;
+    }
+
+    public void clickToExportCSVButton(){
+        clickToElement(driver,OrderPageUI.EXPORT_CSV_BUTTON);
+        try {
+            waitForDownloadFileFullnameCompleted();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public void waitForDownloadFileFullnameCompleted() throws Exception {
+        int i = 0;
+        while (i < 30) {
+            boolean exist = isFileExists();
+            System.out.println("is file exist :" + exist);
+            if (exist == true) {
+                i = 30;
+            }
+            Thread.sleep(500);
+            i = i + 1;
+        }
+    }
+
+    public boolean isFileExists() {
+        try {
+            File files = new File(GlobalConstant.DOWNLOAD_FOLDER);
+            boolean exists = files.exists();
+            return exists;
+        } catch (Exception e) {
+            System.out.print(e.getMessage());
+            return false;
+        }
+    }
+
+    public void clickOnExportExcelButton() {
+        clickToElement(driver, ProductPageUI.EXPORT_EXCEL_BUTTON);
+        try {
+            waitForDownloadFileFullnameCompleted();
+        } catch (Exception e) {
+            e.printStackTrace();
+        }
+    }
+
+    public int getTotalItemsInPage(int dropdownValue) {
+        int totalItem = countElement(driver,AbstractPageUI.TOTAL_ITEMS_IN_PAGE);
+        if(totalItem < dropdownValue){
+            return dropdownValue;
+        }else if (totalItem > dropdownValue){
+            return totalItem;
+        }
+        return totalItem;
+    }
 }
+

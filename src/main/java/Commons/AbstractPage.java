@@ -1,9 +1,6 @@
 package Commons;
 
-import PageObject.LoginPageObject;
-import PageObject.OrderPageObject;
-import PageObject.ProductPageObject;
-import PageObject.ProfilePageObject;
+import PageObject.*;
 import PageUI.AbstractPageUI;
 import PageUI.DashboardPageUI;
 import PageUI.ProductPageUI;
@@ -13,8 +10,6 @@ import org.openqa.selenium.support.ui.ExpectedConditions;
 import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
-import javax.swing.*;
-import java.awt.*;
 import java.text.ParseException;
 import java.text.SimpleDateFormat;
 import java.util.*;
@@ -38,8 +33,12 @@ public abstract class AbstractPage {
     }
 
     public void waitForElementUndisplay(WebDriver driver, String locator){
-        explicitWait = new WebDriverWait(driver, GlobalConstant.LONG_TIMEOUT);
+        explicitWait = new WebDriverWait(driver, GlobalConstant.SHORT_TIMEOUT);
         explicitWait.until(ExpectedConditions.invisibilityOfElementLocated(xpath(locator)));
+    }
+    public void waitForElementPresence(WebDriver driver, String locator){
+        explicitWait = new WebDriverWait(driver, GlobalConstant.SHORT_TIMEOUT);
+        explicitWait.until(ExpectedConditions.presenceOfElementLocated(xpath(locator)));
     }
 
 
@@ -119,6 +118,14 @@ public abstract class AbstractPage {
 
     public boolean isElementDisplay(WebDriver driver, String locator) {
         List<WebElement> elements = findElements(driver, locator);
+        if (elements.size() > 0) {
+            return true;
+        } else {
+            return false;
+        }
+    }
+    public boolean isElementDisplay(WebDriver driver, String locator,String...values) {
+        List<WebElement> elements = findElements(driver, castToObject(locator,values));
         if (elements.size() > 0) {
             return true;
         } else {
@@ -281,9 +288,19 @@ public abstract class AbstractPage {
         return PageGenerator.getOrderPage(driver);
 
     }
+    public APIKeyPageObject clickOnManageAPIKeyMenu(WebDriver driver){
+        clickToElement(driver,AbstractPageUI.LEFT_MENU_BY_NAME,"Manage API Keys");
+        waitForProcessBarOfAPIKeyPageDisappear(driver);
+        return PageGenerator.getApiKeyPage(driver);
+
+    }
 
     public void waitForProcessBarDisappear(WebDriver driver){
-        waitForElementUndisplay(driver, AbstractPageUI.PROCESSING_LOADING);
+        waitForElementPresence(driver, AbstractPageUI.PRODUCT_PAGE_PROCESSING_LOADING);
+    }
+
+    public void waitForProcessBarOfAPIKeyPageDisappear(WebDriver driver) {
+        waitForElementPresence(driver,AbstractPageUI.API_KEYS_PROCESSING_LOADING);
     }
 
     public void clickOnColumnNameToSort(WebDriver driver, String columnName) {
@@ -302,7 +319,7 @@ public abstract class AbstractPage {
         return allValuesBeforeSortByColumnName;
     }
 
-
+//========================================= SORT ===================================================================
     public boolean sortStringASC(WebDriver driver, String columnName){
         ArrayList<String> allValue = new ArrayList<>();
         int index = findElements(driver,AbstractPageUI.COLUMN_INDEX_BY_NAME,columnName).size()+1;
@@ -444,6 +461,12 @@ public abstract class AbstractPage {
         Collections.reverse(listSortedDates);
         System.out.println(listSortedDates);
         return listSortedDates.equals(listOfDates);
+    }
+//==================================================================================================================
+
+    public DashboardPageObject clickToHomeIcon(WebDriver driver){
+        clickToElement(driver,AbstractPageUI.HOME_ICON);
+        return PageGenerator.getDashboardPage(driver);
     }
 }
 

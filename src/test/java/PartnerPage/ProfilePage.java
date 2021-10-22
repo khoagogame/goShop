@@ -6,6 +6,7 @@ import PageObject.DashboardPageObject;
 import PageObject.LoginPageObject;
 import PageObject.ProfilePageObject;
 import org.openqa.selenium.WebDriver;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -238,4 +239,8 @@ public class ProfilePage extends AbstractTest {
 
     }
 
+    @AfterClass
+    public void AfterClass(){
+        closeBrowserAndDriver(driver);
+    }
 }

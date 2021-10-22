@@ -6,6 +6,7 @@ import PageObject.DashboardPageObject;
 import PageObject.LoginPageObject;
 import org.openqa.selenium.WebDriver;
 import org.testng.Assert;
+import org.testng.annotations.AfterClass;
 import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
@@ -146,5 +147,10 @@ public class Login extends AbstractTest {
         log.info("TC07_Verify_Login_Success: Click on goShop logo");
         verifyEquals(dashboardPage.getCurrentURL(driver),"https://goshop-v2-dev.gogame.net/partner");
         verifyTrue(dashboardPage.isDashBoardPageTitleDisplay());
+    }
+
+    @AfterClass
+    public void AfterClass(){
+        closeBrowserAndDriver(driver);
     }
 }
