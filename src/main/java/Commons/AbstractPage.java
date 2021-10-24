@@ -192,7 +192,10 @@ public abstract class AbstractPage {
         element.sendKeys(Keys.chord(Keys.CONTROL,Keys.RETURN));
     }
 
-
+    public int randomNumber(){
+        Random random = new Random();
+        return random.nextInt(999);
+    }
 
 
 

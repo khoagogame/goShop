@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<suite name="goPlay" parallel="" >
+<suite name="goPlay" parallel="" thread-count="20">
 
     <listeners>
         <listener class-name="Commons.MethodListener" />
@@ -15,9 +15,9 @@
     <test name="Run on CHROME">
         <classes>
 <!--            <class name="PartnerPage.ProfilePage" />-->
-            <class name="PartnerPage.ManageProduct" />
+<!--            <class name="PartnerPage.ManageProduct" />-->
 <!--            <class name="PartnerPage.ManageOrder" />-->
-<!--            <class name="PartnerPage.Manage_API_Key" />-->
+            <class name="PartnerPage.Manage_API_Key" />
         </classes>
         <parameter name="browser" value="chrome" />
     </test>

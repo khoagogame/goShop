@@ -4569,3 +4569,431 @@
 2021-10-22 17:57:01,417 INFO  PartnerPage.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 100 items show in table
 2021-10-22 17:57:01,445 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
 2021-10-22 17:57:01,445 INFO  PartnerPage.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 200 items per page
+2021-10-23 15:35:36,166 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 15:35:42,489 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 15:35:45,784 INFO  PartnerPage.Manage_API_Key - TC01_Verify_Manage_API_Keys_Page_Display: Verify Api Key page title display
+2021-10-23 15:35:45,864 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:35:45,873 INFO  PartnerPage.Manage_API_Key - TC02_Verify_Add_New_API_Key_Button_Function: Click on Add new button
+2021-10-23 15:37:47,699 INFO  PartnerPage.Manage_API_Key - TC03_Verify_Input_Field_Validation: Let all fields empty
+2021-10-23 15:37:48,629 INFO  PartnerPage.Manage_API_Key - TC03_Verify_Input_Field_Validation: Verify warning message display in earch field
+2021-10-23 15:37:48,719 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:37:48,799 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:37:48,870 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:37:48,871 INFO  PartnerPage.Manage_API_Key - TC03_Verify_Input_Field_Validation: Let Key Name is empty
+2021-10-23 15:37:50,154 INFO  PartnerPage.Manage_API_Key - TC03_Verify_Input_Field_Validation: Verify warning message display in Key Name field
+2021-10-23 15:37:50,225 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:37:50,226 INFO  PartnerPage.Manage_API_Key - TC03_Verify_Input_Field_Validation: Let Host name is empty
+2021-10-23 15:37:51,573 INFO  PartnerPage.Manage_API_Key - TC03_Verify_Input_Field_Validation: Verify warning message display in Host name field
+2021-10-23 15:37:51,639 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:37:51,639 INFO  PartnerPage.Manage_API_Key - TC03_Verify_Input_Field_Validation: input incorrect format host name
+2021-10-23 15:37:54,677 INFO  PartnerPage.Manage_API_Key - TC03_Verify_Input_Field_Validation: Verify warning message display in Host name field
+2021-10-23 15:37:55,080 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:37:55,080 INFO  PartnerPage.Manage_API_Key - TC03_Verify_Input_Field_Validation: Not select Status
+2021-10-23 15:37:57,523 INFO  PartnerPage.Manage_API_Key - TC03_Verify_Input_Field_Validation: Verify warning message display in status field
+2021-10-23 15:37:57,684 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:37:57,686 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 15:38:01,997 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input incorrect format
+2021-10-23 15:38:02,444 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:38:03,921 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:38:04,017 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:38:04,066 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:38:04,068 INFO  PartnerPage.Manage_API_Key - TC05_Verify_Edit_API_Key_Name_Success: Click on Edit button by API Key name
+2021-10-23 15:38:07,189 INFO  PartnerPage.Manage_API_Key - TC05_Verify_Edit_API_Key_Name_Success: Edit Key name
+2021-10-23 15:38:07,723 INFO  PartnerPage.Manage_API_Key - TC05_Verify_Edit_API_Key_Name_Success: Click to Submit
+2021-10-23 15:38:10,077 INFO  PartnerPage.Manage_API_Key - TC05_Verify_Edit_API_Key_Name_Success: Verify API key update successfully
+2021-10-23 15:38:10,472 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:38:10,621 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:38:10,718 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:38:10,771 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:38:10,772 INFO  PartnerPage.Manage_API_Key - TC06_Verify_Edit_Host_Name_Success: Click on Edit button by API Key name
+2021-10-23 15:38:12,938 INFO  PartnerPage.Manage_API_Key - TC06_Verify_Edit_Host_Name_Success: Edit Host name
+2021-10-23 15:38:13,937 INFO  PartnerPage.Manage_API_Key - TC06_Verify_Edit_Host_Name_Success: Click to Submit
+2021-10-23 15:38:17,324 INFO  PartnerPage.Manage_API_Key - TC06_Verify_Edit_Host_Name_Success: Verify API key update successfully
+2021-10-23 15:38:17,588 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:38:18,668 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:38:18,733 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:38:18,797 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:38:18,798 INFO  PartnerPage.Manage_API_Key - TC07_Verify_Edit_Host_Name_Success: Click on Edit button by API Key name
+2021-10-23 15:38:21,146 INFO  PartnerPage.Manage_API_Key - TC07_Verify_Edit_Host_Name_Success: select status = inactive
+2021-10-23 15:38:21,749 INFO  PartnerPage.Manage_API_Key - TC07_Verify_Edit_Host_Name_Success: Click to Submit
+2021-10-23 15:38:25,706 INFO  PartnerPage.Manage_API_Key - TC07_Verify_Edit_Host_Name_Success: Verify API key update successfully
+2021-10-23 15:38:25,814 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:38:27,184 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:38:27,262 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:38:27,337 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:38:27,339 INFO  PartnerPage.Manage_API_Key - TC08_Veriy_API_Key_Not_Create_After_Clicking_On_Manage_API_Key_HyperLink: Click on add new button
+2021-10-23 15:39:04,866 INFO  PartnerPage.Manage_API_Key - TC10_Verify_Delete_Button_Function: Click to Delete button
+2021-10-23 15:39:17,179 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 15:39:21,341 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 15:39:22,935 INFO  PartnerPage.Manage_API_Key - TC01_Verify_Manage_API_Keys_Page_Display: Verify Api Key page title display
+2021-10-23 15:39:22,984 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:22,993 INFO  PartnerPage.Manage_API_Key - TC02_Verify_Add_New_API_Key_Button_Function: Click on Add new button
+2021-10-23 15:39:24,234 INFO  PartnerPage.Manage_API_Key - TC02_Verify_Add_New_API_Key_Button_Function: Verify Api Key page title display
+2021-10-23 15:39:24,281 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:24,282 INFO  PartnerPage.Manage_API_Key - TC03_Verify_Input_Field_Validation: Let all fields empty
+2021-10-23 15:39:25,036 INFO  PartnerPage.Manage_API_Key - TC03_Verify_Input_Field_Validation: Verify warning message display in earch field
+2021-10-23 15:39:25,102 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:25,161 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:25,213 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:25,213 INFO  PartnerPage.Manage_API_Key - TC03_Verify_Input_Field_Validation: Let Key Name is empty
+2021-10-23 15:39:26,032 INFO  PartnerPage.Manage_API_Key - TC03_Verify_Input_Field_Validation: Verify warning message display in Key Name field
+2021-10-23 15:39:26,073 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:26,073 INFO  PartnerPage.Manage_API_Key - TC03_Verify_Input_Field_Validation: Let Host name is empty
+2021-10-23 15:39:26,805 INFO  PartnerPage.Manage_API_Key - TC03_Verify_Input_Field_Validation: Verify warning message display in Host name field
+2021-10-23 15:39:26,839 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:26,840 INFO  PartnerPage.Manage_API_Key - TC03_Verify_Input_Field_Validation: input incorrect format host name
+2021-10-23 15:39:31,455 INFO  PartnerPage.Manage_API_Key - TC03_Verify_Input_Field_Validation: Verify warning message display in Host name field
+2021-10-23 15:39:31,578 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:31,579 INFO  PartnerPage.Manage_API_Key - TC03_Verify_Input_Field_Validation: Not select Status
+2021-10-23 15:39:34,641 INFO  PartnerPage.Manage_API_Key - TC03_Verify_Input_Field_Validation: Verify warning message display in status field
+2021-10-23 15:39:34,733 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:34,735 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 15:39:37,452 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input incorrect format
+2021-10-23 15:39:37,511 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:39,080 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:39,166 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:39,244 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:39,246 INFO  PartnerPage.Manage_API_Key - TC05_Verify_Edit_API_Key_Name_Success: Click on Edit button by API Key name
+2021-10-23 15:39:41,397 INFO  PartnerPage.Manage_API_Key - TC05_Verify_Edit_API_Key_Name_Success: Edit Key name
+2021-10-23 15:39:41,900 INFO  PartnerPage.Manage_API_Key - TC05_Verify_Edit_API_Key_Name_Success: Click to Submit
+2021-10-23 15:39:44,191 INFO  PartnerPage.Manage_API_Key - TC05_Verify_Edit_API_Key_Name_Success: Verify API key update successfully
+2021-10-23 15:39:44,261 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:44,612 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:44,697 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:44,769 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:44,772 INFO  PartnerPage.Manage_API_Key - TC06_Verify_Edit_Host_Name_Success: Click on Edit button by API Key name
+2021-10-23 15:39:47,137 INFO  PartnerPage.Manage_API_Key - TC06_Verify_Edit_Host_Name_Success: Edit Host name
+2021-10-23 15:39:47,551 INFO  PartnerPage.Manage_API_Key - TC06_Verify_Edit_Host_Name_Success: Click to Submit
+2021-10-23 15:39:50,687 INFO  PartnerPage.Manage_API_Key - TC06_Verify_Edit_Host_Name_Success: Verify API key update successfully
+2021-10-23 15:39:50,736 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:51,664 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:51,736 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:51,807 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:51,809 INFO  PartnerPage.Manage_API_Key - TC07_Verify_Edit_Host_Name_Success: Click on Edit button by API Key name
+2021-10-23 15:39:53,921 INFO  PartnerPage.Manage_API_Key - TC07_Verify_Edit_Host_Name_Success: select status = inactive
+2021-10-23 15:39:54,132 INFO  PartnerPage.Manage_API_Key - TC07_Verify_Edit_Host_Name_Success: Click to Submit
+2021-10-23 15:39:57,492 INFO  PartnerPage.Manage_API_Key - TC07_Verify_Edit_Host_Name_Success: Verify API key update successfully
+2021-10-23 15:39:57,555 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:58,762 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:58,830 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:58,902 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:39:58,904 INFO  PartnerPage.Manage_API_Key - TC08_Veriy_API_Key_Not_Create_After_Clicking_On_Manage_API_Key_HyperLink: Click on add new button
+2021-10-23 15:40:00,901 INFO  PartnerPage.Manage_API_Key - TC08_Veriy_API_Key_Not_Create_After_Clicking_On_Manage_API_Key_HyperLink: input valid fields
+2021-10-23 15:40:02,088 INFO  PartnerPage.Manage_API_Key - TC08_Veriy_API_Key_Not_Create_After_Clicking_On_Manage_API_Key_HyperLink: Click on Manage API Keys hyperlink
+2021-10-23 15:40:04,676 INFO  PartnerPage.Manage_API_Key - TC08_Veriy_API_Key_Not_Create_After_Clicking_On_Manage_API_Key_HyperLink: Verify back to API key page
+2021-10-23 15:40:04,741 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:40:04,741 INFO  PartnerPage.Manage_API_Key - TC08_Veriy_API_Key_Not_Create_After_Clicking_On_Manage_API_Key_HyperLink: Verify api key is not created successfully
+2021-10-23 15:40:05,915 INFO  PartnerPage.Manage_API_Key -  -------------------------- FAILED -------------------------- 
+2021-10-23 15:40:05,935 INFO  PartnerPage.Manage_API_Key - TC10_Verify_Delete_Button_Function: Click to Delete button
+2021-10-23 15:40:06,272 INFO  PartnerPage.Manage_API_Key - TC10_Verify_Delete_Button_Function: Click Cancel at Delete confirmation popup
+2021-10-23 15:40:06,529 INFO  PartnerPage.Manage_API_Key - TC10_Verify_Delete_Button_Function: Verify Delete confirmation popup disappears and API key still exist
+2021-10-23 15:40:06,584 INFO  PartnerPage.Manage_API_Key -  -------------------------- FAILED -------------------------- 
+2021-10-23 15:40:06,612 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:40:06,612 INFO  PartnerPage.Manage_API_Key - TC10_Verify_Delete_Button_Function: Click to Delete button
+2021-10-23 15:40:06,789 INFO  PartnerPage.Manage_API_Key - TC10_Verify_Delete_Button_Function: Click OK at Delete confirmation popup
+2021-10-23 15:40:09,072 INFO  PartnerPage.Manage_API_Key - TC10_Verify_Delete_Button_Function: Verify API key is deleted successfully popup display
+2021-10-23 15:40:09,172 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:40:09,173 INFO  PartnerPage.Manage_API_Key - TC10_Verify_Delete_Button_Function: Click on OK button at deleted successfully popup
+2021-10-23 15:40:09,451 INFO  PartnerPage.Manage_API_Key - TC10_Verify_Delete_Button_Function: Verify api key is deleted successfully
+2021-10-23 15:40:09,490 INFO  PartnerPage.Manage_API_Key -  -------------------------- FAILED -------------------------- 
+2021-10-23 15:40:09,529 INFO  PartnerPage.Manage_API_Key -  -------------------------- FAILED -------------------------- 
+2021-10-23 15:40:09,542 INFO  PartnerPage.Manage_API_Key - TC11_Verify_Search_Function: Input keyword = gogame.net
+2021-10-23 15:40:11,051 INFO  PartnerPage.Manage_API_Key - TC11_Verify_Search_Function: Input keyword = gogame.net
+2021-10-23 15:40:13,304 INFO  PartnerPage.Manage_API_Key - TC11_Verify_Search_Function: Count all api key name in search result
+2021-10-23 15:40:15,183 INFO  PartnerPage.Manage_API_Key - TC11_Verify_Search_Function: Verify total host by name = total in search result
+2021-10-23 15:40:15,183 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:40:15,184 INFO  PartnerPage.Manage_API_Key - TC9_Veriy_API_Key_Not_Create_After_Clicking_On_Manage_API_Key_HyperLink: Click on add new button
+2021-10-23 15:40:17,377 INFO  PartnerPage.Manage_API_Key - TC9_Veriy_API_Key_Not_Create_After_Clicking_On_Manage_API_Key_HyperLink: input valid fields
+2021-10-23 15:40:18,162 INFO  PartnerPage.Manage_API_Key - TC9_Veriy_API_Key_Not_Create_After_Clicking_On_Manage_API_Key_HyperLink: Click Cancel button
+2021-10-23 15:40:20,886 INFO  PartnerPage.Manage_API_Key - TC9_Veriy_API_Key_Not_Create_After_Clicking_On_Manage_API_Key_HyperLink: Verify back to API key page
+2021-10-23 15:40:20,990 INFO  PartnerPage.Manage_API_Key -  -------------------------- PASSED -------------------------- 
+2021-10-23 15:40:20,990 INFO  PartnerPage.Manage_API_Key - TC9_Veriy_API_Key_Not_Create_After_Clicking_On_Manage_API_Key_HyperLink: Verify api key is not created successfully
+2021-10-23 15:40:22,212 INFO  PartnerPage.Manage_API_Key -  -------------------------- FAILED -------------------------- 
+2021-10-23 19:23:26,981 INFO  PartnerPage.ManageProduct - Precondition: Login account
+2021-10-23 19:24:19,624 INFO  PartnerPage.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
+2021-10-23 19:24:19,653 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:24:19,656 INFO  PartnerPage.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
+2021-10-23 19:24:19,782 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:24:19,782 INFO  PartnerPage.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
+2021-10-23 19:24:19,908 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:24:19,909 INFO  PartnerPage.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
+2021-10-23 19:24:19,936 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:24:19,936 INFO  PartnerPage.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
+2021-10-23 19:24:19,968 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:24:19,972 INFO  PartnerPage.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 25 items per page
+2021-10-23 19:24:54,421 INFO  PartnerPage.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 25 items show in table
+2021-10-23 19:24:54,470 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:24:54,470 INFO  PartnerPage.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 50 items per page
+2021-10-23 19:25:31,897 INFO  PartnerPage.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 50 items show in table
+2021-10-23 19:25:31,929 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:25:31,929 INFO  PartnerPage.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 100 items per page
+2021-10-23 19:26:15,407 INFO  PartnerPage.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 100 items show in table
+2021-10-23 19:26:15,449 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:26:15,450 INFO  PartnerPage.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 200 items per page
+2021-10-23 19:27:08,823 INFO  PartnerPage.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 200 items show in table
+2021-10-23 19:27:08,958 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:27:14,384 INFO  PartnerPage.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Vietnam
+2021-10-23 19:27:52,356 INFO  PartnerPage.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'VND'
+2021-10-23 19:27:52,781 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:27:52,781 INFO  PartnerPage.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Singapore
+2021-10-23 19:28:32,325 INFO  PartnerPage.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'SGD'
+2021-10-23 19:28:32,758 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:28:32,759 INFO  PartnerPage.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Thailand
+2021-10-23 19:29:11,208 INFO  PartnerPage.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'THB'
+2021-10-23 19:29:11,655 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:29:11,655 INFO  PartnerPage.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Indonesia
+2021-10-23 19:29:51,739 INFO  PartnerPage.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'IDR'
+2021-10-23 19:29:52,174 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:29:52,174 INFO  PartnerPage.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Malaysia
+2021-10-23 19:30:30,603 INFO  PartnerPage.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'MYR'
+2021-10-23 19:30:31,123 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:30:31,123 INFO  PartnerPage.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in Philippines
+2021-10-23 19:31:07,512 INFO  PartnerPage.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'PHP'
+2021-10-23 19:31:07,866 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:31:07,866 INFO  PartnerPage.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Select show all items in England
+2021-10-23 19:31:38,693 INFO  PartnerPage.ManageProduct - TC03_Verify_Country_Dropdown_Work_Correctly: Verify prize has 'EUR'
+2021-10-23 19:31:39,003 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:31:39,036 INFO  PartnerPage.ManageProduct - TC04_Verify_Search_Function: input text and enter
+2021-10-23 19:31:46,288 INFO  PartnerPage.ManageProduct - TC04_Verify_Search_Function: Verify 6 items display and name contain 'monster'
+2021-10-23 19:31:46,319 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:31:46,594 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:31:46,595 INFO  PartnerPage.ManageProduct - TC04_Verify_Search_Function: Clear all text in search box
+2021-10-23 19:32:31,899 INFO  PartnerPage.ManageProduct - TC04_Verify_Search_Function: Verify table is show as before search
+2021-10-23 19:32:31,945 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:32:31,945 INFO  PartnerPage.ManageProduct - TC04_Verify_Search_Function: Search not exist product
+2021-10-23 19:32:34,533 INFO  PartnerPage.ManageProduct - TC04_Verify_Search_Function: Verify no item display
+2021-10-23 19:32:34,573 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:33:15,014 INFO  PartnerPage.ManageProduct - TC05_Verify_ExportCSV_Function: Click on Export CSV button
+2021-10-23 19:33:15,933 INFO  PartnerPage.ManageProduct - TC05_Verify_ExportCSV_Function: Verify file type downloaded is .csv
+2021-10-23 19:33:15,933 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:33:15,934 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:33:21,038 INFO  PartnerPage.ManageProduct - TC06_Verify_ExportExcel_Function: Click on Export Excel button
+2021-10-23 19:33:21,817 INFO  PartnerPage.ManageProduct - TC06_Verify_ExportExcel_Function: Verify file type downloaded is .xlsx
+2021-10-23 19:33:21,817 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:33:21,818 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
+2021-10-23 19:37:23,737 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 19:37:32,260 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 19:37:36,534 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Delete all api keys
+2021-10-23 19:41:12,398 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 19:41:19,268 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 19:41:22,340 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Delete all api keys
+2021-10-23 19:45:00,016 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 19:45:08,845 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 19:45:11,229 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Delete all api keys
+2021-10-23 19:46:20,912 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 19:46:28,328 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 19:46:32,411 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Delete all api keys
+2021-10-23 19:50:20,268 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 19:50:29,884 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 19:50:33,942 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Delete all api keys
+2021-10-23 20:03:09,550 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 20:03:20,806 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 20:03:26,141 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Delete all api keys
+2021-10-23 20:03:45,435 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Verify no item display in API key page
+2021-10-23 20:20:54,190 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 20:21:05,259 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 20:21:10,611 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:21:54,182 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 20:22:07,269 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 20:22:12,910 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:24:14,883 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 20:24:24,259 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 20:24:28,127 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:24:34,684 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:24:41,774 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:24:50,914 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:24:59,057 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:25:08,235 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:25:17,376 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:25:24,771 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:25:35,227 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:25:46,337 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:25:54,860 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:26:05,600 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:26:14,632 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:26:22,948 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:26:29,145 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:26:34,756 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:26:43,617 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:26:51,822 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:27:02,324 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:27:11,867 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:27:43,240 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 20:27:55,953 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 20:27:59,530 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Delete all api keys
+2021-10-23 20:28:17,817 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Verify no item display in API key page
+2021-10-23 20:28:52,940 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 20:29:02,806 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 20:29:08,022 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:29:16,409 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:29:27,157 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:29:32,862 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:29:39,598 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:29:47,892 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:29:53,311 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:29:59,407 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:30:06,865 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:30:14,632 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:33:13,969 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 20:33:22,145 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 20:33:27,530 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Delete all api keys
+2021-10-23 20:33:45,808 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Verify no item display in API key page
+2021-10-23 20:35:03,700 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 20:35:12,057 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 20:35:15,521 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Delete all api keys
+2021-10-23 20:35:32,151 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Verify no item display in API key page
+2021-10-23 20:37:38,744 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 20:37:45,405 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 20:37:50,005 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:37:58,158 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:38:06,949 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:38:16,768 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:38:24,426 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:38:31,559 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:38:39,061 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:38:45,935 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:38:53,527 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:39:03,410 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:39:34,955 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 20:39:39,678 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 20:39:42,396 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Delete all api keys
+2021-10-23 20:39:57,735 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Verify no item display in API key page
+2021-10-23 20:42:00,198 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 20:42:07,367 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 20:42:10,176 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:42:15,209 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:42:23,216 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:42:33,537 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:42:48,926 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:42:56,320 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:43:09,039 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:43:22,426 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:43:39,427 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:43:52,799 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:44:06,670 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:44:16,519 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:44:25,799 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:44:44,007 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:44:58,319 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:45:14,577 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:45:25,321 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:45:33,299 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:45:45,565 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:45:54,425 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:46:09,390 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:46:21,883 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:46:31,369 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:46:40,186 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:46:59,407 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:47:07,838 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:47:18,403 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:47:32,398 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:47:41,239 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:47:53,015 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:48:06,812 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:48:13,124 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:48:21,918 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:48:47,710 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 20:48:54,930 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 20:48:56,460 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Delete all api keys
+2021-10-23 20:49:10,361 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Verify no item display in API key page
+2021-10-23 20:54:49,986 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 20:54:54,763 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 20:55:08,984 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 20:55:16,631 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 20:55:18,589 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Delete all api keys
+2021-10-23 20:56:21,847 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 20:56:28,842 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 20:56:31,417 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:56:38,766 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:56:48,509 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:57:01,154 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:57:10,722 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:57:19,851 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:57:31,121 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:57:39,302 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:57:48,767 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:57:56,020 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:58:03,545 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:58:11,637 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:58:18,770 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:58:27,768 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:58:36,621 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:58:42,917 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:58:51,540 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:58:58,392 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:59:07,838 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:59:17,950 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:59:27,772 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:59:41,387 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 20:59:54,881 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:00:02,429 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:00:12,833 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:00:20,250 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:00:28,751 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:00:38,569 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:00:44,843 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:00:58,347 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:01:10,573 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:01:37,322 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 21:01:38,699 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 21:01:47,774 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 21:01:51,787 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 21:01:52,411 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Delete all api keys
+2021-10-23 21:02:00,928 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Delete all api keys
+2021-10-23 21:03:23,625 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 21:03:37,387 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 21:03:43,016 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:03:51,314 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:03:58,151 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:04:07,720 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:04:17,611 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:04:30,461 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:04:46,171 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:05:03,200 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:05:17,802 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:05:29,597 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:05:43,982 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:05:56,086 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:06:08,849 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:06:21,739 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:06:34,855 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:06:46,087 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:06:58,297 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:07:10,584 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:07:22,889 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:07:35,500 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:07:45,171 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:07:56,394 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:08:12,695 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:08:21,237 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:08:33,397 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:08:45,825 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:08:54,896 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:09:11,474 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:09:19,392 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:09:28,968 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:09:40,854 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:09:51,282 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:10:00,600 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:10:13,695 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:10:24,054 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:10:32,955 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:10:44,756 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:10:53,186 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:11:06,463 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:11:13,154 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:11:22,558 INFO  PartnerPage.Manage_API_Key - TC04_Verify_Create_API_Key_Success: input valid format
+2021-10-23 21:11:49,039 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 21:11:55,912 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 21:13:06,806 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 21:13:14,493 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 21:13:19,004 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Delete all api keys
+2021-10-23 21:15:10,816 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 21:15:18,481 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 21:15:22,833 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Delete all api keys
+2021-10-23 21:17:46,824 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Verify no item display in API key page
+2021-10-23 21:18:54,960 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 21:19:06,406 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 21:19:10,691 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Delete all api keys
+2021-10-23 21:21:30,990 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Verify no item display in API key page

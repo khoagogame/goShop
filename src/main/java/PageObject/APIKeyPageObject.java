@@ -23,7 +23,6 @@ public class APIKeyPageObject extends AbstractPage {
 
     public void clickOnAddNewButton() {
         clickToElement(driver, APIKeyPageUI.ADD_NEW_BUTTON);
-        waitForProcessBarOfAPIKeyPageDisappear(driver);
     }
 
     public boolean isAddNewFormDisplay() {
@@ -109,7 +108,7 @@ public class APIKeyPageObject extends AbstractPage {
 
     public void clickOnDeleteConfirmationOKButton() {
         clickToElement(driver, APIKeyPageUI.DELETE_CONFIRMATION_OK_BUTTON);
-        sleepInSecond(2);
+//        sleepInSecond(2);
     }
 
     public Object getDeleteAPIKeySuccessPopupMessage() {
@@ -117,6 +116,7 @@ public class APIKeyPageObject extends AbstractPage {
     }
 
     public void clickOnDeleteAPIKeySuccessPopupOKButton() {
+        waitForElementPresence(driver, APIKeyPageUI.DELETE_API_KEY_SUCCESS_POPUP);
         clickToElement(driver, APIKeyPageUI.DELETE_API_KEY_SUCCESS_POPUP_OK_BUTTON);
     }
 
@@ -140,20 +140,18 @@ public class APIKeyPageObject extends AbstractPage {
                     }
                 }
             }
-        }
-        else if (totalPage == 1) {
-                List<WebElement> elements = findElements(driver, APIKeyPageUI.API_KEY_PAGE_HOST_NAME);
-                for (WebElement element : elements) {
-                    System.out.println(element.getText());
-                    if (element.getText().contains(apiKeyName)) {
-                        itemList.add(element.getText());
-                    }
+        } else if (totalPage == 1) {
+            List<WebElement> elements = findElements(driver, APIKeyPageUI.API_KEY_PAGE_HOST_NAME);
+            for (WebElement element : elements) {
+                System.out.println(element.getText());
+                if (element.getText().contains(apiKeyName)) {
+                    itemList.add(element.getText());
                 }
             }
+        }
         System.out.println(itemList.size());
         return itemList.size();
     }
-
 
 
     public int getAllApiKeyName() {
@@ -167,18 +165,63 @@ public class APIKeyPageObject extends AbstractPage {
                 List<WebElement> elements = findElements(driver, APIKeyPageUI.API_KEY_PAGE_HOST_NAME);
                 for (WebElement element : elements) {
                     System.out.println(element.getText());
-                        itemList.add(element.getText());
-                }
-            }
-        } else if(totalPage == 1){
-            List<WebElement> elements = findElements(driver, APIKeyPageUI.API_KEY_PAGE_HOST_NAME);
-            for (WebElement element : elements) {
-                System.out.println(element.getText());
                     itemList.add(element.getText());
                 }
             }
+        } else if (totalPage == 1) {
+            List<WebElement> elements = findElements(driver, APIKeyPageUI.API_KEY_PAGE_HOST_NAME);
+            for (WebElement element : elements) {
+                System.out.println(element.getText());
+                itemList.add(element.getText());
+            }
+        }
         System.out.println(itemList.size());
         return itemList.size();
     }
+
+    public void deleteAllAPIKeys() {
+        int totalPage = Integer.valueOf(findElement(driver, AbstractPageUI.TOTAL_PAGES).getText());
+        System.out.println(totalPage);
+//        if (totalPage > 1) {
+//            for (int i = 1; i < totalPage + 1; i++) {
+//                clickToElement(driver, AbstractPageUI.PAGE_NUMBER, String.valueOf(i));
+//                List<WebElement> elements = findElements(driver, APIKeyPageUI.DELETE_API_KEY_BUTTONS);
+//                System.out.println(elements.size());
+//                if (elements.size() != 0) {
+//                    for (WebElement e : elements) {
+//                        e.click();
+//                        clickOnDeleteConfirmationOKButton();
+//                        clickOnDeleteAPIKeySuccessPopupOKButton();
+//                    }
+//                }
+//            }
+//        } else {
+//            System.out.println("ELSE");
+//            List<WebElement> elements = findElements(driver, APIKeyPageUI.DELETE_API_KEY_BUTTONS);
+//            for (WebElement e : elements) {
+//                e.click();
+//                clickOnDeleteConfirmationOKButton();
+//                clickOnDeleteAPIKeySuccessPopupOKButton();
+//            }
+//        }
+
+        List<WebElement> elements = findElements(driver, APIKeyPageUI.DELETE_API_KEY_BUTTONS);
+        System.out.println(elements.size());
+        for (WebElement e : elements) {
+            e.click();
+            clickOnDeleteConfirmationOKButton();
+            clickOnDeleteAPIKeySuccessPopupOKButton();
+            int totalItems = findElements(driver, APIKeyPageUI.DELETE_API_KEY_BUTTONS).size();
+            System.out.println(totalItems);
+            if(totalItems == 0) {
+                reloadPage(driver);
+//                if(Integer.valueOf(findElement(driver, AbstractPageUI.TOTAL_PAGES).getText()) ==1){
+//                    break;
+//                }
+            }
+        }
+
+    }
+
 
 }

@@ -1,21 +1,4 @@
-2021-10-22 17:55:17,102 INFO  PartnerPage.ManageProduct - Precondition: Login account
-2021-10-22 17:55:45,912 INFO  PartnerPage.ManageProduct - TC01_Verify_Product_Page_Display: Verify Manage product page is opened
-2021-10-22 17:55:45,929 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
-2021-10-22 17:55:45,930 INFO  PartnerPage.ManageProduct - TC01_Verify_Product_Page_Display: Verify default country = Vietnam
-2021-10-22 17:55:46,010 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
-2021-10-22 17:55:46,010 INFO  PartnerPage.ManageProduct - TC01_Verify_Product_Page_Display: Verify default Show = 10
-2021-10-22 17:55:46,082 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
-2021-10-22 17:55:46,082 INFO  PartnerPage.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export CSV button display
-2021-10-22 17:55:46,096 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
-2021-10-22 17:55:46,096 INFO  PartnerPage.ManageProduct - TC01_Verify_Product_Page_Display: Verify Export Excel button display
-2021-10-22 17:55:46,111 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
-2021-10-22 17:55:46,113 INFO  PartnerPage.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 25 items per page
-2021-10-22 17:56:08,855 INFO  PartnerPage.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 25 items show in table
-2021-10-22 17:56:08,872 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
-2021-10-22 17:56:08,872 INFO  PartnerPage.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 50 items per page
-2021-10-22 17:56:33,612 INFO  PartnerPage.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 50 items show in table
-2021-10-22 17:56:33,628 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
-2021-10-22 17:56:33,628 INFO  PartnerPage.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 100 items per page
-2021-10-22 17:57:01,417 INFO  PartnerPage.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Verify 100 items show in table
-2021-10-22 17:57:01,445 INFO  PartnerPage.ManageProduct -  -------------------------- PASSED -------------------------- 
-2021-10-22 17:57:01,445 INFO  PartnerPage.ManageProduct - TC02_Verify_Show_Entries_Dropdown_Work_Correctly: Select show 200 items per page
+2021-10-23 21:18:54,960 INFO  PartnerPage.Manage_API_Key - Precondition: Login account
+2021-10-23 21:19:06,406 INFO  PartnerPage.Manage_API_Key - Precondition: Click on Manage API Key page
+2021-10-23 21:19:10,691 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Delete all api keys
+2021-10-23 21:21:30,990 INFO  PartnerPage.Manage_API_Key - TC12_Deleted_All_API_keys: Verify no item display in API key page

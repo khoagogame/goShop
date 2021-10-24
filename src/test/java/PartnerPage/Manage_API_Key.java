@@ -10,8 +10,6 @@ import org.testng.annotations.BeforeClass;
 import org.testng.annotations.Parameters;
 import org.testng.annotations.Test;
 
-import java.util.ArrayList;
-
 public class Manage_API_Key extends AbstractTest {
     WebDriver driver;
     LoginPageObject loginPage;
@@ -243,7 +241,7 @@ public class Manage_API_Key extends AbstractTest {
         verifyFalse(apiKeyPage.isAPIKeyNameDisplay("HCM Partner"));
     }
 
-    @Test
+//    @Test
     public void TC11_Verify_Search_Function(){
         log.info("TC11_Verify_Search_Function: Input keyword = gogame.net");
         int totalHostByName = apiKeyPage.getAllApiKeyNameByName("gogame.net");
@@ -259,4 +257,23 @@ public class Manage_API_Key extends AbstractTest {
         verifyEquals(totalHostNameInSearchResult,totalHostByName);
     }
 
+    @Test
+    public void TC12_Deleted_All_API_keys(){
+        log.info("TC12_Deleted_All_API_keys: Delete all api keys");
+        apiKeyPage.deleteAllAPIKeys();
+
+        log.info("TC12_Deleted_All_API_keys: Verify no item display in API key page");
+//        verifyTrue(apiKeyPage.isAllAPIKeyDeletedSuccessfully());
+
+    }
+//@Test(invocationCount = 70)
+    public void TC013_dump_Data(){
+        log.info("TC04_Verify_Create_API_Key_Success: input valid format");
+    apiKeyPage.clickOnAddNewButton();
+        apiKeyPage.inputTextToKeyName(keyName + randomNumber());
+        apiKeyPage.inputTextToListHost(hostName+ randomNumber());
+        apiKeyPage.selectStatusRadioButton(status_Active);
+        apiKeyPage.clickOnSubmitButton();
+
+    }
 }

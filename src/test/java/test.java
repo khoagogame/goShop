@@ -3,6 +3,7 @@ import java.text.SimpleDateFormat;
 import java.util.ArrayList;
 import java.util.Collections;
 import java.util.Date;
+import java.util.Random;
 
 public class test {
     public static void main(String[] args) {
@@ -10,9 +11,13 @@ public class test {
         String [] alltext = a.split(" ");
 //        System.out.println(alltext);
 
-        System.out.println(alltext[1]);
+        System.out.println(randomNumber());
     }
 
+    public static int randomNumber(){
+        Random random = new Random();
+        return random.nextInt(999);
+    }
 
     public static boolean returnStatus() {
         boolean status = false;

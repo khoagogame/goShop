@@ -24,8 +24,11 @@ public class APIKeyPageUI {
     public static final String DELETE_CONFIRMATION_CANCEL_BUTTON = "//button[text()='Cancel']";
     public static final String DELETE_CONFIRMATION_OK_BUTTON = "//button[text()='OK']";
     public static final String DELETE_API_KEY_SUCCESS_MESSAGE = "//div[@class='swal-modal']/div[2]";
+    public static final String DELETE_API_KEY_SUCCESS_POPUP = "//div[@class='swal-overlay swal-overlay--show-modal']/div";
+    public static final String DELETE_API_KEY_SUCCESS_POPUP_UNDISPLAY = "//div[@class='swal-modal']/div";
     public static final String DELETE_API_KEY_SUCCESS_POPUP_OK_BUTTON = "//div[@class='swal-modal']//button[text()='OK']";
     public static final String SEARCH_TEXTBOX = "//input[@type='search']";
+    public static final String API_KEY_LIST = "//tbody/tr";
 
 
 }

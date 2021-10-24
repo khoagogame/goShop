@@ -4,10 +4,10 @@
            failures="0"
            errors="0"
            skipped="0"
-           time="5.557">
+           time="140.301">
   <properties />
   
   
-            <testcase name="TC11_Verify_Search_Function" time="5.557" classname="PartnerPage.Manage_API_Key" />
+            <testcase name="TC12_Deleted_All_API_keys" time="140.301" classname="PartnerPage.Manage_API_Key" />
       
 </testsuite>
