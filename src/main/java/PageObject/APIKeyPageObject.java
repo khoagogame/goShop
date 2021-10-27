@@ -182,46 +182,33 @@ public class APIKeyPageObject extends AbstractPage {
     public void deleteAllAPIKeys() {
         int totalPage = Integer.valueOf(findElement(driver, AbstractPageUI.TOTAL_PAGES).getText());
         System.out.println(totalPage);
-//        if (totalPage > 1) {
-//            for (int i = 1; i < totalPage + 1; i++) {
-//                clickToElement(driver, AbstractPageUI.PAGE_NUMBER, String.valueOf(i));
-//                List<WebElement> elements = findElements(driver, APIKeyPageUI.DELETE_API_KEY_BUTTONS);
-//                System.out.println(elements.size());
-//                if (elements.size() != 0) {
-//                    for (WebElement e : elements) {
-//                        e.click();
-//                        clickOnDeleteConfirmationOKButton();
-//                        clickOnDeleteAPIKeySuccessPopupOKButton();
-//                    }
-//                }
-//            }
-//        } else {
-//            System.out.println("ELSE");
+//        for (int i = 0; i < totalPage+1; i++) {
 //            List<WebElement> elements = findElements(driver, APIKeyPageUI.DELETE_API_KEY_BUTTONS);
 //            for (WebElement e : elements) {
 //                e.click();
 //                clickOnDeleteConfirmationOKButton();
 //                clickOnDeleteAPIKeySuccessPopupOKButton();
 //            }
+//            reloadPage(driver);
+//            i++;
+//            if(isElementDisplay(driver,"//td[text()='No data available in table']")==true){
+//                break;
+//            }
 //        }
-
-        List<WebElement> elements = findElements(driver, APIKeyPageUI.DELETE_API_KEY_BUTTONS);
-        System.out.println(elements.size());
-        for (WebElement e : elements) {
-            e.click();
-            clickOnDeleteConfirmationOKButton();
-            clickOnDeleteAPIKeySuccessPopupOKButton();
-            int totalItems = findElements(driver, APIKeyPageUI.DELETE_API_KEY_BUTTONS).size();
-            System.out.println(totalItems);
-            if(totalItems == 0) {
-                reloadPage(driver);
-//                if(Integer.valueOf(findElement(driver, AbstractPageUI.TOTAL_PAGES).getText()) ==1){
-//                    break;
-//                }
+        int i = 1;
+        while (i < totalPage) {
+            List<WebElement> elements = findElements(driver, APIKeyPageUI.DELETE_API_KEY_BUTTONS);
+            for (WebElement e : elements) {
+                e.click();
+                clickOnDeleteConfirmationOKButton();
+                clickOnDeleteAPIKeySuccessPopupOKButton();
+            }
+            reloadPage(driver);
+            if (isElementDisplay(driver, "//td[text()='No data available in table']") == true) {
+                break;
             }
         }
 
     }
-
 
 }

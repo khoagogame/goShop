@@ -1,13 +1,293 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <testsuite name="Run on CHROME"
-           tests="1"
-           failures="0"
+           tests="71"
+           failures="1"
            errors="0"
-           skipped="0"
-           time="140.301">
+           skipped="70"
+           time="11.053">
   <properties />
+            <testcase name="BeforeTest" time="11.053" classname="PartnerPage.Manage_API_Key">
+                <failure type="org.openqa.selenium.WebDriverException"
+                  message="chrome not reachable
+  (Session info: chrome=95.0.4638.54)
+Build info: version: &apos;3.141.59&apos;, revision: &apos;e82be7d358&apos;, time: &apos;2018-11-14T08:17:03&apos;
+System info: host: &apos;DESKTOP-BO320VM&apos;, ip: &apos;192.168.1.110&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_211&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Khoa\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51562}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 71885b54188d8792022659621be533ab
+*** Element info: {Using=xpath, value=//span[text()=&apos;Manage API Keys&apos;]}"
+              >
+<![CDATA[org.openqa.selenium.WebDriverException: chrome not reachable
+  (Session info: chrome=95.0.4638.54)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'DESKTOP-BO320VM', ip: '192.168.1.110', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_211'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 95.0.4638.54, chrome: {chromedriverVersion: 95.0.4638.17 (a9d0719444d4b..., userDataDir: C:\Users\Khoa\AppData\Local...}, goog:chromeOptions: {debuggerAddress: localhost:51562}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: 71885b54188d8792022659621be533ab
+*** Element info: {Using=xpath, value=//span[text()='Manage API Keys']}
+  sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+  sun.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
+  sun.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
+  java.lang.reflect.Constructor.newInstance(Constructor.java:423)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:187)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:122)
+  org.openqa.selenium.remote.http.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:49)
+  org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:158)
+  org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:83)
+  org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:552)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:323)
+  org.openqa.selenium.remote.RemoteWebDriver.findElementByXPath(RemoteWebDriver.java:428)
+  org.openqa.selenium.By$ByXPath.findElement(By.java:353)
+  org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:315)
+  org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:205)
+  org.openqa.selenium.support.ui.ExpectedConditions$7.apply(ExpectedConditions.java:201)
+  org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:641)
+  org.openqa.selenium.support.ui.ExpectedConditions$22.apply(ExpectedConditions.java:638)
+  org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:249)
+  Commons.AbstractPage.waitForElementClickable(AbstractPage.java:32)
+  Commons.AbstractPage.clickToElement(AbstractPage.java:95)
+  Commons.AbstractPage.clickOnManageAPIKeyMenu(AbstractPage.java:295)
+  PartnerPage.Manage_API_Key.BeforeTest(Manage_API_Key.java:37)
+  sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+  sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+  sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+  java.lang.reflect.Method.invoke(Method.java:498)
+  org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+  org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:59)
+  org.testng.internal.Invoker.invokeConfigurationMethod(Invoker.java:458)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:222)
+  org.testng.internal.Invoker.invokeConfigurations(Invoker.java:142)
+  org.testng.internal.TestMethodWorker.invokeBeforeClassMethods(TestMethodWorker.java:168)
+  org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:105)
+  org.testng.TestRunner.privateRun(TestRunner.java:648)
+  org.testng.TestRunner.run(TestRunner.java:505)
+  org.testng.SuiteRunner.runTest(SuiteRunner.java:455)
+  org.testng.SuiteRunner.runSequentially(SuiteRunner.java:450)
+  org.testng.SuiteRunner.privateRun(SuiteRunner.java:415)
+  org.testng.SuiteRunner.run(SuiteRunner.java:364)
+  org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
+  org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:84)
+  org.testng.TestNG.runSuitesSequentially(TestNG.java:1208)
+  org.testng.TestNG.runSuitesLocally(TestNG.java:1137)
+  org.testng.TestNG.runSuites(TestNG.java:1049)
+  org.testng.TestNG.run(TestNG.java:1017)
+  com.intellij.rt.testng.IDEARemoteTestNG.run(IDEARemoteTestNG.java:66)
+  com.intellij.rt.testng.RemoteTestNGStarter.main(RemoteTestNGStarter.java:109)
+]]>
+      </failure>
+
+          </testcase>
+  
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
+            <testcase name="TC013_dump_Data" time="0.0" classname="PartnerPage.Manage_API_Key">
+          <skipped />
+    </testcase>
   
   
-            <testcase name="TC12_Deleted_All_API_keys" time="140.301" classname="PartnerPage.Manage_API_Key" />
-      
 </testsuite>

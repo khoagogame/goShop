@@ -21,9 +21,10 @@ public class Manage_API_Key extends AbstractTest {
     String newHostName = "google.com";
     String status_Active = "Active";
     String status_Inactive = "Inactive";
+
     @Parameters({"browser"})
     @BeforeClass
-    public void BeforeTest(String browserName){
+    public void BeforeTest(String browserName) {
         driver = getBrowserDriver(browserName);
 
         log.info("Precondition: Login account");
@@ -36,14 +37,14 @@ public class Manage_API_Key extends AbstractTest {
         apiKeyPage = dashboardPage.clickOnManageAPIKeyMenu(driver);
     }
 
-//    @Test
-    public void TC01_Verify_Manage_API_Keys_Page_Display(){
+    //    @Test
+    public void TC01_Verify_Manage_API_Keys_Page_Display() {
         log.info("TC01_Verify_Manage_API_Keys_Page_Display: Verify Api Key page title display");
         verifyTrue(apiKeyPage.isAPIKeyPageTitleDisplay());
     }
 
-//    @Test
-    public void TC02_Verify_Add_New_API_Key_Button_Function(){
+    //    @Test
+    public void TC02_Verify_Add_New_API_Key_Button_Function() {
         log.info("TC02_Verify_Add_New_API_Key_Button_Function: Click on Add new button");
         apiKeyPage.clickOnAddNewButton();
 
@@ -51,17 +52,17 @@ public class Manage_API_Key extends AbstractTest {
         verifyTrue(apiKeyPage.isAddNewFormDisplay());
     }
 
-//    @Test
-    public void TC03_Verify_Input_Field_Validation(){
+    //    @Test
+    public void TC03_Verify_Input_Field_Validation() {
         log.info("TC03_Verify_Input_Field_Validation: Let all fields empty");
         apiKeyPage.inputTextToKeyName("");
         apiKeyPage.inputTextToListHost("");
         apiKeyPage.clickOnSubmitButton();
 
         log.info("TC03_Verify_Input_Field_Validation: Verify warning message display in earch field");
-        verifyEquals(apiKeyPage.getKeyNameWarningMessage(),"This field is required.");
-        verifyEquals(apiKeyPage.getHostNameWarningMessage(),"This field is required.");
-        verifyEquals(apiKeyPage.getStatusWarningMessage(),"This field is required.");
+        verifyEquals(apiKeyPage.getKeyNameWarningMessage(), "This field is required.");
+        verifyEquals(apiKeyPage.getHostNameWarningMessage(), "This field is required.");
+        verifyEquals(apiKeyPage.getStatusWarningMessage(), "This field is required.");
 
         log.info("TC03_Verify_Input_Field_Validation: Let Key Name is empty");
         apiKeyPage.inputTextToKeyName("");
@@ -70,7 +71,7 @@ public class Manage_API_Key extends AbstractTest {
         apiKeyPage.clickOnSubmitButton();
 
         log.info("TC03_Verify_Input_Field_Validation: Verify warning message display in Key Name field");
-        verifyEquals(apiKeyPage.getKeyNameWarningMessage(),"This field is required.");
+        verifyEquals(apiKeyPage.getKeyNameWarningMessage(), "This field is required.");
 
         log.info("TC03_Verify_Input_Field_Validation: Let Host name is empty");
         apiKeyPage.inputTextToKeyName(keyName);
@@ -79,7 +80,7 @@ public class Manage_API_Key extends AbstractTest {
         apiKeyPage.clickOnSubmitButton();
 
         log.info("TC03_Verify_Input_Field_Validation: Verify warning message display in Host name field");
-        verifyEquals(apiKeyPage.getHostNameWarningMessage(),"This field is required.");
+        verifyEquals(apiKeyPage.getHostNameWarningMessage(), "This field is required.");
 
         log.info("TC03_Verify_Input_Field_Validation: input incorrect format host name");
         apiKeyPage.inputTextToKeyName(keyName);
@@ -88,7 +89,7 @@ public class Manage_API_Key extends AbstractTest {
         apiKeyPage.clickOnSubmitButton();
 
         log.info("TC03_Verify_Input_Field_Validation: Verify warning message display in Host name field");
-        verifyEquals(apiKeyPage.getHostNameWarningMessage(),"Please check all Hosts/IPs again");
+        verifyEquals(apiKeyPage.getHostNameWarningMessage(), "Please check all Hosts/IPs again");
 
         log.info("TC03_Verify_Input_Field_Validation: Not select Status");
         apiKeyPage.reloadPage(driver);
@@ -97,12 +98,13 @@ public class Manage_API_Key extends AbstractTest {
         apiKeyPage.clickOnSubmitButton();
 
         log.info("TC03_Verify_Input_Field_Validation: Verify warning message display in status field");
-        verifyEquals(apiKeyPage.getStatusWarningMessage(),"This field is required.");
+        verifyEquals(apiKeyPage.getStatusWarningMessage(), "This field is required.");
 
 
     }
-//    @Test
-    public void TC04_Verify_Create_API_Key_Success(){
+
+    //    @Test
+    public void TC04_Verify_Create_API_Key_Success() {
         log.info("TC04_Verify_Create_API_Key_Success: input valid format");
         apiKeyPage.inputTextToKeyName(keyName);
         apiKeyPage.inputTextToListHost(hostName);
@@ -117,8 +119,8 @@ public class Manage_API_Key extends AbstractTest {
 
     }
 
-//    @Test
-    public void TC05_Verify_Edit_API_Key_Name_Success(){
+    //    @Test
+    public void TC05_Verify_Edit_API_Key_Name_Success() {
         log.info("TC05_Verify_Edit_API_Key_Name_Success: Click on Edit button by API Key name");
         apiKeyPage.clickToEditButtonByAPIKeyName(keyName);
 
@@ -135,8 +137,8 @@ public class Manage_API_Key extends AbstractTest {
         verifyEquals(apiKeyPage.getStatusOfNewestAPIKey(), "Activated");
     }
 
-//    @Test
-    public void TC06_Verify_Edit_Host_Name_Success(){
+    //    @Test
+    public void TC06_Verify_Edit_Host_Name_Success() {
         log.info("TC06_Verify_Edit_Host_Name_Success: Click on Edit button by API Key name");
         apiKeyPage.clickToEditButtonByAPIKeyName(newKeyName);
 
@@ -154,8 +156,8 @@ public class Manage_API_Key extends AbstractTest {
 
     }
 
-//    @Test
-    public void TC07_Verify_Edit_Host_Name_Success(){
+    //    @Test
+    public void TC07_Verify_Edit_Host_Name_Success() {
         log.info("TC07_Verify_Edit_Host_Name_Success: Click on Edit button by API Key name");
         apiKeyPage.clickToEditButtonByAPIKeyName(newKeyName);
 
@@ -172,8 +174,8 @@ public class Manage_API_Key extends AbstractTest {
         verifyEquals(apiKeyPage.getStatusOfNewestAPIKey(), "Inactivated");
     }
 
-//    @Test
-    public void TC08_Verify_API_Key_Not_Create_After_Clicking_On_Manage_API_Key_HyperLink(){
+    //    @Test
+    public void TC08_Verify_API_Key_Not_Create_After_Clicking_On_Manage_API_Key_HyperLink() {
         log.info("TC08_Veriy_API_Key_Not_Create_After_Clicking_On_Manage_API_Key_HyperLink: Click on add new button");
         apiKeyPage.clickOnAddNewButton();
 
@@ -192,8 +194,8 @@ public class Manage_API_Key extends AbstractTest {
         verifyFalse(apiKeyPage.isAPIKeyNameDisplay("HCM Partner"));
     }
 
-//    @Test
-    public void TC9_Verify_API_Key_Not_Create_After_Clicking_On_Manage_API_Key_HyperLink(){
+    //    @Test
+    public void TC9_Verify_API_Key_Not_Create_After_Clicking_On_Manage_API_Key_HyperLink() {
         log.info("TC9_Veriy_API_Key_Not_Create_After_Clicking_On_Manage_API_Key_HyperLink: Click on add new button");
         apiKeyPage.clickOnAddNewButton();
 
@@ -212,8 +214,8 @@ public class Manage_API_Key extends AbstractTest {
         verifyFalse(apiKeyPage.isAPIKeyNameDisplay("HN Partner"));
     }
 
-//    @Test
-    public void TC10_Verify_Delete_Button_Function(){
+    //    @Test
+    public void TC10_Verify_Delete_Button_Function() {
         log.info("TC10_Verify_Delete_Button_Function: Click to Delete button");
         apiKeyPage.clickOnDeleteButtonByKeyName("HCM Partner");
 
@@ -231,7 +233,7 @@ public class Manage_API_Key extends AbstractTest {
         apiKeyPage.clickOnDeleteConfirmationOKButton();
 
         log.info("TC10_Verify_Delete_Button_Function: Verify API key is deleted successfully popup display");
-        verifyEquals(apiKeyPage.getDeleteAPIKeySuccessPopupMessage(),"API key pair has been Deleted successfully");
+        verifyEquals(apiKeyPage.getDeleteAPIKeySuccessPopupMessage(), "API key pair has been Deleted successfully");
 
         log.info("TC10_Verify_Delete_Button_Function: Click on OK button at deleted successfully popup");
         apiKeyPage.clickOnDeleteAPIKeySuccessPopupOKButton();
@@ -241,8 +243,8 @@ public class Manage_API_Key extends AbstractTest {
         verifyFalse(apiKeyPage.isAPIKeyNameDisplay("HCM Partner"));
     }
 
-//    @Test
-    public void TC11_Verify_Search_Function(){
+    //    @Test
+    public void TC11_Verify_Search_Function() {
         log.info("TC11_Verify_Search_Function: Input keyword = gogame.net");
         int totalHostByName = apiKeyPage.getAllApiKeyNameByName("gogame.net");
 
@@ -250,15 +252,15 @@ public class Manage_API_Key extends AbstractTest {
         apiKeyPage.inputKeyWordToSearchTextbox("gogame.net");
 
         log.info("TC11_Verify_Search_Function: Count all api key name in search result");
-        int totalHostNameInSearchResult =  apiKeyPage.getAllApiKeyName();
+        int totalHostNameInSearchResult = apiKeyPage.getAllApiKeyName();
 
 
         log.info("TC11_Verify_Search_Function: Verify total host by name = total in search result");
-        verifyEquals(totalHostNameInSearchResult,totalHostByName);
+        verifyEquals(totalHostNameInSearchResult, totalHostByName);
     }
 
-    @Test
-    public void TC12_Deleted_All_API_keys(){
+        @Test
+    public void TC12_Deleted_All_API_keys() {
         log.info("TC12_Deleted_All_API_keys: Delete all api keys");
         apiKeyPage.deleteAllAPIKeys();
 
@@ -266,12 +268,12 @@ public class Manage_API_Key extends AbstractTest {
 //        verifyTrue(apiKeyPage.isAllAPIKeyDeletedSuccessfully());
 
     }
-//@Test(invocationCount = 70)
-    public void TC013_dump_Data(){
+//    @Test(invocationCount = 70)
+    public void TC013_dump_Data() {
         log.info("TC04_Verify_Create_API_Key_Success: input valid format");
-    apiKeyPage.clickOnAddNewButton();
+        apiKeyPage.clickOnAddNewButton();
         apiKeyPage.inputTextToKeyName(keyName + randomNumber());
-        apiKeyPage.inputTextToListHost(hostName+ randomNumber());
+        apiKeyPage.inputTextToListHost(hostName + randomNumber());
         apiKeyPage.selectStatusRadioButton(status_Active);
         apiKeyPage.clickOnSubmitButton();
 
